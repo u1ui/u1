@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>u1-ico Test</title>
+
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
+
+        <link rel=stylesheet href="../base.css/full.css">
+        <link rel=stylesheet href="../classless.css/variables.css">
+        <link rel=stylesheet href="../classless.css/classless.css">
+        <link rel=stylesheet href="../classless.css/more.css">
+        <link rel=stylesheet href="../classless.css/aria.css">
+        <link rel=stylesheet href="../classless.css/simple.css">
+
+        <script src="./ui.js" type=module></script>
+
+<body>
+    <style>
+    u1-card {
+        box-shadow: var(--shadow);
+        border:1px solid var(--color);
+        text-align:center;
+        padding:var(--gap);
+        background-color:var(--color-bg);
+        background-color:var(--color-light);
+    }
+    u1-card :is(p,h1,h2,h3,h4,h5,h6) {
+        margin-top:0;
+        margin-bottom:.1em;
+    }
+    html {
+        xbackground-image:linear-gradient(to left, var(--color-light), var(--color2-light));
+    }
+    </style>
+
+    <header role=banner style="text-align:center;">
+        <h1>U1 Design System - Tests</h1>
+        <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:10em; --u1-parallax-speed:.4">
+            Some sticker including a parallax effect
+        </u1-card>
+    </header>
+
+    <section>
+        <h2>Typography</h2>
+        <h3>Inline Elements</h3>
+        <p>
+            This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
+            but you may have <a href="#">some links with the a tag</a>; also you can
+            <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
+            <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
+            <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
+            <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
+            <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
+            <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
+            <var>variable</var>, also there's <small>small text</small>, text
+            with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
+            have time too. For example, this paragraph was originally written in <time>2020</time>.
+            Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
+            <ins>ins was inserted</ins>.
+        </p>
+    </section>
+
+    <section class=u1-auto-grid>
+        <u1-card u1-href="#feaures">
+            <u1-ico>♥</u1-ico>
+            <h3>Features</h3>
+            <p>dies und das</p>
+            <a href="#feaures">more</a>
+        </u1-card>
+        <u1-card>
+            <u1-ico>😎</u1-ico>
+            <h3>Fun</h3>
+            <p>dies und das</p>
+        </u1-card>
+        <u1-card u1-href="#customize">
+            <u1-ico>🎨</u1-ico>
+            <h3>Customizable</h3>
+            <p>dies und das</p>
+            <a href="#customize">more</a>
+        </u1-card>
+    </section>
+
+
+    <section id=feaures>
+        <h2>Features</h2>
+        <ul>
+            <li>Easy to implement</li>
+            <li>Tooling optional</li>
+            <li>Small</li>
+            <li>Accessible</li>
+            <li>Responsive</li>
+            <li>No media-queries</li>
+            <li>Small</li>
+        </ul>
+    </section>
+
+
+    <section id=customize>
+        <h2>Costumize</h2>
+        <figure>
+            <div class="u1-table -Fields">
+                <div>
+                    <label>
+                        <span>Hue</span>
+                        <span>
+                            <input type=range min=0 max=360 oninput="document.documentElement.style.setProperty('--hsl-h', this.value)">
+                        </span>
+                    </label>
+                    <label>
+                        <span>Saturation</span>
+                        <span>
+                            <input type=range min=0 max=100 oninput="document.documentElement.style.setProperty('--hsl-s', this.value+'%')">
+                        </span>
+                    </label>
+                    <label>
+                        <span>Lightness</span>
+                        <span>
+                            <input type=range min=0 max=60 oninput="document.documentElement.style.setProperty('--hsl-l', this.value+'%')">
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+
+    <section id=customize>
+        <h2>Contact (not working)</h2>
+        <figure>
+            <div class="u1-table -Fields">
+                <div>
+                    <label>
+                        <span>Theme</span>
+                        <span>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Name</span>
+                        <span>
+                            <input>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Participate</span>
+                        <span>
+                            <input type=checkbox>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Comment</span>
+                        <span>
+                            <textarea></textarea>
+                        </span>
+                    </label>
+                    <label>
+                        <span></span>
+                        <span>
+                            <button>Button</button>
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <section id=customize>
+        <h2>Compare</h2>
+        <figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Browser
+                        <th> Version
+                <tbody>
+                    <tr>
+                        <td> Firefox
+                        <td> 80
+                    <tr>
+                        <td> Edge
+                        <td> 90
+                    <tr>
+                        <td> Chrome
+                        <td> 90
+                    <tr>
+                        <td> IE
+                        <td> no
+            </table>
+        </figure>
+    </section>
+
+
+
+    <footer role=contentinfo>
+        <div class=u1-flex-gap style="justify-content: space-between">
+            <div>
+                <form class=u1-input aria-label="newsletter registration">
+                    <input placeholder="john@doh.com">
+                    <button>
+                        <u1-ico style="font-size:1.1em">🚀</u1-ico>
+                    </button>
+                </form>
+            </div>
+            <div style="text-align:right">
+                <ul class=u1-unstyle>
+                    <li>
+                        <button class=u1-unstyle  onclick="this.nextElementSibling.showModal()">About</button>
+                        <dialog u1-parallax>
+                            Made with ♥ by Tobias Buschor
+                        </dialog>
+                    <li><a href="https://github.com/u1ui/" target=_blank>Github</a>
+                    <li><a href="" target=_blank>Twitter</a>
+                    <li><a href="#">Top</a>
+                </ul>
+            </div>
+        </div>
+    </footer>

@@ -1,33 +1,36 @@
-const rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
-const min = 'min';
+import {onElement, importCss} from './utils.js';
 
-'href parallax'.split(' ').forEach(attr=>{
+//import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
+//import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
+
+
+//const rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
+const rootUrl = '../';
+//const min = '.min';
+const min = '';
+
+// attr
+'href parallax ico'.split(' ').forEach(attr=>{
     const selector = '[u1-'+attr+']';
     onElement(selector, function(el){
-        import(rootUrl + attr + '.attr/' + attr + '.' + min + '.js');
+        import(rootUrl + attr + '.attr/' + attr + min + '.js');
     });
 });
 
 
-/*
-
-'badge'.split(' ').forEach(attr=>{
-    const selector = '.'+class;
+// class
+'badge table unstyle auto-grid flex-gap input'.split(' ').forEach(name=>{
+    const selector = '.u1-'+name;
     onElement(selector, function(el){
-        import(rootUrl + attr + '.class/' + attr + '.' + min + '.css');
+        importCss(rootUrl + name + '.class/' + name + min + '.css');
     });
 });
 
-'alert'.split(' ').forEach(element=>{
-    const selector = 'u1-'+element;
+// el
+'ico'.split(' ').forEach(name=>{
+    const selector = 'u1-' + name;
     onElement(selector, function(el){
-        import(rootUrl+element+'.el/'+element'.'+min+'.js');
+        import(rootUrl + name + '.el/' + name + min + '.js');
+        importCss(rootUrl + name + '.el/' + name + min + '.css');
     });
 });
-
-function importCss(url){
-    urls[url]
-    document.createElement('link')
-}
-
-*/

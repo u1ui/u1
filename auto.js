@@ -27,7 +27,7 @@ const min = '';
 });
 
 // el
-'ico'.split(' ').forEach(name=>{
+'ico tabs'.split(' ').forEach(name=>{
     const selector = 'u1-' + name;
     onElement(selector, function(el){
         import(rootUrl + name + '.el/' + name + min + '.js');

@@ -15,7 +15,7 @@
         <link rel=stylesheet href="../classless.css/aria.css">
         <link rel=stylesheet href="../classless.css/simple.css">
 
-        <script src="./ui.js" type=module></script>
+        <script src="./auto.js" type=module></script>
 
 <body>
     <style>
@@ -36,12 +36,30 @@
     }
     </style>
 
+
     <header role=banner style="text-align:center;">
         <h1>U1 Design System - Tests</h1>
-        <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:10em; --u1-parallax-speed:.4">
-            Some sticker including a parallax effect
-        </u1-card>
     </header>
+
+    <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
+        <h2>Costumize</h2>
+        <label>
+            Hue<br>
+            <input type=range min=0 max=360 oninput="document.documentElement.style.setProperty('--hsl-h', this.value)">
+        </label>
+        <label>
+            Saturation<br>
+            <input type=range min=0 max=100 oninput="document.documentElement.style.setProperty('--hsl-s', this.value+'%')">
+        </label>
+        <label>
+            Lightness<br>
+            <input type=range min=0 max=60 oninput="document.documentElement.style.setProperty('--hsl-l', this.value+'%')">
+        </label>
+        <label>
+            Font Size<br>
+            <input type=range min=8 max=24 step=".25" oninput="document.documentElement.style.setProperty('font-size', 'calc('+this.value+'px + .7vmin)')">
+        </label>
+    </u1-card>
 
     <section>
         <h2>Typography</h2>
@@ -98,76 +116,154 @@
     </section>
 
 
-    <section id=customize>
-        <h2>Costumize</h2>
-        <figure>
-            <div class="u1-table -Fields">
-                <div>
-                    <label>
-                        <span>Hue</span>
-                        <span>
-                            <input type=range min=0 max=360 oninput="document.documentElement.style.setProperty('--hsl-h', this.value)">
-                        </span>
-                    </label>
-                    <label>
-                        <span>Saturation</span>
-                        <span>
-                            <input type=range min=0 max=100 oninput="document.documentElement.style.setProperty('--hsl-s', this.value+'%')">
-                        </span>
-                    </label>
-                    <label>
-                        <span>Lightness</span>
-                        <span>
-                            <input type=range min=0 max=60 oninput="document.documentElement.style.setProperty('--hsl-l', this.value+'%')">
-                        </span>
-                    </label>
-                </div>
+
+    <section>
+        <h2>Contact (not working)</h2>
+        <form class="u1-table -Fields -Flex">
+            <div>
+                <label>
+                    <span>Theme</span>
+                    <span>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                        </select>
+                    </span>
+                </label>
+                <label>
+                    <span>Name</span>
+                    <span>
+                        <input>
+                    </span>
+                </label>
+                <label>
+                    <span>Participate</span>
+                    <span>
+                        <input type=checkbox>
+                    </span>
+                </label>
+                <label>
+                    <span>Comment</span>
+                    <span>
+                        <textarea></textarea>
+                    </span>
+                </label>
+                <label>
+                    <span></span>
+                    <span>
+                        <button>Button</button>
+                    </span>
+                </label>
             </div>
-        </figure>
+        </form>
     </section>
 
+    <section>
+        <h2>Default Styles</h2>
+        <u1-tabs>
+            <h2 slot="title">Markup</h2>
 
-    <section id=customize>
-        <h2>Contact (not working)</h2>
-        <figure>
-            <div class="u1-table -Fields">
-                <div>
-                    <label>
-                        <span>Theme</span>
-                        <span>
-                            <select>
-                                <option>Black</option>
-                                <option>White</option>
-                            </select>
-                        </span>
-                    </label>
-                    <label>
-                        <span>Name</span>
-                        <span>
-                            <input>
-                        </span>
-                    </label>
-                    <label>
-                        <span>Participate</span>
-                        <span>
-                            <input type=checkbox>
-                        </span>
-                    </label>
-                    <label>
-                        <span>Comment</span>
-                        <span>
-                            <textarea></textarea>
-                        </span>
-                    </label>
-                    <label>
-                        <span></span>
-                        <span>
-                            <button>Button</button>
-                        </span>
-                    </label>
-                </div>
-            </div>
-        </figure>
+                <u1-tabs>
+                    <h3 slot="title">Inline Elements</h3>
+                    <section>
+
+                        This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
+                        but you may have <a href="#">some links with the a tag</a>; also you can
+                        <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
+                        <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
+                        <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
+                        <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
+                        <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
+                        <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
+                        <var>variable</var>, also there's <small>small text</small>, text
+                        with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
+                        have time too. For example, this paragraph was originally written in <time>2020</time>.
+                        Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
+                        <ins>ins was inserted</ins>.
+
+                    </section>
+                    <h3 slot="title">Block Elements</h3>
+                    <section>
+                        <h1>Header 1 demo<br>with line break</h1>
+                        <p>A paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
+                        <p>One more paragarph dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
+                        <h2>Header 2 demo<br>with line break</h2>
+                        <h3>Header 3 demo<br>with line break</h3>
+                        <h4>Header 4 demo<br>with line break</h4>
+                        <h5>Header 5 demo<br>with line break</h5>
+                        <h6>Header 6 demo<br>with line break</h6>
+
+
+
+                    </section>
+                </u1-tabs>
+
+
+            <h2 slot="title">Form</h2>
+            <section>
+
+                <figure>
+                    <div class="u1-table -Fields -Flex">
+                        <div>
+                            <label>
+                                <span>Select</span>
+                                <span>
+                                    <select>
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Input</span>
+                                <span>
+                                    <input>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Checkbox</span>
+                                <span>
+                                    <input type=checkbox>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Textfield</span>
+                                <span>
+                                    <textarea></textarea>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Range</span>
+                                <span>
+                                    <input type=range>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Date</span>
+                                <span>
+                                    <input type=date>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Time</span>
+                                <span>
+                                    <input type=time>
+                                </span>
+                            </label>
+                            <label>
+                                <span></span>
+                                <span>
+                                    <button>Button</button>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </figure>
+
+            </section>
+            <h2 slot="title">Title</h2>
+            <section>content panel 1</section>
+        </u1-tabs>
     </section>
 
     <section id=customize>

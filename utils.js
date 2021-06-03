@@ -12,14 +12,11 @@ export function onElement (selector, options/*, disconnectedCallback*/) {
     var listener = {
         selector: selector,
 		immediate: options.immediate,
-        //disconnectedCallback: disconnectedCallback,
         elements: new WeakSet(),
     };
 	if (options.parsed) {
     	listener.parsed = function(el){
-			requestAnimationFrame(function(){
-				options.parsed(el);
-			});
+			requestAnimationFrame(()=>options.parsed(el));
 		}
 	}
 	try {
@@ -49,11 +46,11 @@ function checkListener(listener, target) {
     target && target.matches(listener.selector) && els.push(target);
     if (loaded) { // ok? check inside node on innerHTML - only when loaded
         Array.prototype.push.apply(els, (target||root).querySelectorAll(listener.selector));
+        // els.push(...found)?
     }
     while (el = els[i++]) {
         if (listener.elements.has(el)) continue;
         listener.elements.add(el);
-        //listener.connectedCallback.call(el, el);
         listener.parsed    && listener.parsed.call(el, el);
         listener.immediate && listener.immediate.call(el, el);
     }
@@ -70,16 +67,15 @@ function checkMutations(mutations) {
     }
 }
 
-var loaded = false;
-document.addEventListener('DOMContentLoaded',function(){
-    loaded = true;
-});
+let loaded = false;
+document.addEventListener('DOMContentLoaded',()=> loaded = true );
+
 
 ///////////////////////////
 // cssImport
 
 var cssImported = [];
-export function importCss (url) { // todo: handle absolute urls
+export function importCss(url) { // todo: handle absolute urls
     // handle relative urls
     if (url.indexOf('./') === 0) {
         // better?

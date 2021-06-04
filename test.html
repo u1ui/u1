@@ -31,8 +31,9 @@
         margin-top:0;
         margin-bottom:.1em;
     }
-    html {
-        xbackground-image:linear-gradient(to left, var(--color-light), var(--color2-light));
+    u1-tabs [role=tabpanel] {
+        border: 1px solid;
+        margin-top:.5em;
     }
     </style>
 
@@ -57,7 +58,7 @@
         </label>
         <label>
             Font Size<br>
-            <input type=range min=8 max=24 step=".25" oninput="document.documentElement.style.setProperty('font-size', 'calc('+this.value+'px + .7vmin)')">
+            <input type=range min=7 max=20 step=".25" oninput="document.documentElement.style.setProperty('font-size', 'calc('+this.value+'px + .7vmin)')">
         </label>
     </u1-card>
 
@@ -202,72 +203,154 @@
             <h2 slot="title">Form</h2>
             <section>
 
-                <figure>
-                    <div class="u1-table -Fields -Flex">
-                        <div>
-                            <label>
-                                <span>Select</span>
-                                <span>
-                                    <select>
-                                        <option>Black</option>
-                                        <option>White</option>
-                                    </select>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Input</span>
-                                <span>
-                                    <input>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Checkbox</span>
-                                <span>
-                                    <input type=checkbox>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Textfield</span>
-                                <span>
-                                    <textarea></textarea>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Range</span>
-                                <span>
-                                    <input type=range>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Date</span>
-                                <span>
-                                    <input type=date>
-                                </span>
-                            </label>
-                            <label>
-                                <span>Time</span>
-                                <span>
-                                    <input type=time>
-                                </span>
-                            </label>
-                            <label>
-                                <span></span>
-                                <span>
-                                    <button>Button</button>
-                                </span>
-                            </label>
-                        </div>
+                <div class="u1-table -Fields -Flex">
+                    <div>
+                        <label>
+                            <span>Select</span>
+                            <span>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Input</span>
+                            <span>
+                                <input>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Checkbox</span>
+                            <span>
+                                <input type=checkbox>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Textfield</span>
+                            <span>
+                                <textarea></textarea>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Range</span>
+                            <span>
+                                <input type=range>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Date</span>
+                            <span>
+                                <input type=date>
+                            </span>
+                        </label>
+                        <label>
+                            <span>Time</span>
+                            <span>
+                                <input type=time>
+                            </span>
+                        </label>
+                        <label>
+                            <span></span>
+                            <span>
+                                <button>Button</button>
+                            </span>
+                        </label>
                     </div>
-                </figure>
+                </div>
 
             </section>
-            <h2 slot="title">Title</h2>
-            <section>content panel 1</section>
+            <h2 slot="title">Classes</h2>
+            <section>
+                Todo
+            </section>
         </u1-tabs>
     </section>
 
+
+
     <section id=customize>
-        <h2>Compare</h2>
+        <h2>Repos</h2>
+        <script type=module>
+            const repos = await fetch('./repos.json').then(res=>res.json());
+            const entries = repos.sort((r1,r2)=>{
+                const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                const ext2 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                if(ext1 < ext2) return -1;
+                if(ext1 > ext2) return 1;
+                return 0;
+            });
+            let str = ''
+            for (let repo of entries) {
+                let url = `https://github.com/u1ui/${repo.name}`;
+                let release = repo.release_latest;
+
+                let repoDate    = new Date(repo.pushed_at);
+                let releaseDate = new Date(release.published_at);
+
+                const masterNotPushed = repoDate > releaseDate
+                str +=
+                `<tr u1-href="${url}" style="--line-height:1.3">
+                    <td ${repo.description?`xaria-label="${repo.description}"`:''}>
+                        <a href="${url}"><b>${repo.name}</b></a>
+                        <br><small>${repo.description??''}</small>
+                    <td ${masterNotPushed?'style="color:#800"':''}>
+                        ${release.tag_name}
+                        <br><small>${showDate(repoDate)}</small>
+                    <td>
+                    <td> ${repo.open_issues} ⭐
+                    <td> ${repo.open_issues} 🐞
+                `
+            }
+            document.getElementById('repos').innerHTML = str;
+
+            function showDate(date){
+                var units = {
+                    year  : 24 * 60 * 60 * 1000 * 365,
+                    month : 24 * 60 * 60 * 1000 * 365/12,
+                    day   : 24 * 60 * 60 * 1000,
+                    hour  : 60 * 60 * 1000,
+                    minute: 60 * 1000,
+                    second: 1000
+                }
+                var rtf = new Intl.RelativeTimeFormat('default', { numeric: 'auto' })
+                var getRelativeTime = (d1, d2 = new Date()) => {
+                    var elapsed = d1 - d2
+                    for (var u in units)
+                        if (Math.abs(elapsed) > units[u] || u == 'second')
+                            return rtf.format(Math.round(elapsed/units[u]), u)
+                }
+                return getRelativeTime(date);
+                /*
+                const formatter = new Intl.RelativeTimeFormat();
+                const result = formatter.format(Math.round(deltaDays), 'days');
+
+                let options = {
+                    year: 'numeric', month: 'numeric', day: 'numeric',
+                    hour: 'numeric', minute: 'numeric',
+                };
+                return new Intl.DateTimeFormat('default', options).format(date)
+                */
+            }
+        </script>
+        <figure style="max-height:60vh; overflow:auto; padding:0">
+            <table class="u1-table -Sticky">
+                <thead>
+                    <tr>
+                        <th> Repo
+                        <th> Version
+                        <th> Stars
+                        <th> Issues
+                <tbody id=repos>
+            </table>
+        </figure>
+    </section>
+
+
+
+
+    <section id=compat>
+        <h2>Compatibility</h2>
         <figure>
             <table>
                 <thead>
@@ -277,13 +360,16 @@
                 <tbody>
                     <tr>
                         <td> Firefox
-                        <td> 80
+                        <td> latest 3
                     <tr>
                         <td> Edge
-                        <td> 90
+                        <td> latest 3
                     <tr>
                         <td> Chrome
-                        <td> 90
+                        <td> latest 3
+                    <tr>
+                        <td> Safari
+                        <td> 10.3
                     <tr>
                         <td> IE
                         <td> no

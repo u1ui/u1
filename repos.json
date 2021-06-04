@@ -22,9 +22,9 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T10:49:13Z",
+    "pushed_at": "2021-06-04T10:56:52Z",
     "name": "u1",
-    "description": null,
+    "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -112,7 +112,7 @@
   {
     "pushed_at": "2021-06-03T16:50:08Z",
     "name": "flex-gap.class",
-    "description": null,
+    "description": "flexbox gappers helper because of safari",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -134,7 +134,7 @@
   {
     "pushed_at": "2021-06-03T16:52:49Z",
     "name": "auto-grid.class",
-    "description": null,
+    "description": "most used case for grid-elements",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -167,7 +167,7 @@
   {
     "pushed_at": "2021-06-03T16:51:34Z",
     "name": "badge.class",
-    "description": null,
+    "description": "u1-badge class for rendering badges",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -178,7 +178,7 @@
   {
     "pushed_at": "2021-06-04T10:49:56Z",
     "name": "tabs.el",
-    "description": null,
+    "description": "u1-tabs element for rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {

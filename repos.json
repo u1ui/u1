@@ -22,7 +22,7 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T13:13:09Z",
+    "pushed_at": "2021-06-04T13:14:34Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T10:51:47Z",
+    "pushed_at": "2021-06-07T06:12:41Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.3.0",
-      "published_at": "2021-06-04T10:51:47Z"
+      "tag_name": "v1.4.0",
+      "published_at": "2021-06-07T06:12:41Z"
     }
   },
   {
@@ -121,14 +121,14 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T10:49:47Z",
+    "pushed_at": "2021-06-04T22:04:53Z",
     "name": "table.class",
     "description": "u1-class | better tables",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-06-04T10:49:47Z"
+      "tag_name": "v1.2.0",
+      "published_at": "2021-06-04T22:04:53Z"
     }
   },
   {

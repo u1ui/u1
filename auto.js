@@ -1,4 +1,5 @@
-import {onElement, importCss} from './utils.js';
+import {importCss} from './utils.js';
+import {onElement} from '../js/onElement/mod.js';
 
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';

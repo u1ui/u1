@@ -22,7 +22,7 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T13:14:34Z",
+    "pushed_at": "2021-06-07T06:15:21Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "pushed_at": "2021-06-04T13:13:28Z",
+    "pushed_at": "2021-06-11T15:05:55Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2021-06-03T16:50:30Z",
+    "pushed_at": "2021-06-11T15:48:23Z",
     "name": "classes.css",
     "description": null,
     "open_issues": 0,
@@ -184,6 +184,17 @@
     "release_latest": {
       "tag_name": "v1.1.0",
       "published_at": "2021-06-04T10:49:56Z"
+    }
+  },
+  {
+    "pushed_at": "2021-06-11T15:56:02Z",
+    "name": "width.class",
+    "description": null,
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2021-06-11T15:56:02Z"
     }
   }
 ]

@@ -30,9 +30,8 @@ const min = '.min';
 });
 
 // el
-'ico tabs'.split(' ').forEach(name=>{
-    const selector = 'u1-' + name;
-    onElement(selector, function(el){
+'ico tabs carousel'.split(' ').forEach(name=>{
+    onElement('u1-'+name, function(el){
         import(rootUrl + name + '.el/' + name + min + '.js');
         importCss(rootUrl + name + '.el/' + name + min + '.css');
     });

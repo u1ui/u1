@@ -10,13 +10,15 @@
         return aEL.apply(this, args);
     }
     */
-    // dispatched events
+    // collect all dispatched events
+    window.__dispatchedEvents = new Set();
     const dE = EventTarget.prototype.dispatchEvent;
     EventTarget.prototype.dispatchEvent = function(...args){
         const ev = args[0];
         if (!ev.detail || !ev.detail.__test) {
-            !this.__events && (this.__events = {});
-            this.__events[args[0].type] = 1;
+            //!this.__events && (this.__events = {});
+            //this.__events[args[0].type] = 1;
+            __dispatchedEvents.add(args[0].type);
         }
         return dE.apply(this, args);
     }
@@ -77,18 +79,31 @@ function fromElement(el) {
     });
 
 
-    // events (need to interact)
-    const options = {bubbles:true, detail:{__test:1}};
-    const eNames = ['click','mouseover','mouseenter','keydown','drop','input','change'];
-    const containEls = el.querySelectorAll('*');
-    const shadowEls = el.shadowRoot ? el.shadowRoot.querySelectorAll('*') : [];
-    eNames.forEach(eName=>{
-        el.dispatchEvent(new CustomEvent(eName, options));
-        containEls.forEach(el=>el.dispatchEvent(new CustomEvent(eName, options)))
-        shadowEls.forEach(el=>el.dispatchEvent(new CustomEvent(eName, options)))
-    })
+    // events
+    // trigger different native events
+    function triggerNativeEvents(){
+        const options = {bubbles:true, detail:{__test:1}};
+        const eNames = ['click','mouseover','mouseenter','keydown','drop','input','change','focus','blur'];
+        const containEls = el.querySelectorAll('*');
+        const shadowEls = el.shadowRoot ? el.shadowRoot.querySelectorAll('*') : [];
+        eNames.forEach(eName=>{
+            el.dispatchEvent(new CustomEvent(eName, options));
+            containEls.forEach(el=>el.dispatchEvent(new CustomEvent(eName, options)))
+            shadowEls.forEach(el=>el.dispatchEvent(new CustomEvent(eName, options)))
+        })
+    }
+    // trigger native events to collect custom events
+    triggerNativeEvents();
+    // listen for every collected events
+    var triggeredEvents = new Set();
+    for (let eventName of __dispatchedEvents) {
+        el.addEventListener(eventName,()=>triggeredEvents.add(eventName));
+    }
+    // again trigger native events to collect them on my custom element
+    triggerNativeEvents();
 
-    const events = Object.keys(el.__events??[]).map(name=>{
+    const events = [...triggeredEvents].map(name=>{
+    //const events = Object.keys(el.__events??[]).map(name=>{
         return {
             name,
             summary: '',

@@ -32,8 +32,9 @@
         margin-bottom:.1em;
     }
     u1-tabs [role=tabpanel] {
-        border: 1px solid;
-        margin-top:.5em;
+        border: 1px solid var(--color-line);
+        margin-top:-1px;
+        max-height:30rem;
     }
     </style>
 
@@ -376,7 +377,18 @@
         </figure>
     </section>
 
-
+    <section>
+        <u1-carousel play tabindex=0>
+            <div style="align-items: center;display: flex;justify-content: center;"><h1>Some images</h1></div>
+            <img src="https://picsum.photos/600/250?random=1" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=2" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=3" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=4" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=5" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=6" alt="x" loading=lazy width=600 height=250>
+            <img src="https://picsum.photos/600/250?random=7" alt="x" loading=lazy width=600 height=250>
+        </u1-carousel>
+    </section>
 
     <footer role=contentinfo>
         <div class=u1-flex-gap style="justify-content: space-between">

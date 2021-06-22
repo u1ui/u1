@@ -5,12 +5,12 @@ import {onElement} from '../js/onElement/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 
-//const rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
-//const min = '.min';
+const rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
+const min = '.min';
 
 // local testing:
-const rootUrl =  import.meta.url + '/../../';
-const min = '';
+//const rootUrl =  import.meta.url + '/../../';
+//const min = '';
 
 // attr
 'href parallax ico'.split(' ').forEach(attr=>{

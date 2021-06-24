@@ -5,12 +5,11 @@ import {onElement} from '../js/onElement/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 
-const rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
-const min = '.min';
+let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
+let min = '.min';
 
 // local testing:
-//const rootUrl =  import.meta.url + '/../../';
-//const min = '';
+//rootUrl =  import.meta.url + '/../../'; min = '';
 
 // attr
 'href parallax ico'.split(' ').forEach(attr=>{
@@ -22,7 +21,7 @@ const min = '.min';
 
 
 // class
-'badge table unstyle auto-grid flex-gap input'.split(' ').forEach(name=>{
+'badge table unstyle auto-grid flex-gap input width'.split(' ').forEach(name=>{
     const selector = '.u1-'+name;
     onElement(selector, function(el){
         importCss(rootUrl + name + '.class/' + name + min + '.css');
@@ -30,7 +29,7 @@ const min = '.min';
 });
 
 // el
-'ico tabs carousel'.split(' ').forEach(name=>{
+'ico tabs carousel parallax-bg'.split(' ').forEach(name=>{
     onElement('u1-'+name, function(el){
         import(rootUrl + name + '.el/' + name + min + '.js');
         importCss(rootUrl + name + '.el/' + name + min + '.css');

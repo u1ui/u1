@@ -36,12 +36,21 @@
         margin-top:-1px;
         max-height:30rem;
     }
+    body {
+        padding:0;
+        max-width:none;
+    }
+    #container {
+        background-color:#fffc;
+        backdrop-filter: blur(10px);
+    }
     </style>
 
 
-    <header role=banner style="text-align:center;">
-        <h1>U1 Design System - Tests</h1>
-    </header>
+    <u1-parallax-bg>
+        <img src="https://picsum.photos/2000/4000" style="flex:1">
+    </u1-parallax-bg>
+
 
     <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
         <h2>Costumize</h2>
@@ -63,354 +72,361 @@
         </label>
     </u1-card>
 
-    <section>
-        <h2>Typography</h2>
-        <h3>Inline Elements</h3>
-        <p>
-            This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
-            but you may have <a href="#">some links with the a tag</a>; also you can
-            <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
-            <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
-            <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
-            <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
-            <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
-            <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
-            <var>variable</var>, also there's <small>small text</small>, text
-            with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
-            have time too. For example, this paragraph was originally written in <time>2020</time>.
-            Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
-            <ins>ins was inserted</ins>.
-        </p>
-    </section>
+    <div id=container class=u1-width>
+        <header role=banner style="text-align:center">
+            <h1>U1 Design System - Tests</h1>
+        </header>
 
-    <section class=u1-auto-grid>
-        <u1-card u1-href="#feaures">
-            <u1-ico>♥</u1-ico>
-            <h3>Features</h3>
-            <p>dies und das</p>
-            <a href="#feaures">more</a>
-        </u1-card>
-        <u1-card>
-            <u1-ico>😎</u1-ico>
-            <h3>Fun</h3>
-            <p>dies und das</p>
-        </u1-card>
-        <u1-card u1-href="#customize">
-            <u1-ico>🎨</u1-ico>
-            <h3>Customizable</h3>
-            <p>dies und das</p>
-            <a href="#customize">more</a>
-        </u1-card>
-    </section>
+        <section>
+            <h2>Typography</h2>
+            <h3>Inline Elements</h3>
+            <p>
+                This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
+                but you may have <a href="#">some links with the a tag</a>; also you can
+                <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
+                <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
+                <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
+                <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
+                <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
+                <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
+                <var>variable</var>, also there's <small>small text</small>, text
+                with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
+                have time too. For example, this paragraph was originally written in <time>2020</time>.
+                Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
+                <ins>ins was inserted</ins>.
+            </p>
+        </section>
 
-
-    <section id=feaures>
-        <h2>Features</h2>
-        <ul>
-            <li>Easy to implement</li>
-            <li>Tooling optional</li>
-            <li>Small</li>
-            <li>Accessible</li>
-            <li>Responsive</li>
-            <li>No media-queries</li>
-            <li>Small</li>
-        </ul>
-    </section>
+        <section class=u1-auto-grid>
+            <u1-card u1-href="#feaures">
+                <u1-ico>♥</u1-ico>
+                <h3>Features</h3>
+                <p>dies und das</p>
+                <a href="#feaures">more</a>
+            </u1-card>
+            <u1-card>
+                <u1-ico>😎</u1-ico>
+                <h3>Fun</h3>
+                <p>dies und das</p>
+            </u1-card>
+            <u1-card u1-href="#customize">
+                <u1-ico>🎨</u1-ico>
+                <h3>Customizable</h3>
+                <p>dies und das</p>
+                <a href="#customize">more</a>
+            </u1-card>
+        </section>
 
 
-
-    <section>
-        <h2>Contact (not working)</h2>
-        <form class="u1-table -Fields -Flex">
-            <div>
-                <label>
-                    <span>Theme</span>
-                    <span>
-                        <select>
-                            <option>Black</option>
-                            <option>White</option>
-                        </select>
-                    </span>
-                </label>
-                <label>
-                    <span>Name</span>
-                    <span>
-                        <input>
-                    </span>
-                </label>
-                <label>
-                    <span>Participate</span>
-                    <span>
-                        <input type=checkbox>
-                    </span>
-                </label>
-                <label>
-                    <span>Comment</span>
-                    <span>
-                        <textarea></textarea>
-                    </span>
-                </label>
-                <label>
-                    <span></span>
-                    <span>
-                        <button>Button</button>
-                    </span>
-                </label>
-            </div>
-        </form>
-    </section>
-
-    <section>
-        <h2>Default Styles</h2>
-        <u1-tabs>
-            <h2 slot="title">Markup</h2>
-
-                <u1-tabs>
-                    <h3 slot="title">Inline Elements</h3>
-                    <section>
-
-                        This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
-                        but you may have <a href="#">some links with the a tag</a>; also you can
-                        <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
-                        <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
-                        <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
-                        <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
-                        <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
-                        <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
-                        <var>variable</var>, also there's <small>small text</small>, text
-                        with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
-                        have time too. For example, this paragraph was originally written in <time>2020</time>.
-                        Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
-                        <ins>ins was inserted</ins>.
-
-                    </section>
-                    <h3 slot="title">Block Elements</h3>
-                    <section>
-                        <h1>Header 1 demo<br>with line break</h1>
-                        <p>A paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
-                        <p>One more paragarph dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
-                        <h2>Header 2 demo<br>with line break</h2>
-                        <h3>Header 3 demo<br>with line break</h3>
-                        <h4>Header 4 demo<br>with line break</h4>
-                        <h5>Header 5 demo<br>with line break</h5>
-                        <h6>Header 6 demo<br>with line break</h6>
+        <section id=feaures>
+            <h2>Features</h2>
+            <ul>
+                <li>Easy to implement</li>
+                <li>Tooling optional</li>
+                <li>Small</li>
+                <li>Accessible</li>
+                <li>Responsive</li>
+                <li>No media-queries</li>
+                <li>Small</li>
+            </ul>
+        </section>
 
 
 
-                    </section>
-                </u1-tabs>
-
-
-            <h2 slot="title">Form</h2>
-            <section>
-
-                <div class="u1-table -Fields -Flex">
-                    <div>
-                        <label>
-                            <span>Select</span>
-                            <span>
-                                <select>
-                                    <option>Black</option>
-                                    <option>White</option>
-                                </select>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Input</span>
-                            <span>
-                                <input>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Checkbox</span>
-                            <span>
-                                <input type=checkbox>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Textfield</span>
-                            <span>
-                                <textarea></textarea>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Range</span>
-                            <span>
-                                <input type=range>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Date</span>
-                            <span>
-                                <input type=date>
-                            </span>
-                        </label>
-                        <label>
-                            <span>Time</span>
-                            <span>
-                                <input type=time>
-                            </span>
-                        </label>
-                        <label>
-                            <span></span>
-                            <span>
-                                <button>Button</button>
-                            </span>
-                        </label>
-                    </div>
+        <section>
+            <h2>Contact (not working)</h2>
+            <form class="u1-table -Fields -Flex">
+                <div>
+                    <label>
+                        <span>Theme</span>
+                        <span>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Name</span>
+                        <span>
+                            <input>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Participate</span>
+                        <span>
+                            <input type=checkbox>
+                        </span>
+                    </label>
+                    <label>
+                        <span>Comment</span>
+                        <span>
+                            <textarea></textarea>
+                        </span>
+                    </label>
+                    <label>
+                        <span></span>
+                        <span>
+                            <button>Button</button>
+                        </span>
+                    </label>
                 </div>
+            </form>
+        </section>
 
-            </section>
-            <h2 slot="title">Classes</h2>
-            <section>
-                Todo
-            </section>
-        </u1-tabs>
-    </section>
+        <section>
+            <h2>Default Styles</h2>
+            <u1-tabs>
+                <h2 slot="title">Markup</h2>
+
+                    <u1-tabs>
+                        <h3 slot="title">Inline Elements</h3>
+                        <section>
+
+                            This is a paragraph with multiple inline elements. The <span>span</span> is not styled,
+                            but you may have <a href="#">some links with the a tag</a>; also you can
+                            <em>add emphasis with em</em> or <i>also with i</i>; Highlight the words by
+                            <strong>using strong</strong> or just <b>bold with the b tag</b>; of course, you can
+                            <u>underline</u> or <s>strikethrough text</s>; abbreviations are great, as you may have
+                            <abbr title="too many abbreviations">TMA</abbr>; <code>inline code</code> is cool too;
+                            <mark>Highlight text with mark</mark> or display a <kbd>Key</kbd>. You can also have
+                            <q>inline quotes with q</q>, or <samp>results from an operation with samp</samp> or a
+                            <var>variable</var>, also there's <small>small text</small>, text
+                            with<sup>superscript</sup>, or text with<sub>subscript</sub>... not to mention you can
+                            have time too. For example, this paragraph was originally written in <time>2020</time>.
+                            Not to forget about <dfn>definitions</dfn>! Also <del>del was deleted</del> and
+                            <ins>ins was inserted</ins>.
+
+                        </section>
+                        <h3 slot="title">Block Elements</h3>
+                        <section>
+                            <h1>Header 1 demo<br>with line break</h1>
+                            <p>A paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
+                            <p>One more paragarph dolor sit amet consectetur adipisicing elit. Accusantium delectus voluptatum ex excepturi ducimus sunt soluta? Omnis harum molestiae nisi facere veritatis? Laudantium repellat temporibus, molestiae rerum aperiam odio doloremque!</p>
+                            <h2>Header 2 demo<br>with line break</h2>
+                            <h3>Header 3 demo<br>with line break</h3>
+                            <h4>Header 4 demo<br>with line break</h4>
+                            <h5>Header 5 demo<br>with line break</h5>
+                            <h6>Header 6 demo<br>with line break</h6>
 
 
 
-    <section id=customize>
-        <h2>Repos</h2>
-        <script type=module>
-            const repos = await fetch('./repos.json').then(res=>res.json());
-            const entries = repos.sort((r1,r2)=>{
-                const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
-                const ext2 = r1.name.replace(/^.*\.([^.]+)/,'$1');
-                if(ext1 < ext2) return -1;
-                if(ext1 > ext2) return 1;
-                return 0;
-            });
-            let str = ''
-            for (let repo of entries) {
-                let url = `https://github.com/u1ui/${repo.name}`;
-                let release = repo.release_latest;
+                        </section>
+                    </u1-tabs>
 
-                let repoDate    = new Date(repo.pushed_at);
-                let releaseDate = new Date(release.published_at);
 
-                const masterNotPushed = repoDate > releaseDate
-                str +=
-                `<tr u1-href="${url}" style="--line-height:1.3">
-                    <td ${repo.description?`xaria-label="${repo.description}"`:''}>
-                        <a href="${url}"><b>${repo.name}</b></a>
-                        <br><small>${repo.description??''}</small>
-                    <td ${masterNotPushed?'style="color:#800"':''}>
-                        ${release.tag_name}
-                        <br><small>${showDate(repoDate)}</small>
-                    <td> ${repo.open_issues} ⭐
-                    <td> ${repo.open_issues} 🐞
-                `
-            }
-            document.getElementById('repos').innerHTML = str;
+                <h2 slot="title">Form</h2>
+                <section>
 
-            function showDate(date){
-                var units = {
-                    year  : 24 * 60 * 60 * 1000 * 365,
-                    month : 24 * 60 * 60 * 1000 * 365/12,
-                    day   : 24 * 60 * 60 * 1000,
-                    hour  : 60 * 60 * 1000,
-                    minute: 60 * 1000,
-                    second: 1000
+                    <div class="u1-table -Fields -Flex">
+                        <div>
+                            <label>
+                                <span>Select</span>
+                                <span>
+                                    <select>
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Input</span>
+                                <span>
+                                    <input>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Checkbox</span>
+                                <span>
+                                    <input type=checkbox>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Textfield</span>
+                                <span>
+                                    <textarea></textarea>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Range</span>
+                                <span>
+                                    <input type=range>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Date</span>
+                                <span>
+                                    <input type=date>
+                                </span>
+                            </label>
+                            <label>
+                                <span>Time</span>
+                                <span>
+                                    <input type=time>
+                                </span>
+                            </label>
+                            <label>
+                                <span></span>
+                                <span>
+                                    <button>Button</button>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                </section>
+                <h2 slot="title">Classes</h2>
+                <section>
+                    Todo
+                </section>
+            </u1-tabs>
+        </section>
+
+
+
+        <section id=customize>
+            <h2>Repos</h2>
+            <script type=module>
+                const repos = await fetch('./repos.json').then(res=>res.json());
+                const entries = repos.sort((r1,r2)=>{
+                    const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                    const ext2 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                    if(ext1 < ext2) return -1;
+                    if(ext1 > ext2) return 1;
+                    return 0;
+                });
+                let str = ''
+                for (let repo of entries) {
+                    let url = `https://github.com/u1ui/${repo.name}`;
+                    let release = repo.release_latest;
+
+                    let repoDate    = new Date(repo.pushed_at);
+                    let releaseDate = new Date(release.published_at);
+
+                    const masterNotPushed = repoDate > releaseDate
+                    str +=
+                    `<tr u1-href="${url}" style="--line-height:1.3">
+                        <td ${repo.description?`xaria-label="${repo.description}"`:''}>
+                            <a href="${url}"><b>${repo.name}</b></a>
+                            <br><small>${repo.description??''}</small>
+                        <td ${masterNotPushed?'style="color:#800"':''}>
+                            ${release.tag_name}
+                            <br><small>${showDate(repoDate)}</small>
+                        <td> ${repo.open_issues} ⭐
+                        <td> ${repo.open_issues} 🐞
+                    `
                 }
-                var rtf = new Intl.RelativeTimeFormat('default', { numeric: 'auto' })
-                var getRelativeTime = (d1, d2 = new Date()) => {
-                    var elapsed = d1 - d2
-                    for (var u in units)
-                        if (Math.abs(elapsed) > units[u] || u == 'second')
-                            return rtf.format(Math.round(elapsed/units[u]), u)
+                document.getElementById('repos').innerHTML = str;
+
+                function showDate(date){
+                    var units = {
+                        year  : 24 * 60 * 60 * 1000 * 365,
+                        month : 24 * 60 * 60 * 1000 * 365/12,
+                        day   : 24 * 60 * 60 * 1000,
+                        hour  : 60 * 60 * 1000,
+                        minute: 60 * 1000,
+                        second: 1000
+                    }
+                    var rtf = new Intl.RelativeTimeFormat('default', { numeric: 'auto' })
+                    var getRelativeTime = (d1, d2 = new Date()) => {
+                        var elapsed = d1 - d2
+                        for (var u in units)
+                            if (Math.abs(elapsed) > units[u] || u == 'second')
+                                return rtf.format(Math.round(elapsed/units[u]), u)
+                    }
+                    return getRelativeTime(date);
+                    /*
+                    const formatter = new Intl.RelativeTimeFormat();
+                    const result = formatter.format(Math.round(deltaDays), 'days');
+
+                    let options = {
+                        year: 'numeric', month: 'numeric', day: 'numeric',
+                        hour: 'numeric', minute: 'numeric',
+                    };
+                    return new Intl.DateTimeFormat('default', options).format(date)
+                    */
                 }
-                return getRelativeTime(date);
-                /*
-                const formatter = new Intl.RelativeTimeFormat();
-                const result = formatter.format(Math.round(deltaDays), 'days');
-
-                let options = {
-                    year: 'numeric', month: 'numeric', day: 'numeric',
-                    hour: 'numeric', minute: 'numeric',
-                };
-                return new Intl.DateTimeFormat('default', options).format(date)
-                */
-            }
-        </script>
-        <figure style="max-height:60vh; overflow:auto; padding:0">
-            <table class="u1-table -Sticky">
-                <thead>
-                    <tr>
-                        <th> Repo
-                        <th> Version
-                        <th> Stars
-                        <th> Issues
-                <tbody id=repos>
-            </table>
-        </figure>
-    </section>
+            </script>
+            <figure style="max-height:60vh; overflow:auto; padding:0">
+                <table class="u1-table -Sticky">
+                    <thead>
+                        <tr>
+                            <th> Repo
+                            <th> Version
+                            <th> Stars
+                            <th> Issues
+                    <tbody id=repos>
+                </table>
+            </figure>
+        </section>
 
 
 
 
-    <section id=compat>
-        <h2>Compatibility</h2>
-        <figure>
-            <table>
-                <thead>
-                    <tr>
-                        <th> Browser
-                        <th> Version
-                <tbody>
-                    <tr>
-                        <td> Firefox
-                        <td> latest 3
-                    <tr>
-                        <td> Edge
-                        <td> latest 3
-                    <tr>
-                        <td> Chrome
-                        <td> latest 3
-                    <tr>
-                        <td> Safari
-                        <td> 10.3
-                    <tr>
-                        <td> IE
-                        <td> no
-            </table>
-        </figure>
-    </section>
+        <section id=compat>
+            <h2>Compatibility</h2>
+            <figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Browser
+                            <th> Version
+                    <tbody>
+                        <tr>
+                            <td> Firefox
+                            <td> latest 3
+                        <tr>
+                            <td> Edge
+                            <td> latest 3
+                        <tr>
+                            <td> Chrome
+                            <td> latest 3
+                        <tr>
+                            <td> Safari
+                            <td> 10.3
+                        <tr>
+                            <td> IE
+                            <td> no
+                </table>
+            </figure>
+        </section>
 
-    <section>
-        <u1-carousel play tabindex=0>
-            <div style="align-items: center;display: flex;justify-content: center;"><h1>Some images</h1></div>
-            <img src="https://picsum.photos/600/250?random=1" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=2" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=3" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=4" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=5" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=6" alt="x" loading=lazy width=600 height=250>
-            <img src="https://picsum.photos/600/250?random=7" alt="x" loading=lazy width=600 height=250>
-        </u1-carousel>
-    </section>
+        <section>
+            <u1-carousel play tabindex=0>
+                <div style="align-items: center;display: flex;justify-content: center;"><h1>Some images</h1></div>
+                <img src="https://picsum.photos/600/250?random=1" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=2" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=3" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=4" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=5" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=6" alt="x" loading=lazy width=600 height=250>
+                <img src="https://picsum.photos/600/250?random=7" alt="x" loading=lazy width=600 height=250>
+            </u1-carousel>
+        </section>
 
-    <footer role=contentinfo>
-        <div class=u1-flex-gap style="justify-content: space-between">
-            <div>
-                <form class=u1-input aria-label="newsletter registration">
-                    <input placeholder="john@doh.com">
-                    <button>
-                        <u1-ico style="font-size:1.1em">🚀</u1-ico>
-                    </button>
-                </form>
+        <footer role=contentinfo>
+            <div class=u1-flex-gap style="justify-content: space-between">
+                <div>
+                    <form class=u1-input aria-label="newsletter registration">
+                        <input placeholder="john@doh.com">
+                        <button>
+                            <u1-ico style="font-size:1.1em">🚀</u1-ico>
+                        </button>
+                    </form>
+                </div>
+                <div style="text-align:right">
+                    <ul class=u1-unstyle>
+                        <li>
+                            <button class=u1-unstyle  onclick="this.nextElementSibling.showModal()">About</button>
+                            <dialog u1-parallax>
+                                Made with ♥ by Tobias Buschor
+                            </dialog>
+                        <li><a href="https://github.com/u1ui/" target=_blank>Github</a>
+                        <li><a href="" target=_blank>Twitter</a>
+                        <li><a href="#">Top</a>
+                    </ul>
+                </div>
             </div>
-            <div style="text-align:right">
-                <ul class=u1-unstyle>
-                    <li>
-                        <button class=u1-unstyle  onclick="this.nextElementSibling.showModal()">About</button>
-                        <dialog u1-parallax>
-                            Made with ♥ by Tobias Buschor
-                        </dialog>
-                    <li><a href="https://github.com/u1ui/" target=_blank>Github</a>
-                    <li><a href="" target=_blank>Twitter</a>
-                    <li><a href="#">Top</a>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+
+    </div>

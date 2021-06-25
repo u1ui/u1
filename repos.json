@@ -1,13 +1,13 @@
 [
   {
-    "pushed_at": "2021-06-24T20:33:13Z",
+    "pushed_at": "2021-06-24T20:54:11Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2020-11-12T23:09:38Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2021-06-24T20:43:17Z"
     }
   },
   {
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-06-24T20:34:05Z",
+    "pushed_at": "2021-06-24T20:34:43Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,

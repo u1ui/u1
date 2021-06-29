@@ -15,6 +15,19 @@
         <link rel=stylesheet href="../classless.css/aria.css">
         <link rel=stylesheet href="../classless.css/simple.css">
 
+
+        <!--link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/table.class/table.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/unstyle.class/unstyle.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/auto-grid.class/auto-grid.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap.class/flex-gap.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/input.class/input.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/width.class/width.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/ico.el/ico.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/tabs.el/tabs.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/carousel.el/carousel.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/parallax-bg.el/parallax-bg.min.css"-->
+
+
         <script src="./auto.js" type=module></script>
 
 <body>
@@ -47,10 +60,6 @@
     </style>
 
 
-    <u1-parallax-bg>
-        <img src="https://picsum.photos/2000/4000" style="flex:1">
-    </u1-parallax-bg>
-
 
     <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
         <h2>Costumize</h2>
@@ -72,11 +81,14 @@
         </label>
     </u1-card>
 
-    <div id=container class=u1-width>
-        <header role=banner style="text-align:center">
-            <h1>U1 Design System - Tests</h1>
-        </header>
+    <header role=banner style="text-align:center; box-shadow:var(--shadow)" class=u1-parallax-bg-stage>
+        <u1-parallax-bg style="background-color:black">
+            <img src="https://picsum.photos/2000/800" style="flex:1; opacity:.8; width:100%; height:100%">
+        </u1-parallax-bg>
+        <h1 style="color:white; margin-top:15rem; filter:drop-shadow(0 0 10px black)">U1 Design System - Tests</h1>
+    </header>
 
+    <main class=u1-width>
         <section>
             <h2>Typography</h2>
             <h3>Inline Elements</h3>
@@ -208,9 +220,6 @@
                             <h4>Header 4 demo<br>with line break</h4>
                             <h5>Header 5 demo<br>with line break</h5>
                             <h6>Header 6 demo<br>with line break</h6>
-
-
-
                         </section>
                     </u1-tabs>
 
@@ -311,41 +320,13 @@
                             <br><small>${repo.description??''}</small>
                         <td ${masterNotPushed?'style="color:#800"':''}>
                             ${release.tag_name}
-                            <br><small>${showDate(repoDate)}</small>
+                            <br><small><u1-time datetime="${repoDate.toISOString()}"></small>
                         <td> ${repo.open_issues} ⭐
                         <td> ${repo.open_issues} 🐞
                     `
                 }
                 document.getElementById('repos').innerHTML = str;
 
-                function showDate(date){
-                    var units = {
-                        year  : 24 * 60 * 60 * 1000 * 365,
-                        month : 24 * 60 * 60 * 1000 * 365/12,
-                        day   : 24 * 60 * 60 * 1000,
-                        hour  : 60 * 60 * 1000,
-                        minute: 60 * 1000,
-                        second: 1000
-                    }
-                    var rtf = new Intl.RelativeTimeFormat('default', { numeric: 'auto' })
-                    var getRelativeTime = (d1, d2 = new Date()) => {
-                        var elapsed = d1 - d2
-                        for (var u in units)
-                            if (Math.abs(elapsed) > units[u] || u == 'second')
-                                return rtf.format(Math.round(elapsed/units[u]), u)
-                    }
-                    return getRelativeTime(date);
-                    /*
-                    const formatter = new Intl.RelativeTimeFormat();
-                    const result = formatter.format(Math.round(deltaDays), 'days');
-
-                    let options = {
-                        year: 'numeric', month: 'numeric', day: 'numeric',
-                        hour: 'numeric', minute: 'numeric',
-                    };
-                    return new Intl.DateTimeFormat('default', options).format(date)
-                    */
-                }
             </script>
             <figure style="max-height:60vh; overflow:auto; padding:0">
                 <table class="u1-table -Sticky">
@@ -404,13 +385,38 @@
             </u1-carousel>
         </section>
 
-        <footer role=contentinfo>
+        <section>
+            <h2>FAQ</h2>
+            <details>
+                <summary>
+                    no IE11?
+                </summary>
+                <p>Since IE11 is slowly dying, we will no longer support it. When your next project goes online, this browser will no longer be relevant. Or your project without IE11 support, helps to kill IE11.</p>
+            </details>
+            <details>
+                <summary>What if JS is disabled?</summary>
+                <p>We make sure that there is always a usable CSS-only fallback.<br> Try our Demos without JS</p>
+            </details>
+            <details>
+                <summary>Conflicts with other Frameworks</summary>
+                <p>We try to make as few style breaks as possible.
+                    Nevertheless, we have useful default styles that could influence third code.
+                    For example, we have <code>* { box-sizing:border-box };</code>
+                    and line-heigths should be defined as "--line-height:1.3em";
+                    The inheritance of line-height is pretty broken, with our method we fix that.</p>
+            </details>
+        </section>
+
+        </main>
+
+    <footer role=contentinfo>
+        <div class=u1-width>
             <div class=u1-flex-gap style="justify-content: space-between">
                 <div>
                     <form class=u1-input aria-label="newsletter registration">
                         <input placeholder="john@doh.com">
                         <button>
-                            <u1-ico style="font-size:1.1em">🚀</u1-ico>
+                            los <u1-ico inline style="vertical-align:baseline">🚀</u1-ico>
                         </button>
                     </form>
                 </div>
@@ -427,6 +433,5 @@
                     </ul>
                 </div>
             </div>
-        </footer>
-
-    </div>
+        </div>
+    </footer>

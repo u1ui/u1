@@ -1,9 +1,10 @@
-import {importCss} from './utils.js';
-import '../js/init.js';
-import {onElement} from '../js/onElement/mod.js';
-
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
+
+import {importCss} from './utils.js';
+import '../js/init.js';
+//import {onElement} from '../js/onElement/mod.js';
+import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.3.0/onElement/mod.js';
 
 
 let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';

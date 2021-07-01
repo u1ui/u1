@@ -297,7 +297,7 @@
         <section id=customize>
             <h2>Repos</h2>
             <script type=module>
-                const repos = await fetch('./repos.json').then(res=>res.json());
+                const repos = await fetch('../repos.json').then(res=>res.json());
                 const entries = repos.sort((r1,r2)=>{
                     const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
                     const ext2 = r1.name.replace(/^.*\.([^.]+)/,'$1');

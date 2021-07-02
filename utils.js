@@ -5,10 +5,10 @@ var cssImported = [];
 export function importCss(url) {
     return new Promise((resolve, reject) => {
         var link = _importCss(url);
-        if (link==undefined) resolve(); // already loaded
+        if (link==null) resolve({available:true}); // already loaded
         else {
-            link.onload = (e)=>resolve();
-            link.onerror = (e)=>reject();
+            link.onload  = e=>resolve({available:false});
+            link.onerror = e=>reject();
         }
     });
 }

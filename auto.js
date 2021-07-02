@@ -1,3 +1,10 @@
+let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
+let min = '.min';
+
+// local testing:
+//rootUrl =  import.meta.url + '/../../'; min = ''; console.warn('uncomment localhost!');
+
+
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
@@ -8,11 +15,6 @@ import 'https://cdn.jsdelivr.net/gh/u1ui/js@1.3.0/init.js';
 import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.3.0/onElement/mod.js';
 
 
-let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
-let min = '.min';
-
-// local testing:
-//rootUrl =  import.meta.url + '/../../'; min = ''; console.warn('uncomment localhost!');
 
 let prio = 1;
 setTimeout(()=>prio = 2);

@@ -2,7 +2,17 @@
 // cssImport
 
 var cssImported = [];
-export function importCss(url) { // todo: handle absolute urls
+export function importCss(url) {
+    return new Promise((resolve, reject) => {
+        var link = _importCss(url);
+        if (link==undefined) resolve(); // already loaded
+        else {
+            link.onload = (e)=>resolve();
+            link.onerror = (e)=>reject();
+        }
+    });
+}
+function _importCss(url){
     // handle relative urls
     if (url.indexOf('./') === 0) {
         // better?
@@ -17,16 +27,14 @@ export function importCss(url) { // todo: handle absolute urls
         calledUrl.search = '';
         const url = new URL(url, calledUrl).toString();
     }
-    // check if imported already
-    if (cssImported[url]) return;
+    if (cssImported[url]) return; // check if imported already
     cssImported[url] = true;
-    // check if manually added
-    for (let el of document.querySelectorAll('link[rel=stylesheet]')) {
+    for (let el of document.querySelectorAll('link[rel=stylesheet]')) { // check if manually added
         if (el.href === url) return;
     }
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = url;
     document.head.append(link);
-    // todo: return promise
+    return link;
 }

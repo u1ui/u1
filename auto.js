@@ -14,11 +14,23 @@ let min = '.min';
 // local testing:
 //rootUrl =  import.meta.url + '/../../'; min = ''; console.warn('uncomment localhost!');
 
+let prio = 1;
+setTimeout(()=>prio = 2);
+setTimeout(()=>prio = 3, 2000);
+
+const needed = {
+    js:{},
+    css:{},
+};
+
 // attr
 'href parallax ico'.split(' ').forEach(attr=>{
     const selector = '[u1-'+attr+']';
     onElement(selector, {immediate:function(el){
-        import(rootUrl + attr + '.attr/' + attr + min + '.js');
+        const url = rootUrl + attr + '.attr/' + attr + min + '.js';
+        if (needed.js[url]) return;
+        import(url);
+        needed.js[url] = prio;
     }});
 });
 
@@ -28,17 +40,31 @@ let min = '.min';
     const selector = '.u1-'+name;
     onElement(selector, {immediate:function(el){
         let url = rootUrl + name + '.class/' + name + min + '.css';
-        console.log(url)
-        importCss(url);
+        if (needed.css[url]) return;
+        importCss(url).catch(()=> needed.css[url]=0 ); // could not load
+        needed.css[url] = prio;
     }});
 });
 
 // el
 'ico tabs carousel parallax-bg time'.split(' ').forEach(name=>{
     onElement('u1-'+name, {immediate:function(el){
-        import(rootUrl + name + '.el/' + name + min + '.js');
-        let cssURL = rootUrl + name + '.el/' + name + min + '.css';
-        console.log(cssURL)
-        importCss(cssURL);
+        if (customElements.get('u1-'+name)) return; // skip if registred
+        const url = rootUrl + name + '.el/' + name + min;
+        if (needed.js[url+'.js']) return;
+        import(url+'.js');
+        importCss(url+'.css').catch(()=> needed.css[url+'.css']=0 ); // could not load
+        needed.css[url+'.css'] = prio;
+        needed.js[url+'.js'] = prio;
     }});
 });
+
+window.u1Debug = function(){
+    let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link rel="stylesheet" href="'+url+'">').join('\n');
+    let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+url+'" type=module></script>').join('\n');
+    let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+url+'">').join('\n');
+    console.log(
+        strCss +'\n'+
+        strJs + '\n' +
+        '\n<!-- non critical at the end -->\n' + strCssNonCritical);
+}

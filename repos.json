@@ -1,233 +1,233 @@
 [
   {
-    "pushed_at": "2021-07-03T00:00:23Z",
+    "pushed_at": "2021-07-03T00:08:24Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.2.0",
-      "published_at": "2021-06-29T21:57:04Z"
+      "tag_name": "v3.3.0",
+      "published_at": "2021-07-03T00:08:24Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T23:12:22Z",
+    "pushed_at": "2021-07-03T00:05:47Z",
     "name": "js",
     "description": "javascript utils",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.3.0",
-      "published_at": "2021-07-01T10:25:30Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:48Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T18:07:17Z",
+    "pushed_at": "2021-07-03T00:05:39Z",
     "name": "href.attr",
     "description": "ui-href-attribute, every element can be a link",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.2.0",
-      "published_at": "2021-06-29T21:55:46Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:39Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T23:45:31Z",
+    "pushed_at": "2021-07-03T00:05:31Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.5.0",
-      "published_at": "2021-06-29T21:57:24Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:31Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:08Z",
+    "pushed_at": "2021-07-03T00:05:21Z",
     "name": "norm.css",
     "description": "Up to date css normalize",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-06-04T10:49:18Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:21Z"
     }
   },
   {
-    "pushed_at": "2021-07-03T00:00:18Z",
+    "pushed_at": "2021-07-03T00:05:11Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.6.0",
-      "published_at": "2021-06-25T10:33:06Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:11Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T23:57:52Z",
+    "pushed_at": "2021-07-03T00:05:01Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.6.0",
-      "published_at": "2021-07-01T18:24:38Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:01Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T23:59:17Z",
+    "pushed_at": "2021-07-03T00:04:51Z",
     "name": "classes.css",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.2.0",
-      "published_at": "2021-06-25T10:33:22Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:04:51Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:14Z",
+    "pushed_at": "2021-07-03T00:07:31Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.2.0",
-      "published_at": "2021-06-30T00:16:39Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:07:31Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T18:53:49Z",
+    "pushed_at": "2021-07-03T00:07:23Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.7.0",
-      "published_at": "2021-06-29T21:54:28Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:07:23Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:49:56Z",
+    "pushed_at": "2021-07-03T00:07:15Z",
     "name": "flex-gap.class",
     "description": "flexbox gappers helper because of safari",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.2.0",
-      "published_at": "2021-06-03T16:50:08Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:07:15Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:17Z",
+    "pushed_at": "2021-07-03T00:07:07Z",
     "name": "table.class",
     "description": "u1-class | better tables",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.2.0",
-      "published_at": "2021-06-04T22:04:53Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:07:08Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T10:45:27Z",
+    "pushed_at": "2021-07-03T00:06:59Z",
     "name": "auto-grid.class",
     "description": "most used case for grid-elements",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-06-14T12:01:46Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:59Z"
     }
   },
   {
-    "pushed_at": "2021-07-03T00:00:33Z",
+    "pushed_at": "2021-07-03T00:06:52Z",
     "name": "reset.class",
     "description": "A class to reset Styles",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.0.0",
-      "published_at": "2021-06-03T16:52:58Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:52Z"
     }
   },
   {
-    "pushed_at": "2021-07-02T23:49:35Z",
+    "pushed_at": "2021-07-03T00:06:44Z",
     "name": "unstyle.class",
     "description": "css class to unstyle elements eg. buttons",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-06-03T16:51:26Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:44Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:49:44Z",
+    "pushed_at": "2021-07-03T00:06:35Z",
     "name": "badge.class",
     "description": "u1-badge class for rendering badges",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.0.0",
-      "published_at": "2021-06-03T16:51:34Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:36Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:21Z",
+    "pushed_at": "2021-07-03T00:06:28Z",
     "name": "tabs.el",
     "description": "u1-tabs element for rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.3.0",
-      "published_at": "2021-06-25T10:33:54Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:28Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:42Z",
+    "pushed_at": "2021-07-03T00:06:21Z",
     "name": "width.class",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.0.0",
-      "published_at": "2021-06-11T15:56:02Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:21Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:49:52Z",
+    "pushed_at": "2021-07-03T00:06:10Z",
     "name": "carousel.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.7.0",
-      "published_at": "2021-06-25T10:34:09Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:10Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:06Z",
+    "pushed_at": "2021-07-03T00:06:03Z",
     "name": "input.class",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.0.0",
-      "published_at": "2021-06-22T06:30:24Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:06:03Z"
     }
   },
   {
-    "pushed_at": "2021-07-01T17:50:25Z",
+    "pushed_at": "2021-07-03T00:05:55Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-06-29T21:53:54Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-03T00:05:55Z"
     }
   }
 ]

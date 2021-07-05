@@ -33,8 +33,6 @@ function impCss(url){
     needed.css[url] = prio;
 }
 
-
-
 // attr
 'href parallax ico'.split(' ').forEach(attr=>{
     const selector = '[u1-'+attr+']';

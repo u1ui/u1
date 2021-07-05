@@ -8,18 +8,15 @@ let min = '.min';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 import {importCss} from './utils.js';
-import 'https://cdn.jsdelivr.net/gh/u1ui/js@1.3.0/init.js';
-import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.3.0/onElement/mod.js';
+import 'https://cdn.jsdelivr.net/gh/u1ui/js@1.8.0/init.js';
+import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.8.0/onElement/mod.js';
 
 
 /* hints helper */
 let prio = 1;
 setTimeout(()=>prio = 2);
 setTimeout(()=>prio = 3, 2000);
-const needed = {
-    js:{},
-    css:{},
-};
+const needed = { js:{}, css:{} };
 function impJs(url){
     if (url in needed.js) return;
     needed.js[url] = prio;

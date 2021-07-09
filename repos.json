@@ -1,6 +1,6 @@
 [
   {
-    "pushed_at": "2021-07-03T00:08:24Z",
+    "pushed_at": "2021-07-06T07:34:44Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
@@ -11,7 +11,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:47Z",
+    "pushed_at": "2021-07-07T14:36:05Z",
     "name": "js",
     "description": "javascript utils",
     "open_issues": 0,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:31Z",
+    "pushed_at": "2021-07-05T09:30:11Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:21Z",
+    "pushed_at": "2021-07-07T14:35:56Z",
     "name": "norm.css",
     "description": "Up to date css normalize",
     "open_issues": 0,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:11Z",
+    "pushed_at": "2021-07-08T23:11:34Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:01Z",
+    "pushed_at": "2021-07-08T23:12:04Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
@@ -77,7 +77,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:04:51Z",
+    "pushed_at": "2021-07-06T18:11:32Z",
     "name": "classes.css",
     "description": null,
     "open_issues": 0,
@@ -88,18 +88,18 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:07:31Z",
+    "pushed_at": "2021-07-09T15:17:46Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2021-07-03T00:07:31Z"
+      "tag_name": "v1.8.1",
+      "published_at": "2021-07-07T13:15:16Z"
     }
   },
   {
-    "pushed_at": "2021-07-03T00:07:23Z",
+    "pushed_at": "2021-07-07T14:36:00Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
@@ -121,7 +121,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:07:07Z",
+    "pushed_at": "2021-07-07T11:11:28Z",
     "name": "table.class",
     "description": "u1-class | better tables",
     "open_issues": 0,
@@ -176,7 +176,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:06:28Z",
+    "pushed_at": "2021-07-07T16:06:01Z",
     "name": "tabs.el",
     "description": "u1-tabs element for rendering tabs",
     "open_issues": 0,
@@ -198,7 +198,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:06:10Z",
+    "pushed_at": "2021-07-07T14:35:40Z",
     "name": "carousel.el",
     "description": null,
     "open_issues": 0,
@@ -220,7 +220,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:05:55Z",
+    "pushed_at": "2021-07-09T15:15:25Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,

@@ -26,9 +26,9 @@ function impJs(url){
 function impCss(url, options={}){
     if (url in needed.css) return;
     importCss(url, options).then(res=>{
-        if (res.available) needed.css[url]=0;
+        if (res.available) needed.css[url]=0; // already loaded
     }).catch(() => needed.css[url]=0 ); // failed
-    needed.css[url] = prio;
+    needed.css[url] = prio
 }
 
 

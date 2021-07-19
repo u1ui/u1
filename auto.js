@@ -20,11 +20,12 @@ const needed = { js:{}, css:{} };
 function impJs(url){
     if (url in needed.js) return;
     needed.js[url] = prio;
+    /* zzz
     var scriptEl = document.createElement('script');
     scriptEl.type='module';
     scriptEl.src = url;
     document.head.append(scriptEl);
-    return;
+    */
     return import(url)
 }
 function impCss(url, options={}){

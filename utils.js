@@ -12,7 +12,7 @@ export function importCss(url) {
         }
     });
 }
-function _importCss(url){
+function _importCss(url, options={}){
     // handle relative urls
     if (url.indexOf('./') === 0) {
         // better?
@@ -34,6 +34,7 @@ function _importCss(url){
     }
     const link = document.createElement('link');
     link.rel = 'stylesheet';
+    if (options.media) link.media = options.media;
     link.href = url;
     document.head.append(link);
     return link;

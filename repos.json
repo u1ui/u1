@@ -1,13 +1,13 @@
 [
   {
-    "pushed_at": "2021-07-19T13:54:40Z",
+    "pushed_at": "2021-07-19T19:19:59Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.3.3",
-      "published_at": "2021-07-14T15:23:25Z"
+      "tag_name": "v3.3.4",
+      "published_at": "2021-07-19T19:19:59Z"
     }
   },
   {
@@ -22,25 +22,25 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T08:05:31Z",
+    "pushed_at": "2021-07-19T19:21:30Z",
     "name": "href.attr",
     "description": "ui-href-attribute, every element can be a link",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:54:12Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-07-19T19:21:30Z"
     }
   },
   {
-    "pushed_at": "2021-07-19T18:16:21Z",
+    "pushed_at": "2021-07-19T18:44:38Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.2",
-      "published_at": "2021-07-19T18:16:22Z"
+      "tag_name": "v1.8.4",
+      "published_at": "2021-07-19T18:44:38Z"
     }
   },
   {
@@ -66,14 +66,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-15T10:05:43Z",
+    "pushed_at": "2021-07-19T19:21:38Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:53:29Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-07-19T19:21:38Z"
     }
   },
   {
@@ -88,14 +88,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T07:53:52Z",
+    "pushed_at": "2021-07-19T19:20:15Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.8.2",
-      "published_at": "2021-07-12T07:53:52Z"
+      "tag_name": "v1.8.3",
+      "published_at": "2021-07-19T19:20:15Z"
     }
   },
   {

@@ -91,7 +91,7 @@ function latest(url, {notify}={}) {
     url = url.replace(/u1ui\/([^\/]+)\//, function(x,repoVers){
         let [repo, vers] = repoVers.split('@');
         let newVers = repos[repo].release_latest.tag_name.replace('v','');
-        if (notify && vers !== newVers) console.log('new version for: '+url+' :'+newVers)
+        if (notify && vers && vers !== newVers) console.log('new version for: '+url+' :'+newVers)
         return repo + '@' + newVers + '/';
     });
     return url;

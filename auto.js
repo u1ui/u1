@@ -1,7 +1,7 @@
 let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
 let min = '.min';
 // local testing:
-rootUrl =  import.meta.url + '/../../'; min = ''; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
+//rootUrl =  import.meta.url + '/../../'; min = ''; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 
 
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';

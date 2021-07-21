@@ -134,7 +134,7 @@
                         <td ${masterNotPushed?'style="color:#800"':''}>
                             ${release.tag_name}
                             <br><small><u1-time datetime="${repoDate.toISOString()}"></small>
-                        <td> ${repo.stargazers_count} ⭐
+                        <td> <u1-counter>${repo.stargazers_count}</u1-counter> ⭐
                         <td> ${repo.open_issues} 🐞
                     `
                 }

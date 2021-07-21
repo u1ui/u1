@@ -72,7 +72,7 @@ impJs(rootUrl+'js/init'+min+'.js');
 });
 
 // el
-'ico tabs carousel parallax-bg time'.split(' ').forEach(name=>{
+'ico tabs carousel parallax-bg time counter'.split(' ').forEach(name=>{
     onElement('u1-'+name, {immediate:function(el){
         if (customElements.get('u1-'+name)) return; // skip if registred
         const base = rootUrl + name + '.el/' + name + min;

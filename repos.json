@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-19T19:49:06Z",
+    "pushed_at": "2021-07-20T12:07:27Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -228,6 +228,17 @@
     "release_latest": {
       "tag_name": "v1.8.1",
       "published_at": "2021-07-12T07:55:07Z"
+    }
+  },
+  {
+    "pushed_at": "2021-07-21T01:40:43Z",
+    "name": "counter.el",
+    "description": "counting numbers",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2021-07-21T01:40:43Z"
     }
   }
 ]

@@ -8,7 +8,7 @@ let min = '.min';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 import {importCss} from './utils.js';
-import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.8.0/onElement/mod.js';
+//import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.8.0/onElement/mod.js';
 
 
 
@@ -54,6 +54,54 @@ impCss(rootUrl+'classless.css/aria'+min+'.css');
 impJs(rootUrl+'js/init'+min+'.js');
 
 
+function newNode(node){
+    if (node.tagName.startsWith('U1-')) {
+        let name = node.tagName.substring(3).toLowerCase();
+
+        if (customElements.get('u1-'+name)) return; // skip if registred
+        const base = rootUrl + name + '.el/' + name + min;
+        impCss(base + '.css');
+        impJs(base + '.js');
+
+    }
+    let classList = node.classList;
+    for (let i=0, l=classList.length; i<l; i++) {
+        let klass = classList[i]
+        if (!klass.startsWith('u1-')) continue;
+        let name = klass.substring(3);
+
+        impCss(rootUrl + name + '.class/' + name + min + '.css');
+
+    }
+    const attris = node.attributes;
+    for (let i=0, l=attris.length; i<l; i++) {
+        let attr = attris[i]
+        if (!attr.name.startsWith('u1-')) continue;
+        let name = attr.name.substring(3);
+
+        // todo: how to check if already added manually?
+        impJs(rootUrl + name + '.attr/' + name + min + '.js');
+
+    }
+}
+function newNodeRoot(node){
+    if (!node.tagName) return;
+    newNode(node);
+    node.querySelectorAll('*').forEach(newNode);
+}
+
+var mo = new MutationObserver((entries)=>{
+    for (let i=0, l=entries.length; i<l; i++) {
+        let nodes = entries[i].addedNodes;
+        for (let j=0, l2=nodes.length; j<l2; j++) {
+            newNodeRoot(nodes[j]);
+        }
+    }
+});
+mo.observe(document,{childList:true, subtree:true, characterData:false});
+newNodeRoot(document.documentElement);
+
+/*
 // attr
 'href parallax ico'.split(' ').forEach(attr=>{
     const selector = '[u1-'+attr+']';
@@ -80,7 +128,7 @@ impJs(rootUrl+'js/init'+min+'.js');
         impJs(base + '.js');
     }});
 });
-
+*/
 
 
 
@@ -90,6 +138,7 @@ function latest(url, {notify}={}) {
     url = new URL(url).toString();
     url = url.replace(/u1ui\/([^\/]+)\//, function(x,repoVers){
         let [repo, vers] = repoVers.split('@');
+        if (!repos[repo]) return console.log('repo: '+repo+' not found');
         let newVers = repos[repo].release_latest.tag_name.replace('v','');
         if (notify && vers && vers !== newVers) console.log('new version for: '+url+' :'+newVers)
         return repo + '@' + newVers + '/';

@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-20T12:07:27Z",
+    "pushed_at": "2021-07-22T10:43:29Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.4",
-      "published_at": "2021-07-19T18:44:38Z"
+      "tag_name": "v1.8.5",
+      "published_at": "2021-07-21T02:14:41Z"
     }
   },
   {
@@ -121,7 +121,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T07:55:44Z",
+    "pushed_at": "2021-07-21T02:34:58Z",
     "name": "table.class",
     "description": "u1-class | better tables",
     "open_issues": 0,
@@ -220,7 +220,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T07:55:07Z",
+    "pushed_at": "2021-07-21T18:53:39Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
@@ -231,14 +231,25 @@
     }
   },
   {
-    "pushed_at": "2021-07-21T01:40:43Z",
+    "pushed_at": "2021-07-21T01:45:01Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
+      "tag_name": "v1.1.0",
+      "published_at": "2021-07-21T01:45:01Z"
+    }
+  },
+  {
+    "pushed_at": "2021-07-26T12:52:18Z",
+    "name": "textfit.el",
+    "description": null,
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
       "tag_name": "v1.0.0",
-      "published_at": "2021-07-21T01:40:43Z"
+      "published_at": "2021-07-26T12:52:18Z"
     }
   }
 ]

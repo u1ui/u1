@@ -20,7 +20,7 @@
 
 <body>
     <style>
-    u1-card {
+    .card {
         box-shadow: var(--shadow);
         border:1px solid var(--color);
         text-align:center;
@@ -28,7 +28,7 @@
         background-color:var(--color-bg);
         background-color:var(--color-light);
     }
-    u1-card :is(p,h1,h2,h3,h4,h5,h6) {
+    .card :is(p,h1,h2,h3,h4,h5,h6) {
         margin-top:0;
         margin-bottom:.1em;
     }
@@ -49,7 +49,7 @@
     </style>
 
 
-    <u1-card u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
+    <div class="card" u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
         <h2>Costumize</h2>
         <label>
             Hue<br>
@@ -67,7 +67,7 @@
             Font Size<br>
             <input type=range min=7 max=20 step=".25" oninput="document.documentElement.style.setProperty('font-size', 'calc('+this.value+'px + .7vmin)')">
         </label>
-    </u1-card>
+    </div>
 
     <header role=banner style="text-align:center; box-shadow:var(--shadow);" class=u1-parallax-bg-stage>
         <u1-parallax-bg style="background-color:black">
@@ -90,23 +90,23 @@
     <main class=u1-width>
 
         <section class=u1-auto-grid>
-            <u1-card u1-href="#feaures">
+            <div class=card u1-href="#feaures">
                 <u1-ico>♥</u1-ico>
                 <h3>Features</h3>
                 <p>dies und das</p>
                 <a href="#feaures">more</a>
-            </u1-card>
-            <u1-card u1-href="#reposSec">
+            </div>
+            <div class=card u1-href="#reposSec">
                 <u1-ico>😎</u1-ico>
                 <h3>Repos</h3>
                 <p>dies und das</p>
-            </u1-card>
-            <u1-card u1-href="#customize">
+            </div>
+            <div class=card u1-href="#customize">
                 <u1-ico>🎨</u1-ico>
                 <h3>Customizable</h3>
                 <p>dies und das</p>
                 <a href="#customize">more</a>
-            </u1-card>
+            </div>
         </section>
 
         <section id=reposSec>

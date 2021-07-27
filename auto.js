@@ -3,13 +3,10 @@ let min = '.min';
 // local testing:
 //rootUrl =  import.meta.url + '/../../'; min = ''; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 
-
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 import {importCss} from './utils.js';
-//import {onElement} from 'https://cdn.jsdelivr.net/gh/u1ui/js@1.8.0/onElement/mod.js';
-
 
 
 /* hints helper */
@@ -20,12 +17,6 @@ const needed = { js:{}, css:{} };
 function impJs(url){
     if (url in needed.js) return;
     needed.js[url] = prio;
-    /* zzz
-    var scriptEl = document.createElement('script');
-    scriptEl.type='module';
-    scriptEl.src = url;
-    document.head.append(scriptEl);
-    */
     return import(url)
 }
 function impCss(url, options={}){
@@ -101,35 +92,6 @@ var mo = new MutationObserver((entries)=>{
 mo.observe(document,{childList:true, subtree:true, characterData:false});
 newNodeRoot(document.documentElement);
 
-/*
-// attr
-'href parallax ico'.split(' ').forEach(attr=>{
-    const selector = '[u1-'+attr+']';
-    onElement(selector, {immediate:function(el){
-        // todo: how to check if already added manually?
-        impJs(rootUrl + attr + '.attr/' + attr + min + '.js');
-    }});
-});
-
-// class
-'badge table unstyle auto-grid flex-gap input width'.split(' ').forEach(name=>{
-    const selector = '.u1-'+name;
-    onElement(selector, {immediate:function(el){
-        impCss(rootUrl + name + '.class/' + name + min + '.css');
-    }});
-});
-
-// el
-'ico tabs carousel parallax-bg time counter'.split(' ').forEach(name=>{
-    onElement('u1-'+name, {immediate:function(el){
-        if (customElements.get('u1-'+name)) return; // skip if registred
-        const base = rootUrl + name + '.el/' + name + min;
-        impCss(base + '.css');
-        impJs(base + '.js');
-    }});
-});
-*/
-
 
 
 
@@ -157,6 +119,9 @@ async function loadReposJson(){
     });
 }
 
+
+
+
 window.u1 = Object.create(null);
 
 window.u1.hints = async function(){
@@ -183,5 +148,4 @@ window.u1.versionCheck = async function(){
         if (!url.match('u1ui')) return;
         latest(url, {notify:true});
     })
-
 }

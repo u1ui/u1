@@ -103,7 +103,7 @@ function latest(url, {notify}={}) {
         if (!repos[repo]) return console.log('repo: '+repo+' not found');
         let newVers = repos[repo].release_latest.tag_name.replace('v','');
         if (notify && vers && vers !== newVers) console.log('new version for: '+url+' :'+newVers)
-        return repo + '@' + newVers + '/';
+        return 'u1ui/' + repo + '@' + newVers + '/';
     });
     return url;
 }

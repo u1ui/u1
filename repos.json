@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-07-26T12:58:31Z",
+    "pushed_at": "2021-07-27T22:08:31Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,25 +55,25 @@
     }
   },
   {
-    "pushed_at": "2021-07-27T13:03:35Z",
+    "pushed_at": "2021-07-28T11:48:33Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.3",
-      "published_at": "2021-07-27T12:48:03Z"
+      "tag_name": "v1.8.4",
+      "published_at": "2021-07-28T11:48:33Z"
     }
   },
   {
-    "pushed_at": "2021-07-19T19:21:38Z",
+    "pushed_at": "2021-07-28T11:48:20Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.2",
-      "published_at": "2021-07-19T19:21:38Z"
+      "tag_name": "v1.8.3",
+      "published_at": "2021-07-28T11:48:20Z"
     }
   },
   {
@@ -121,14 +121,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-21T02:34:58Z",
+    "pushed_at": "2021-07-28T11:47:23Z",
     "name": "table.class",
     "description": "u1-class | better tables",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:55:44Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-07-28T11:47:23Z"
     }
   },
   {
@@ -176,25 +176,25 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T07:55:26Z",
+    "pushed_at": "2021-07-28T11:47:42Z",
     "name": "tabs.el",
     "description": "u1-tabs element for rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:55:26Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-07-28T11:47:42Z"
     }
   },
   {
-    "pushed_at": "2021-07-03T00:06:21Z",
+    "pushed_at": "2021-07-28T11:46:29Z",
     "name": "width.class",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2021-07-03T00:06:21Z"
+      "tag_name": "v1.8.1",
+      "published_at": "2021-07-28T11:46:29Z"
     }
   },
   {
@@ -220,36 +220,36 @@
     }
   },
   {
-    "pushed_at": "2021-07-21T18:53:39Z",
+    "pushed_at": "2021-07-28T11:46:40Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:55:07Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-07-28T11:46:40Z"
     }
   },
   {
-    "pushed_at": "2021-07-26T12:58:56Z",
+    "pushed_at": "2021-07-28T11:46:59Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-07-21T01:45:01Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-28T11:46:59Z"
     }
   },
   {
-    "pushed_at": "2021-07-26T13:46:32Z",
+    "pushed_at": "2021-07-28T11:47:11Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2021-07-26T13:00:38Z"
+      "tag_name": "v1.8.0",
+      "published_at": "2021-07-28T11:47:12Z"
     }
   }
 ]

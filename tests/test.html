@@ -27,10 +27,7 @@
         padding:var(--gap);
         background-color:var(--color-bg);
         background-color:var(--color-light);
-    }
-    .card :is(p,h1,h2,h3,h4,h5,h6) {
-        margin-top:0;
-        margin-bottom:.1em;
+        font-size:.9rem;
     }
     u1-tabs [role=tabpanel] {
         border: 1px solid var(--color-line);
@@ -41,10 +38,6 @@
         padding:0;
         max-width:none;
         display:block;
-    }
-    #container {
-        background-color:#fffc;
-        backdrop-filter: blur(10px);
     }
     </style>
 
@@ -93,19 +86,22 @@
             <div class=card u1-href="#feaures">
                 <u1-ico>♥</u1-ico>
                 <h3>Features</h3>
-                <p>dies und das</p>
+                <p>Progressive, declarative, responsive, easy...</p>
                 <a href="#feaures">more</a>
             </div>
             <div class=card u1-href="#reposSec">
                 <u1-ico>😎</u1-ico>
                 <h3>Repos</h3>
-                <p>dies und das</p>
+                <p>Browse the overview of all modules...</p>
+                <a href="#repos">more</a>
             </div>
             <div class=card u1-href="#customize">
-                <u1-ico>🎨</u1-ico>
-                <h3>Customizable</h3>
-                <p>dies und das</p>
-                <a href="#customize">more</a>
+                <u1-ico>📱</u1-ico>
+                <br>
+                <br>
+                <script>
+                    document.write('<u1-qrcode style="width:8rem; margin:auto">'+location.href+'</u1-qrcode>')
+                </script>
             </div>
         </section>
 

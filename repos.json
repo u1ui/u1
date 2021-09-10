@@ -4,18 +4,18 @@
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
-    "stargazers_count": 3,
+    "stargazers_count": 4,
     "release_latest": {
       "tag_name": "v3.3.4",
       "published_at": "2021-07-19T19:19:59Z"
     }
   },
   {
-    "pushed_at": "2021-07-12T07:51:34Z",
+    "pushed_at": "2021-08-30T19:32:15Z",
     "name": "js",
     "description": "javascript utils",
-    "open_issues": 0,
-    "stargazers_count": 0,
+    "open_issues": 1,
+    "stargazers_count": 2,
     "release_latest": {
       "tag_name": "v1.8.1",
       "published_at": "2021-07-12T07:51:34Z"
@@ -26,14 +26,14 @@
     "name": "href.attr",
     "description": "ui-href-attribute, every element can be a link",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.2",
       "published_at": "2021-07-19T19:21:30Z"
     }
   },
   {
-    "pushed_at": "2021-08-23T18:51:52Z",
+    "pushed_at": "2021-08-26T00:45:09Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,10 +55,10 @@
     }
   },
   {
-    "pushed_at": "2021-08-23T16:02:13Z",
+    "pushed_at": "2021-08-27T22:27:12Z",
     "name": "base.css",
     "description": "Usefull css defaults",
-    "open_issues": 0,
+    "open_issues": 1,
     "stargazers_count": 0,
     "release_latest": {
       "tag_name": "v1.8.4",
@@ -66,18 +66,18 @@
     }
   },
   {
-    "pushed_at": "2021-07-28T11:48:20Z",
+    "pushed_at": "2021-09-09T01:00:19Z",
     "name": "classless.css",
     "description": null,
-    "open_issues": 0,
-    "stargazers_count": 0,
+    "open_issues": 2,
+    "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v1.8.3",
-      "published_at": "2021-07-28T11:48:20Z"
+      "tag_name": "v1.8.4",
+      "published_at": "2021-08-26T19:53:33Z"
     }
   },
   {
-    "pushed_at": "2021-08-23T18:46:56Z",
+    "pushed_at": "2021-09-09T00:49:56Z",
     "name": "classes.css",
     "description": null,
     "open_issues": 0,
@@ -88,11 +88,11 @@
     }
   },
   {
-    "pushed_at": "2021-07-19T19:20:15Z",
+    "pushed_at": "2021-08-31T20:39:04Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "release_latest": {
       "tag_name": "v1.8.3",
       "published_at": "2021-07-19T19:20:15Z"
@@ -154,11 +154,11 @@
     }
   },
   {
-    "pushed_at": "2021-07-03T00:06:44Z",
+    "pushed_at": "2021-08-28T01:22:04Z",
     "name": "unstyle.class",
     "description": "css class to unstyle elements eg. buttons",
-    "open_issues": 0,
-    "stargazers_count": 0,
+    "open_issues": 1,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.0",
       "published_at": "2021-07-03T00:06:44Z"
@@ -169,7 +169,7 @@
     "name": "badge.class",
     "description": "u1-badge class for rendering badges",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.0",
       "published_at": "2021-07-03T00:06:36Z"
@@ -253,7 +253,7 @@
     }
   },
   {
-    "pushed_at": "2021-08-26T00:22:06Z",
+    "pushed_at": "2021-08-31T23:04:16Z",
     "name": "qrcode.el",
     "description": "qr code element",
     "open_issues": 0,
@@ -261,6 +261,17 @@
     "release_latest": {
       "tag_name": "v1.0.0",
       "published_at": "2021-08-26T00:22:06Z"
+    }
+  },
+  {
+    "pushed_at": "2021-09-09T02:35:58Z",
+    "name": "card1.class",
+    "description": "card-class",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2021-09-09T02:35:58Z"
     }
   }
 ]

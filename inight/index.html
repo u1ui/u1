@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>u1-ico Test</title>
+
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
+
+
+        <!--link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/base.css/full.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/classless.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/aria.min.css"-->
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css" crossorigin>
+
+        <script src="../auto.js" type=module></script>
+
+<body>
+    <style>
+    .card {
+        box-shadow: var(--shadow);
+        border:0.1rem solid var(--color);
+        text-align:center;
+        padding:var(--gap);
+        background-color:var(--color-bg);
+        background-color:var(--color-light);
+        font-size:.09rem;
+    }
+    u1-tabs [role=tabpanel] {
+        border: 1rem solid var(--color-line);
+        margin-top:-1rem;
+        max-height:30rem;
+    }
+    body {
+        padding:0;
+        max-width:none;
+        display:block;
+    }
+    </style>
+
+    <style type="text/css" id=dayScrollThumb >
+    	input[type=range]::-webkit-slider-thumb {
+		    background: url('day.png');
+		}
+    </style>
+
+    <style type="text/css">
+		.main-container {
+			width : 100%;
+			background: url('bg.png');
+			background-repeat: repeat;
+		}
+		.header h2 {
+			margin: auto;
+			width: fit-content;
+		}
+		.pull-left {
+			float: left;
+			margin-left: 5rem;
+		}
+
+		.pull-right {
+			float: right;
+			margin-right: 5rem;
+		}
+
+		.slider {
+			-webkit-appearance: none;
+			width: 100%;
+			height: 25px;
+			background: #d3d3d3;
+			outline: none;
+			opacity: 0.7;
+			-webkit-transition: .2s;
+			transition: opacity .2s;
+		}
+
+		.slider:hover {
+		  	opacity: 1;
+		}
+
+		.slider::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 25px;
+			height: 25px;
+			background: #04AA6D;
+			cursor: pointer;
+		}
+
+		.slider::-moz-range-thumb {
+			width: 25px;
+			height: 25px;
+			background: #04AA6D;
+			cursor: pointer;
+		}
+
+
+		input[type=range]{
+		    -webkit-appearance: none;
+		}
+
+		input[type=range]::-webkit-slider-runnable-track  {
+		    width: 300px;
+		    height: 0.6rem;
+		    /*background: #000;*/
+		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
+		    border: none;
+		    border-radius: 0.3rem;
+		}
+
+		input[type=range]::-moz-range-track, input[type=range]::-ms-track {
+			width: 300px;
+		    height: 0.6rem;
+		    /*background: #000;*/
+		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
+		    border: none;
+		    border-radius: 0.3rem;
+		}
+
+		input[type=range]::-ms-track {
+		    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+		    background: transparent;
+		    
+		    /*leave room for the larger thumb to overflow with a transparent border */
+		    border-color: transparent;
+		    border-width: 0.6rem 0;
+
+		    /*remove default tick marks*/
+		    color: transparent;
+		}
+
+		input[type=range]::-ms-fill-lower {
+		    background: url('night.png');
+		    border-radius: 1rem;
+		}
+		input[type=range]::-ms-fill-upper {
+		    background: url('night.png');
+		    border-radius: 1rem;
+		}
+
+		input[type=range]::-webkit-slider-thumb {
+		    -webkit-appearance: none;
+		    border: none;
+		    height: 2.4rem;
+		    width: 2.4rem;
+		    border-radius: 50%;
+		    background: url('night.png');
+		    background-size: contain;
+		    margin-top: -1.0rem;
+		}
+
+		input[type=range]::-moz-range-thumb, input[type=range]::-ms-thumb {
+		    -webkit-appearance: none;
+		    border: none;
+		    height: 2.4rem;
+		    width: 2.4rem;
+		    border-radius: 50%;
+		    background: url('night.png');
+		    background-size: contain;
+		    margin-top: -1.0rem;
+		}
+
+
+		input[type=range]:focus {
+		    outline: none;
+		}
+
+		/*hide the outline behind the border*/
+		input[type=range]:-moz-focusring{
+		    outline: 1px solid white;
+		    outline-offset: -1px;
+		}
+
+		input[type=range]:focus::-webkit-slider-runnable-track, input[type=range]:focus::-moz-range-track  {
+		    /*background: #ccc;*/
+		}
+
+		input[type=range]:focus::-ms-fill-lower {
+		    /*background: #888;*/
+		}
+		input[type=range]:focus::-ms-fill-upper {
+		    /*background: #ccc;*/
+		}
+	</style>
+
+	<div class="main-container">
+		<div class="header" style="width: 100%;">
+			<h2 style="">Das bewirken Ortho-K-Linsen</h2>
+		</div>
+
+		<div class="pull-left">
+	    	<h1>NACHT</h1>
+	    	<h5>Linse beim Zubettgehen einsetzen</h5>
+	    </div>
+
+	    <div class="pull-right">
+	    	<h1>TAG</h1>
+	    	<h5>Linse beim Aufstehen herausnehmen</h5>
+	    </div>
+
+		<div style="margin: auto; width: 60%;">
+			<div class="" style="/*position:absolute; height: 10rem; overflow:hidden; top:3rem; left: 30%; width:40%;*/ font-size:1.2rem; padding:1rem; margin: auto; align-content: center; width: 100%; --gap:0.1rem ">
+				<div style="width: 60%; margin:auto; border:none;" id=slideranimimg class="card" >
+					<label style="margin: auto;">
+			            <input type=range min=0 max=100 value=0 id="sliderRange" class="zslider" oninput="setRange(this, event)">
+			        </label>
+			        <br>
+			        <br>
+
+			        <img src="slider1.png"  />
+				</div>
+
+		        
+		    </div>
+		</div>
+
+		<div style="width: 100%;">
+			
+		</div>
+
+		
+
+	    <script type="text/javascript">
+	    	// document.getElementById('sliderRange').value = 0
+	    	document.getElementById('sliderRange').oninput()
+
+	    	function setRange(el, e) {
+	    		let min_val = parseInt(el.min)
+	    		let max_val = parseInt(el.max)
+	    		let avg_val = ( min_val + max_val ) / 2
+
+	    		slideranimimg.style.setProperty('--hsl-l', el.value )
+
+	    		if(el.value > avg_val){
+	    			setDayIcon()
+	    		} else {
+	    			setNightIcon()
+	    		}
+	    	}
+
+	    	function setDayIcon() {
+	    		let dayScrollThumbEl = document.getElementById('dayScrollThumb')
+	    		let newDayThumbIconEl = document.getElementById('newDayThumbIcon')
+
+	    		if(newDayThumbIconEl == undefined){
+	    			let addStyleAtLast = dayScrollThumbEl.cloneNode(true)
+
+		    		addStyleAtLast.id = 'newDayThumbIcon'
+
+		    		let allPageStyles = document.getElementsByTagName('style')
+
+		    		if(allPageStyles.length > 0){
+		    			allPageStyles[allPageStyles.length- 1]
+		    				.insertAdjacentHTML('afterend', addStyleAtLast.outerHTML)
+		    		} else {
+		    			document.head.insertAdjacentHTML('beforeend', addStyleAtLast.outerHTML)
+		    		}
+	    		}
+	    	}
+
+	    	function setNightIcon() {
+	    		let x =document.getElementById('newDayThumbIcon')
+	    		if(x != undefined){
+	    			x.remove()
+	    		}
+	    	}
+	    </script>
+	</div>
+
+
+    
+</body>
+</html>

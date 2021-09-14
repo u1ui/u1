@@ -4,7 +4,7 @@ U1 is a design system that is intended to fulfill the following goals as well as
 
 - Works with standards
 - Minimal, without frills
-- Server-side tooling is optional
+- Tooling is optional
 
 
 This demo will give you an idea of how to develop with it:  

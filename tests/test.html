@@ -8,23 +8,24 @@
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
 
-
-        <!--link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/base.css/full.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/classless.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/aria.min.css"-->
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css" crossorigin>
-
         <script src="../auto.js" type=module></script>
+        <!--script src="https://cdn.jsdelivr.net/gh/u1ui/u1/auto.min.js" type=module crossorigin></script-->
+
 
 <body>
     <style>
-    .card {
-        box-shadow: var(--shadow);
-        border:1px solid var(--color);
+    section,
+    body > footer,
+    body > header {
+        padding-top:calc(var(--gap)*2);
+        padding-bottom:calc(var(--gap)*2);
+    }
+    body > footer {
+        border-top:.1em solid var(--color);
         text-align:center;
-        padding:var(--gap);
+    }
+    .u1-card1 {
+        text-align:center;
         background-color:var(--color-bg);
         background-color:var(--color-light);
         font-size:.9rem;
@@ -34,15 +35,10 @@
         margin-top:-1px;
         max-height:30rem;
     }
-    body {
-        padding:0;
-        max-width:none;
-        display:block;
-    }
     </style>
 
 
-    <div class="card" u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
+    <div class=u1-card1 u1-parallax style="position:absolute; top:200px; right:20px; width:13em; --u1-parallax-speed:.1; font-size:12px; padding:10px; --gap:1em">
         <h2>Costumize</h2>
         <label>
             Hue<br>
@@ -83,22 +79,20 @@
     <main class=u1-width>
 
         <section class=u1-auto-grid>
-            <div class=card u1-href="#feaures">
+            <div class=u1-card1 u1-href="#feaures">
                 <u1-ico>♥</u1-ico>
                 <h3>Features</h3>
                 <p>Progressive, declarative, responsive, easy...</p>
                 <a href="#feaures">more</a>
             </div>
-            <div class=card u1-href="#reposSec">
-                <u1-ico>😎</u1-ico>
+            <div class=u1-card1 u1-href="#reposSec">
+                <u1-ico>🍽</u1-ico>
                 <h3>Repos</h3>
                 <p>Browse the overview of all modules...</p>
                 <a href="#repos">more</a>
             </div>
-            <div class=card u1-href="#customize">
+            <div class=u1-card1 u1-href="#customize">
                 <u1-ico>📱</u1-ico>
-                <br>
-                <br>
                 <script>
                     document.write('<u1-qrcode style="width:8rem; margin:auto">'+location.href+'</u1-qrcode>')
                 </script>
@@ -341,9 +335,9 @@
                             <dialog u1-parallax>
                                 Made with ♥ by Tobias Buschor
                             </dialog>
-                        <li><a href="https://github.com/u1ui/" target=_blank>Github</a>
-                        <li><a href="" target=_blank>Twitter</a>
-                        <li><a href="#">Top</a>
+                        <li> <a href="https://github.com/u1ui/" target=_blank>Github</a>
+                        <li> <a href="" target=_blank>Twitter</a>
+                        <li> <a href="#">Top</a>
                     </ul>
                 </div>
             </div>

@@ -8,16 +8,9 @@
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
 
-
-        <!--link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/base.css/full.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/classless.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/aria.min.css"-->
         <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css" crossorigin>
 
         <script src="../auto.js" type=module></script>
-        <script src="moz_slider.js" ></script>
 
 <body>
     <style>
@@ -31,11 +24,6 @@
         font-size:.09rem;
         border-radius: 0.5rem;
     }
-    u1-tabs [role=tabpanel] {
-        border: 1rem solid var(--color-line);
-        margin-top:-1rem;
-        max-height:30rem;
-    }
     body {
         padding:0;
         max-width:none;
@@ -43,20 +31,19 @@
     }
     </style>
 
-    <style type="text/css" id=dayScrollThumb >
+    <style id=dayScrollThumb>
     	.zslider-container [type="range"]::-webkit-slider-thumb {
 		    background: url('day1.png');
 		}
 
 		.zslider-container [type="range"]::-moz-range-thumb {
-			background: url('day1.png');	
+			background: url('day1.png');
 		}
     </style>
 
-    <style type="text/css">
+    <style>
 		.main-container {
 			width : 100%;
-			/*background: url('bg.png');*/
 			background-repeat: repeat;
 		}
 		.header {
@@ -64,8 +51,8 @@
 		}
 		.header h2 {
 			margin: auto;
-			width: fit-content;
 			width: -moz-fit-content;
+			width: fit-content;
 		}
 		.pull-left {
 			float: left;
@@ -77,36 +64,6 @@
 			margin-right: 5rem;
 		}
 
-		.slider {
-			-webkit-appearance: none;
-			width: 100%;
-			height: 25px;
-			background: #d3d3d3;
-			outline: none;
-			opacity: 0.7;
-			-webkit-transition: .2s;
-			transition: opacity .2s;
-		}
-
-		.slider:hover {
-		  	opacity: 1;
-		}
-
-		.slider::-webkit-slider-thumb {
-			-webkit-appearance: none;
-			appearance: none;
-			width: 25px;
-			height: 25px;
-			background: #04AA6D;
-			cursor: pointer;
-		}
-
-		.slider::-moz-range-thumb {
-			width: 25px;
-			height: 25px;
-			background: #04AA6D;
-			cursor: pointer;
-		}
 
 
 		.zslider-container [type="range"] {
@@ -116,7 +73,6 @@
 		.zslider-container [type="range"]::-webkit-slider-runnable-track  {
 		    width: 100%;
 		    height: 0.6rem;
-		    /*background: #000;*/
 		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
 		    border: none;
 		    border-radius: 0.3rem;
@@ -125,39 +81,9 @@
 		.zslider-container [type="range"]::-moz-range-track {
 			width: 100%;
 		    height: 0.6rem;
-		    /*background: #000;*/
 		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
 		    border: none;
 		    border-radius: 0.3rem;
-		}
-
-		.zslider-container [type="range"]::-ms-track {
-			width: 300px;
-		    height: 0.6rem;
-		    /*background: #000;*/
-		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
-		    border: none;
-		    border-radius: 0.3rem;
-
-		    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
-		    background: transparent;
-		    
-		    /*leave room for the larger thumb to overflow with a transparent border */
-		    border-color: transparent;
-		    border-width: 0.6rem 0;
-
-		    /*remove default tick marks*/
-		    color: transparent;
-		}
-
-
-		.zslider-container [type="range"]::-ms-fill-lower {
-		    background: url('night1.png');
-		    border-radius: 1rem;
-		}
-		.zslider-container [type="range"]::-ms-fill-upper {
-		    background: url('night1.png');
-		    border-radius: 1rem;
 		}
 
 		.zslider-container [type="range"]::-webkit-slider-thumb {
@@ -182,47 +108,19 @@
 		    margin-top: -1.0rem;
 		}
 
-		.zslider-container [type="range"]::-ms-thumb {
-		    -webkit-appearance: none;
-		    border: none;
-		    height: 2.4rem;
-		    width: 2.4rem;
-		    border-radius: 50%;
-		    background: url('night1.png');
-		    background-size: contain;
-		    margin-top: -1.0rem;
-		}
-
-
 		.zslider-container [type="range"]:focus {
 		    outline: none;
 		}
 
-		/*hide the outline behind the border*/
 		.zslider-container [type="range"]:-moz-focusring{
 		    outline: 1px solid white;
 		    outline-offset: -1px;
 		}
-
-		.zslider-container [type="range"]:focus::-webkit-slider-runnable-track {
-		    /*background: #ccc;*/
-		}
-
-		.zslider-container [type="range"]:focus::-moz-range-track  {
-		    /*background: #ccc;*/
-		}
-
-		.zslider-container [type="range"]:focus::-ms-fill-lower {
-		    /*background: #888;*/
-		}
-		.zslider-container [type="range"]:focus::-ms-fill-upper {
-		    /*background: #ccc;*/
-		}
 	</style>
 
-	<div class="main-container" >
-		<div class="header" style="">
-			<h2 style="">Das bewirken Ortho-K-Linsen</h2>
+	<div class="main-container">
+		<div class="header">
+			<h2>Das bewirken Ortho-K-Linsen</h2>
 		</div>
 
 		<div class="pull-left">
@@ -236,37 +134,28 @@
 	    </div>
 
 		<div style="margin: auto; width: 60%;">
-			<div class="" style="/*position:absolute; height: 10rem; overflow:hidden; top:3rem; left: 30%; width:40%;*/ font-size:1.2rem; padding:1rem; margin: auto; align-content: center; width: 100%; --gap:0.1rem ">
+			<div style="font-size:1.2rem; padding:1rem; margin: auto; align-content: center; width: 100%; --gap:0.1rem ">
+
 				<div style="width: 60%; margin:auto; border:none;" id=slideranimimg class="card" >
 					<div style="margin: auto;" class="zslider-container">
 			            <input type=range min=0 max=100 value=0 id="sliderRange" class="zslider" oninput="setRange(this, event)">
 			        </div>
 			        <br>
 			        <br>
-
-			        <img src="slider1.png"  />
+			        <img src="slider1.png">
 				</div>
 
-		        
-		    </div>
+			</div>
 		</div>
 
-		<div style="width: 100%;">
-			
-		</div>
 
-		
-
-	    <script type="text/javascript">
-	    	// document.getElementById('sliderRange').value = 0
+	    <script>
 	    	document.getElementById('sliderRange').oninput()
 
 	    	function setRange(el, e) {
 	    		let min_val = parseInt(el.min)
 	    		let max_val = parseInt(el.max)
 	    		let avg_val = ( min_val + max_val ) / 2
-
-	    		// console.log(el.value)
 
 	    		slideranimimg.style.setProperty('--hsl-l', el.value )
 
@@ -288,8 +177,6 @@
 
 		    		let allPageStyles = document.getElementsByTagName('style')
 
-		    		console.log(allPageStyles)
-
 		    		if(allPageStyles.length > 0){
 		    			allPageStyles[allPageStyles.length- 1]
 		    				.insertAdjacentHTML('afterend', addStyleAtLast.outerHTML)
@@ -307,8 +194,3 @@
 	    	}
 	    </script>
 	</div>
-
-
-    
-</body>
-</html>

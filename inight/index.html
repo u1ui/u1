@@ -17,6 +17,7 @@
         <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css" crossorigin>
 
         <script src="../auto.js" type=module></script>
+        <script src="moz_slider.js" ></script>
 
 <body>
     <style>
@@ -28,6 +29,7 @@
         background-color:var(--color-bg);
         background-color:var(--color-light);
         font-size:.09rem;
+        border-radius: 0.5rem;
     }
     u1-tabs [role=tabpanel] {
         border: 1rem solid var(--color-line);
@@ -42,20 +44,28 @@
     </style>
 
     <style type="text/css" id=dayScrollThumb >
-    	input[type=range]::-webkit-slider-thumb {
-		    background: url('day.png');
+    	.zslider-container [type="range"]::-webkit-slider-thumb {
+		    background: url('day1.png');
+		}
+
+		.zslider-container [type="range"]::-moz-range-thumb {
+			background: url('day1.png');	
 		}
     </style>
 
     <style type="text/css">
 		.main-container {
 			width : 100%;
-			background: url('bg.png');
+			/*background: url('bg.png');*/
 			background-repeat: repeat;
+		}
+		.header {
+			width: 100%;
 		}
 		.header h2 {
 			margin: auto;
 			width: fit-content;
+			width: -moz-fit-content;
 		}
 		.pull-left {
 			float: left;
@@ -99,12 +109,12 @@
 		}
 
 
-		input[type=range]{
+		.zslider-container [type="range"] {
 		    -webkit-appearance: none;
 		}
 
-		input[type=range]::-webkit-slider-runnable-track  {
-		    width: 300px;
+		.zslider-container [type="range"]::-webkit-slider-runnable-track  {
+		    width: 100%;
 		    height: 0.6rem;
 		    /*background: #000;*/
 		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
@@ -112,16 +122,23 @@
 		    border-radius: 0.3rem;
 		}
 
-		input[type=range]::-moz-range-track, input[type=range]::-ms-track {
+		.zslider-container [type="range"]::-moz-range-track {
+			width: 100%;
+		    height: 0.6rem;
+		    /*background: #000;*/
+		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
+		    border: none;
+		    border-radius: 0.3rem;
+		}
+
+		.zslider-container [type="range"]::-ms-track {
 			width: 300px;
 		    height: 0.6rem;
 		    /*background: #000;*/
 		    background-image: linear-gradient(to right, #7d588d, #8F00FF);
 		    border: none;
 		    border-radius: 0.3rem;
-		}
 
-		input[type=range]::-ms-track {
 		    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
 		    background: transparent;
 		    
@@ -133,62 +150,78 @@
 		    color: transparent;
 		}
 
-		input[type=range]::-ms-fill-lower {
-		    background: url('night.png');
+
+		.zslider-container [type="range"]::-ms-fill-lower {
+		    background: url('night1.png');
 		    border-radius: 1rem;
 		}
-		input[type=range]::-ms-fill-upper {
-		    background: url('night.png');
+		.zslider-container [type="range"]::-ms-fill-upper {
+		    background: url('night1.png');
 		    border-radius: 1rem;
 		}
 
-		input[type=range]::-webkit-slider-thumb {
+		.zslider-container [type="range"]::-webkit-slider-thumb {
 		    -webkit-appearance: none;
 		    border: none;
 		    height: 2.4rem;
 		    width: 2.4rem;
 		    border-radius: 50%;
-		    background: url('night.png');
+		    background: url('night1.png');
 		    background-size: contain;
 		    margin-top: -1.0rem;
 		}
 
-		input[type=range]::-moz-range-thumb, input[type=range]::-ms-thumb {
+		.zslider-container [type="range"]::-moz-range-thumb {
 		    -webkit-appearance: none;
 		    border: none;
 		    height: 2.4rem;
 		    width: 2.4rem;
 		    border-radius: 50%;
-		    background: url('night.png');
+		    background: url('night1.png');
+		    background-size: contain;
+		    margin-top: -1.0rem;
+		}
+
+		.zslider-container [type="range"]::-ms-thumb {
+		    -webkit-appearance: none;
+		    border: none;
+		    height: 2.4rem;
+		    width: 2.4rem;
+		    border-radius: 50%;
+		    background: url('night1.png');
 		    background-size: contain;
 		    margin-top: -1.0rem;
 		}
 
 
-		input[type=range]:focus {
+		.zslider-container [type="range"]:focus {
 		    outline: none;
 		}
 
 		/*hide the outline behind the border*/
-		input[type=range]:-moz-focusring{
+		.zslider-container [type="range"]:-moz-focusring{
 		    outline: 1px solid white;
 		    outline-offset: -1px;
 		}
 
-		input[type=range]:focus::-webkit-slider-runnable-track, input[type=range]:focus::-moz-range-track  {
+		.zslider-container [type="range"]:focus::-webkit-slider-runnable-track {
 		    /*background: #ccc;*/
 		}
 
-		input[type=range]:focus::-ms-fill-lower {
+		.zslider-container [type="range"]:focus::-moz-range-track  {
+		    /*background: #ccc;*/
+		}
+
+		.zslider-container [type="range"]:focus::-ms-fill-lower {
 		    /*background: #888;*/
 		}
-		input[type=range]:focus::-ms-fill-upper {
+		.zslider-container [type="range"]:focus::-ms-fill-upper {
 		    /*background: #ccc;*/
 		}
 	</style>
 
-	<div class="main-container">
-		<div class="header" style="width: 100%;">
+	<div class="main-container" >
+		<div class="header" style="">
 			<h2 style="">Das bewirken Ortho-K-Linsen</h2>
 		</div>
 
@@ -205,9 +238,9 @@
 		<div style="margin: auto; width: 60%;">
 			<div class="" style="/*position:absolute; height: 10rem; overflow:hidden; top:3rem; left: 30%; width:40%;*/ font-size:1.2rem; padding:1rem; margin: auto; align-content: center; width: 100%; --gap:0.1rem ">
 				<div style="width: 60%; margin:auto; border:none;" id=slideranimimg class="card" >
-					<label style="margin: auto;">
+					<div style="margin: auto;" class="zslider-container">
 			            <input type=range min=0 max=100 value=0 id="sliderRange" class="zslider" oninput="setRange(this, event)">
-			        </label>
+			        </div>
 			        <br>
 			        <br>
 
@@ -233,6 +266,8 @@
 	    		let max_val = parseInt(el.max)
 	    		let avg_val = ( min_val + max_val ) / 2
 
+	    		// console.log(el.value)
+
 	    		slideranimimg.style.setProperty('--hsl-l', el.value )
 
 	    		if(el.value > avg_val){
@@ -252,6 +287,8 @@
 		    		addStyleAtLast.id = 'newDayThumbIcon'
 
 		    		let allPageStyles = document.getElementsByTagName('style')
+
+		    		console.log(allPageStyles)
 
 		    		if(allPageStyles.length > 0){
 		    			allPageStyles[allPageStyles.length- 1]

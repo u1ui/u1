@@ -7,11 +7,15 @@ export function importCss(url) {
         var link = _importCss(url);
         if (link==null) resolve({available:true}); // already loaded
         else {
-            link.onload  = e=>resolve({available:false});
+            link.onload  = e=>resolve({available:false}); // todo, remove eventlisteners?
             link.onerror = e=>reject();
         }
     });
 }
+
+let styleWrapper = document.createElement('div');
+document.head.prepend(styleWrapper);
+
 function _importCss(url, options={}){
     // handle relative urls
     if (url.indexOf('./') === 0) {
@@ -36,6 +40,7 @@ function _importCss(url, options={}){
     link.rel = 'stylesheet';
     if (options.media) link.media = options.media;
     link.href = url;
-    document.head.append(link);
+    //document.head.append(link);
+    styleWrapper.append(link);
     return link;
 }

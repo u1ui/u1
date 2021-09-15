@@ -33,18 +33,18 @@
     }
   },
   {
-    "pushed_at": "2021-09-15T09:45:20Z",
+    "pushed_at": "2021-09-15T09:49:51Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.8.6",
-      "published_at": "2021-07-28T11:50:00Z"
+      "tag_name": "v1.8.7",
+      "published_at": "2021-09-15T09:48:57Z"
     }
   },
   {
-    "pushed_at": "2021-07-12T07:51:58Z",
+    "pushed_at": "2021-09-15T09:48:03Z",
     "name": "norm.css",
     "description": "Up to date css normalize",
     "open_issues": 0,
@@ -110,7 +110,7 @@
     }
   },
   {
-    "pushed_at": "2021-08-17T14:34:37Z",
+    "pushed_at": "2021-09-15T09:47:52Z",
     "name": "flex-gap.class",
     "description": "flexbox gappers helper because of safari",
     "open_issues": 0,

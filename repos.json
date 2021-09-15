@@ -4,7 +4,7 @@
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
-    "stargazers_count": 4,
+    "stargazers_count": 5,
     "release_latest": {
       "tag_name": "v3.3.4",
       "published_at": "2021-07-19T19:19:59Z"
@@ -33,11 +33,11 @@
     }
   },
   {
-    "pushed_at": "2021-08-26T00:45:09Z",
+    "pushed_at": "2021-09-15T09:45:20Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.6",
       "published_at": "2021-07-28T11:50:00Z"
@@ -132,7 +132,7 @@
     }
   },
   {
-    "pushed_at": "2021-08-23T18:47:03Z",
+    "pushed_at": "2021-09-14T17:30:45Z",
     "name": "auto-grid.class",
     "description": "most used case for grid-elements",
     "open_issues": 0,
@@ -264,7 +264,7 @@
     }
   },
   {
-    "pushed_at": "2021-09-09T02:35:58Z",
+    "pushed_at": "2021-09-09T02:36:36Z",
     "name": "card1.class",
     "description": "card-class",
     "open_issues": 0,

@@ -3,7 +3,7 @@
 U1 is a design system that is intended to fulfill the following goals as well as possible
 
 - Based on standards
-- Minimal, without frills
+- Minimal
 - Tooling is optional
 
 ## Ussage

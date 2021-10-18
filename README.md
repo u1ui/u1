@@ -12,7 +12,7 @@ U1 is a design system that is intended to fulfill the following goals as well as
 Just add this script to have all the u1-stuff available on demand (without including them):  
 "basic css", "u1-classes", "u1-attributes", "u1-custom-elements"  
 ```html
-<script type=module src="https://cdn.jsdelivr.net/gh/u1ui/u1@1.8.8/auto.min.js"></script>
+<script type=module src="https://cdn.jsdelivr.net/gh/u1ui/u1@1.9.0/auto.min.js"></script>
 ```
 
 This demo will give you an idea of how to develop:  

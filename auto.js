@@ -39,7 +39,7 @@ setTimeout(()=>{
 impCss(rootUrl+'classless.css/variables'+min+'.css');
 impCss(rootUrl+'classless.css/classless'+min+'.css');
 impCss(rootUrl+'classless.css/more'+min+'.css');
-impCss(rootUrl+'classless.css/aria'+min+'.css');
+//impCss(rootUrl+'classless.css/aria'+min+'.css');
 //impCss(rootUrl+'classless.css/simple'+min+'.css');
 
 impJs(rootUrl+'js/init'+min+'.js');

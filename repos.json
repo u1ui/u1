@@ -11,14 +11,14 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:30:21Z",
+    "pushed_at": "2021-11-08T17:25:21Z",
     "name": "js",
     "description": "javascript utils",
     "open_issues": 1,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v1.8.2",
-      "published_at": "2021-10-18T14:30:21Z"
+      "tag_name": "v1.8.6",
+      "published_at": "2021-11-08T17:04:14Z"
     }
   },
   {
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:44:33Z",
+    "pushed_at": "2021-11-18T12:42:03Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-07T08:52:37Z",
+    "pushed_at": "2021-11-18T12:40:37Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:06:31Z",
+    "pushed_at": "2021-11-18T12:41:17Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -88,7 +88,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-07T16:21:56Z",
+    "pushed_at": "2021-11-18T12:42:14Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
@@ -198,7 +198,7 @@
     }
   },
   {
-    "pushed_at": "2021-11-03T01:41:11Z",
+    "pushed_at": "2021-11-18T12:42:11Z",
     "name": "carousel.el",
     "description": null,
     "open_issues": 0,
@@ -231,14 +231,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-28T11:46:59Z",
+    "pushed_at": "2021-11-12T07:12:09Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2021-07-28T11:46:59Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2021-11-12T07:12:09Z"
     }
   },
   {
@@ -275,7 +275,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-28T02:48:34Z",
+    "pushed_at": "2021-11-18T12:41:36Z",
     "name": "intersect.attr",
     "description": null,
     "open_issues": 0,
@@ -286,14 +286,25 @@
     }
   },
   {
-    "pushed_at": "2021-11-03T01:40:34Z",
+    "pushed_at": "2021-11-03T02:30:48Z",
     "name": "carousel-nav.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2021-11-03T01:40:35Z"
+      "tag_name": "v1.8.1",
+      "published_at": "2021-11-03T02:30:48Z"
+    }
+  },
+  {
+    "pushed_at": "2021-11-18T12:37:08Z",
+    "name": "typewriter.el",
+    "description": null,
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.8.4",
+      "published_at": "2021-11-15T21:27:55Z"
     }
   }
 ]

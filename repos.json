@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2021-11-23T06:01:52Z",
+    "pushed_at": "2022-01-24T09:34:03Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -66,14 +66,14 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:41:17Z",
+    "pushed_at": "2022-01-24T14:05:10Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v1.8.5",
-      "published_at": "2021-10-18T14:06:32Z"
+      "tag_name": "v1.8.6",
+      "published_at": "2022-01-24T14:05:10Z"
     }
   },
   {
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-01-18T21:15:33Z",
+    "pushed_at": "2022-01-24T09:35:21Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,

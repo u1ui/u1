@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:42:03Z",
+    "pushed_at": "2021-11-23T06:01:52Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.9.0",
-      "published_at": "2021-10-18T14:08:08Z"
+      "tag_name": "v1.9.1",
+      "published_at": "2021-11-18T12:48:42Z"
     }
   },
   {
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:40:37Z",
+    "pushed_at": "2022-01-18T21:07:40Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-12T07:54:02Z",
+    "pushed_at": "2022-01-18T21:15:33Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-12T07:54:02Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2022-01-18T21:03:45Z"
     }
   },
   {
@@ -187,14 +187,14 @@
     }
   },
   {
-    "pushed_at": "2021-07-28T11:46:29Z",
+    "pushed_at": "2022-01-18T21:01:15Z",
     "name": "width.class",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.1",
-      "published_at": "2021-07-28T11:46:29Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2022-01-18T21:01:15Z"
     }
   },
   {
@@ -231,7 +231,7 @@
     }
   },
   {
-    "pushed_at": "2021-11-12T07:12:09Z",
+    "pushed_at": "2022-01-05T12:14:11Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
@@ -297,14 +297,14 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:37:08Z",
+    "pushed_at": "2021-11-23T07:35:35Z",
     "name": "typewriter.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.4",
-      "published_at": "2021-11-15T21:27:55Z"
+      "tag_name": "v1.8.5",
+      "published_at": "2021-11-23T07:35:35Z"
     }
   }
 ]

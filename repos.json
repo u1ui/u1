@@ -1,6 +1,6 @@
 [
   {
-    "pushed_at": "2021-10-07T16:37:26Z",
+    "pushed_at": "2022-02-08T03:14:34Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-01-24T14:08:50Z",
+    "pushed_at": "2022-01-24T23:48:31Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,18 +55,18 @@
     }
   },
   {
-    "pushed_at": "2022-01-18T21:07:40Z",
+    "pushed_at": "2022-02-08T07:28:21Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "1.8.5",
-      "published_at": "2021-10-07T08:52:37Z"
+      "tag_name": "v1.8.6",
+      "published_at": "2022-02-08T07:25:08Z"
     }
   },
   {
-    "pushed_at": "2022-01-24T23:47:25Z",
+    "pushed_at": "2022-01-25T09:31:55Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -301,10 +301,21 @@
     "name": "typewriter.el",
     "description": null,
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.5",
       "published_at": "2021-11-23T07:35:35Z"
+    }
+  },
+  {
+    "pushed_at": "2022-02-09T20:56:31Z",
+    "name": "aspect-ratio.el",
+    "description": null,
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.8.0",
+      "published_at": "2022-02-09T20:56:31Z"
     }
   }
 ]

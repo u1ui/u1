@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-01-24T23:48:31Z",
+    "pushed_at": "2022-02-09T20:57:56Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -154,7 +154,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:04:04Z",
+    "pushed_at": "2022-02-09T20:57:38Z",
     "name": "unstyle.class",
     "description": "css class to unstyle elements eg. buttons",
     "open_issues": 1,
@@ -308,11 +308,11 @@
     }
   },
   {
-    "pushed_at": "2022-02-09T20:56:31Z",
+    "pushed_at": "2022-02-09T20:58:42Z",
     "name": "aspect-ratio.el",
     "description": null,
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v1.8.0",
       "published_at": "2022-02-09T20:56:31Z"

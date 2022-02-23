@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-09T20:57:56Z",
+    "pushed_at": "2022-02-15T07:46:19Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,18 +44,18 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:07:10Z",
+    "pushed_at": "2022-02-15T07:42:02Z",
     "name": "norm.css",
     "description": "Up to date css normalize",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.2",
-      "published_at": "2021-10-18T14:07:10Z"
+      "tag_name": "v1.8.3",
+      "published_at": "2022-02-15T07:42:02Z"
     }
   },
   {
-    "pushed_at": "2022-02-08T07:28:21Z",
+    "pushed_at": "2022-02-23T20:57:19Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2022-01-25T09:31:55Z",
+    "pushed_at": "2022-02-23T09:47:31Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-01-24T09:35:21Z",
+    "pushed_at": "2022-02-23T20:57:42Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
@@ -165,7 +165,7 @@
     }
   },
   {
-    "pushed_at": "2021-10-18T14:02:36Z",
+    "pushed_at": "2022-02-23T20:57:59Z",
     "name": "badge.class",
     "description": "u1-badge class for rendering badges",
     "open_issues": 0,
@@ -198,14 +198,14 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:42:11Z",
+    "pushed_at": "2022-02-23T20:58:29Z",
     "name": "carousel.el",
     "description": null,
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.8.4",
-      "published_at": "2021-11-03T01:41:11Z"
+      "tag_name": "v1.8.5",
+      "published_at": "2022-02-10T02:19:19Z"
     }
   },
   {
@@ -275,14 +275,14 @@
     }
   },
   {
-    "pushed_at": "2021-11-18T12:41:36Z",
+    "pushed_at": "2022-02-16T08:29:54Z",
     "name": "intersect.attr",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2021-10-28T01:33:28Z"
+      "tag_name": "v1.8.2",
+      "published_at": "2022-02-16T08:29:55Z"
     }
   },
   {
@@ -308,14 +308,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-09T20:58:42Z",
+    "pushed_at": "2022-02-09T22:29:33Z",
     "name": "aspect-ratio.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v1.8.0",
-      "published_at": "2022-02-09T20:56:31Z"
+      "tag_name": "v1.8.1",
+      "published_at": "2022-02-09T22:29:33Z"
     }
   }
 ]

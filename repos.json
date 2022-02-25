@@ -24,7 +24,7 @@
   {
     "pushed_at": "2022-02-23T21:03:57Z",
     "name": "href.attr",
-    "description": "ui-href-attribute, every element can be a link",
+    "description": "Every element can be a link",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
@@ -33,20 +33,20 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:13:09Z",
+    "pushed_at": "2022-02-25T00:20:38Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:13:09Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-02-25T00:20:38Z"
     }
   },
   {
     "pushed_at": "2022-02-23T21:04:21Z",
     "name": "norm.css",
-    "description": "Up to date css normalize",
+    "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:05:56Z",
+    "pushed_at": "2022-02-23T21:18:10Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
@@ -178,7 +178,7 @@
   {
     "pushed_at": "2022-02-23T21:08:35Z",
     "name": "tabs.el",
-    "description": "u1-tabs element for rendering tabs",
+    "description": "rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -242,7 +242,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:09:25Z",
+    "pushed_at": "2022-02-23T21:59:21Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
@@ -277,7 +277,7 @@
   {
     "pushed_at": "2022-02-23T21:09:49Z",
     "name": "intersect.attr",
-    "description": null,
+    "description": "declarativ intersection-observer",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {

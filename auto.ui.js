@@ -1,3 +1,5 @@
+import {render, html, svg} from 'https://unpkg.com/uhtml@2.8.0/esm/index.js?module';
+import {repos, latestUrlCached, latestUrl, parseUrl} from './u1.js';
 
 export function open(){
     if (window['u1-config'] && !window['u1-config'].closed) window['u1-config'].close();
@@ -34,8 +36,6 @@ export function open(){
     }, 10);
 
 }
-
-import {render, html, svg} from 'https://unpkg.com/uhtml@2.8.0/esm/index.js?module';
 
 async function renderUi(el){
     const code = await exportCode();
@@ -77,30 +77,21 @@ async function renderUi(el){
 
 
 
-let repos = null;
-async function loadReposJson(){
-    if (repos) return repos;
-    repos = {};
-    const data = await fetch(import.meta.url + '/../repos.json').then(res=>res.json());
-    const entries = data.forEach(repo=>{
-        repos[repo.name] = repo;
-    });
-}
 
 const needed = window.u1.needed;
 console.log('needed in ui.js',window.u1);
 
 const exportCode = async function(){
-    await loadReposJson();
-    let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link href="'+latestUrl(url)+'" rel="stylesheet" crossorigin>').join('\n');
-    let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+latestUrl(url)+'" type=module crossorigin></script>').join('\n');
-    let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+latestUrl(url)+'" crossorigin>').join('\n');
+    await repos();
+    let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link href="'+latestUrlCached(url)+'" rel="stylesheet" crossorigin>').join('\n');
+    let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+latestUrlCached(url)+'" type=module crossorigin></script>').join('\n');
+    let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+latestUrlCached(url)+'" crossorigin>').join('\n');
     return strCss +'\n' + strJs + '\n' + '\n<!-- non critical at the end -->\n' + strCssNonCritical;
 }
 
 
 const versionCheck = async function(){
-    await loadReposJson();
+    await repos();
     const urls = [];
     document.querySelectorAll('script').forEach(el=>{
         urls.push({url:el.src, node:el});
@@ -109,36 +100,21 @@ const versionCheck = async function(){
         urls.push({url:el.href,node:el});
     })
 
-    const repos = {};
+    const reposObj = {};
     urls.forEach(obj=>{
         const {url, node} = obj;
         if (!url.match('u1ui')) return;
-        const newUrl = latestUrl(url);
+        const newUrl = latestUrlCached(url);
         if (!newUrl) return;
         if (newUrl === url) return;
 
         const {repo, oldVers} = parseUrl(url);
         const newVers = parseUrl(newUrl).vers;
         if (oldVers === newVers) return;
-        repos[repo] ??= {}
-        repos[repo].newVersion = newVers;
-        repos[repo].oldVersions ??= [];
-        repos[repo].oldVersions.push({oldVers, node});
+        reposObj[repo] ??= {}
+        reposObj[repo].newVersion = newVers;
+        reposObj[repo].oldVersions ??= [];
+        reposObj[repo].oldVersions.push({oldVers, node});
     });
-    return repos;
-}
-
-function latestUrl(url) {
-    url = new URL(url).toString();
-    const {repo, before, file} = parseUrl(url);
-    if (!repos[repo]) return;
-    let vers = repos[repo].release_latest.tag_name.replace('v','');
-    return before + repo + '@' + vers + '/' + file;
-}
-
-function parseUrl(url){
-    const matches = url.match(/(.+u1ui\/)([^@\/]+)(\@[^\/]+)?\/(.*)/);
-    if (!matches) return;
-    const [,before, repo, vers, file] = matches;
-    return {before, repo, vers, file};
+    return reposObj;
 }

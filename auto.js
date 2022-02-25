@@ -7,18 +7,22 @@ let min = '.min';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
 
 import {importCss} from './utils.js';
+import {latestUrlCached, repos} from './u1.js';
 
-/* hints helper */
+await repos();
+
 let prio = 1;
 setTimeout(()=>prio = 2);
 setTimeout(()=>prio = 3, 2000);
 const needed = { js:{}, css:{} };
 function impJs(url){
+    url = latestUrlCached(url)
     if (url in needed.js) return;
     needed.js[url] = prio;
     return import(url)
 }
 function impCss(url, options={}){
+    url = latestUrlCached(url)
     if (url in needed.css) return;
     importCss(url, options).then(res=>{
         if (res.available) needed.css[url]=0; // already loaded

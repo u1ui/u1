@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-25T00:20:38Z",
+    "pushed_at": "2022-02-25T00:22:28Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-02-25T00:20:38Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-02-25T00:22:28Z"
     }
   },
   {
@@ -66,14 +66,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:04:52Z",
+    "pushed_at": "2022-02-25T00:36:31Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:04:52Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-02-25T00:36:31Z"
     }
   },
   {
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:18:10Z",
+    "pushed_at": "2022-02-25T00:43:42Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:05:56Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-02-25T00:43:42Z"
     }
   },
   {

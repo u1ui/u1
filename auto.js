@@ -8,7 +8,6 @@ let min = '.min';
 
 import {importCss} from './utils.js';
 
-
 /* hints helper */
 let prio = 1;
 setTimeout(()=>prio = 2);
@@ -27,6 +26,8 @@ function impCss(url, options={}){
     needed.css[url] = prio
 }
 
+window.u1 = Object.create(null);
+window.u1.needed = needed;
 
 impCss(rootUrl+'norm.css/norm'+min+'.css');
 impCss(rootUrl+'norm.css/beta'+min+'.css');
@@ -94,58 +95,10 @@ newNodeRoot(document.documentElement);
 
 
 
+addEventListener('keydown',e=>{
+    if (e.ctrlKey && e.key ==='F12') {
+        import('./auto.ui.js').then(ui=>ui.open())
+    }
+})
 
-
-function latest(url, {notify}={}) {
-    url = new URL(url).toString();
-    url = url.replace(/u1ui\/([^\/]+)\//, function(x,repoVers){
-        let [repo, vers] = repoVers.split('@');
-        if (!repos[repo]) return console.log('repo: '+repo+' not found');
-        let newVers = repos[repo].release_latest.tag_name.replace('v','');
-        if (notify && vers && vers !== newVers) console.log('new version for: '+url+' :'+newVers)
-        return 'u1ui/' + repo + '@' + newVers + '/';
-    });
-    return url;
-}
-
-
-let repos = null;
-async function loadReposJson(){
-    if (repos) return repos;
-    repos = {};
-    const data = await fetch(import.meta.url + '/../repos.json').then(res=>res.json());
-    const entries = data.forEach(repo=>{
-        repos[repo.name] = repo;
-    });
-}
-
-
-
-
-window.u1 = Object.create(null);
-
-window.u1.hints = async function(){
-    await loadReposJson();
-    let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link rel="stylesheet" href="'+latest(url)+'" crossorigin>').join('\n');
-    let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+latest(url)+'" type=module crossorigin></script>').join('\n');
-    let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+latest(url)+'" crossorigin>').join('\n');
-    console.log(
-        strCss +'\n'+
-        strJs + '\n' +
-        '\n<!-- non critical at the end -->\n' + strCssNonCritical);
-}
-
-
-window.u1.versionCheck = async function(){
-    await loadReposJson();
-    document.querySelectorAll('script').forEach(el=>{
-        const url = el.src;
-        if (!url.match('u1ui')) return;
-        latest(url, {notify:true});
-    })
-    document.querySelectorAll('link[rel=stylesheet]').forEach(el=>{
-        const url = el.href;
-        if (!url.match('u1ui')) return;
-        latest(url, {notify:true});
-    })
-}
+console.log('%c%s','color:#2c8898;xfont-size:1.3em', '💡 press ctrl+F12 to configure the U1-design-system!');

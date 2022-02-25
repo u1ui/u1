@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-25T01:31:41Z",
+    "pushed_at": "2022-02-25T01:32:34Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-02-25T01:29:30Z"
+      "tag_name": "v2.0.5",
+      "published_at": "2022-02-25T01:32:34Z"
     }
   },
   {
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2022-02-25T01:31:29Z",
+    "pushed_at": "2022-02-25T01:47:54Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-02-25T01:31:29Z"
+      "tag_name": "v2.0.3",
+      "published_at": "2022-02-25T01:47:54Z"
     }
   },
   {

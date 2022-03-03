@@ -79,7 +79,7 @@ async function renderUi(el){
 
 
 const needed = window.u1.needed;
-console.log('needed in ui.js',window.u1);
+
 
 const exportCode = async function(){
     await repos();

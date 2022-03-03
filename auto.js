@@ -19,7 +19,7 @@ function impJs(url){
     url = latestUrlCached(url)
     if (url in needed.js) return;
     needed.js[url] = prio;
-    return import(url)
+    return import(url);
 }
 function impCss(url, options={}){
     url = latestUrlCached(url)
@@ -103,6 +103,22 @@ addEventListener('keydown',e=>{
     if (e.ctrlKey && e.key ==='F12') {
         import('./auto.ui.js').then(ui=>ui.open())
     }
-})
+});
+
+
+
+function mergeNewlyNeeded(){
+    let allNeeded = localStorage.getItem('u1-needed');
+    allNeeded = JSON.parse(allNeeded) || {};
+    allNeeded.js = Object.assign(allNeeded.js||{}, needed.js);
+    allNeeded.css = Object.assign(allNeeded.css||{}, needed.css);
+    Object.assign(allNeeded, needed);
+}
+document.addEventListener('DOMContentLoaded',mergeNewlyNeeded);
+document.addEventListener('beforeunload',e=>{
+    console.log('mergeNewlyNeeded');
+    mergeNewlyNeeded();
+});
+
 
 console.log('%c%s','color:#2c8898;xfont-size:1.3em', '💡 press ctrl+F12 to configure the U1-design-system!');

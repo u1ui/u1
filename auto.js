@@ -112,7 +112,7 @@ function mergeNewlyNeeded(){
     allNeeded = JSON.parse(allNeeded) || {};
     allNeeded.js = Object.assign(allNeeded.js||{}, needed.js);
     allNeeded.css = Object.assign(allNeeded.css||{}, needed.css);
-    Object.assign(allNeeded, needed);
+    //Object.assign(allNeeded, needed);
     localStorage.setItem('u1-needed', JSON.stringify(allNeeded));
 }
 

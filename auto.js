@@ -17,13 +17,13 @@ setTimeout(()=>prio = 3, 2000);
 const needed = { js:{}, css:{} };
 function impJs(url){
     url = latestUrlCached(url);
-    if (url in needed.js) return;
+    if (!url || url in needed.js) return;
     needed.js[url] = prio;
     return import(url);
 }
 function impCss(url, options={}){
     url = latestUrlCached(url)
-    if (url in needed.css) return;
+    if (!url || url in needed.css) return;
     importCss(url, options).then(res=>{
         if (res.available) needed.css[url]=0; // already loaded
     }).catch(() => needed.css[url]=0 ); // failed

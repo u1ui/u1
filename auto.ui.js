@@ -1,10 +1,11 @@
 import {render, html, svg} from 'https://unpkg.com/uhtml@2.8.0/esm/index.js?module';
 import {repos, latestUrlCached, latestUrl, parseUrl} from './u1.js';
 
+let win = null;
 export function open(){
     if (window['u1-config'] && !window['u1-config'].closed) window['u1-config'].close();
 
-    const win = window.open('about:blank', 'u1-config', 'popup,width=800,height=640');
+    win = window.open('about:blank', 'u1-config', 'popup,width=800,height=640');
     win.focus()
     const doc = win.document;
 
@@ -69,6 +70,8 @@ async function renderUi(el){
         </details>
         <details>
             <summary>needed HTML</summary>
+            <button onclick="${()=>win.navigator.clipboard.writeText(code)}">copy to clipboard</button>
+            <button onclick="${()=>win.localStorage.removeItem('u1-needed')}">reset</button>
             <pre>${code}</pre>
         </details>
         `
@@ -80,9 +83,12 @@ async function renderUi(el){
 
 const needed = window.u1.needed;
 
-
 const exportCode = async function(){
     await repos();
+
+    let needed = localStorage.getItem('u1-needed');
+    needed = JSON.parse(needed) || {};
+
     let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link href="'+latestUrlCached(url)+'" rel="stylesheet" crossorigin>').join('\n');
     let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+latestUrlCached(url)+'" type=module crossorigin></script>').join('\n');
     let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+latestUrlCached(url)+'" crossorigin>').join('\n');

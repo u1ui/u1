@@ -16,7 +16,7 @@ setTimeout(()=>prio = 2);
 setTimeout(()=>prio = 3, 2000);
 const needed = { js:{}, css:{} };
 function impJs(url){
-    url = latestUrlCached(url)
+    url = latestUrlCached(url);
     if (url in needed.js) return;
     needed.js[url] = prio;
     return import(url);
@@ -106,19 +106,18 @@ addEventListener('keydown',e=>{
 });
 
 
-
+/* save all */
 function mergeNewlyNeeded(){
     let allNeeded = localStorage.getItem('u1-needed');
     allNeeded = JSON.parse(allNeeded) || {};
     allNeeded.js = Object.assign(allNeeded.js||{}, needed.js);
     allNeeded.css = Object.assign(allNeeded.css||{}, needed.css);
     Object.assign(allNeeded, needed);
+    localStorage.setItem('u1-needed', JSON.stringify(allNeeded));
 }
+
 document.addEventListener('DOMContentLoaded',mergeNewlyNeeded);
-document.addEventListener('beforeunload',e=>{
-    console.log('mergeNewlyNeeded');
-    mergeNewlyNeeded();
-});
+addEventListener('pagehide',mergeNewlyNeeded);
 
 
 console.log('%c%s','color:#2c8898;xfont-size:1.3em', '💡 press ctrl+F12 to configure the U1-design-system!');

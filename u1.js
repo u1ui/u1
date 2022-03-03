@@ -26,7 +26,7 @@ export async function latestUrl(url) {
 export function latestUrlCached(url) { // messy, but makes it easier
     url = new URL(url).toString();
     const {repo, before, file} = parseUrl(url);
-    if (!cachedRepos[repo]) return;
+    if (!cachedRepos[repo]) throw new Error('Repo "' + repo + '" not found');
     let vers = cachedRepos[repo].release_latest.tag_name.replace('v','');
     return before + repo + '@' + vers + '/' + file;
 }

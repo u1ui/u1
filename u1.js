@@ -24,6 +24,7 @@ export async function latestUrl(url) {
 }
 
 export function latestUrlCached(url) { // messy, but makes it easier
+    if (!url) return;
     url = new URL(url).toString();
     const {repo, before, file} = parseUrl(url);
     if (!cachedRepos[repo]) {

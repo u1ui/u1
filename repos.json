@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-03-10T18:45:07Z",
+    "pushed_at": "2022-03-10T18:50:14Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.12",
-      "published_at": "2022-03-03T21:11:56Z"
+      "tag_name": "v2.0.13",
+      "published_at": "2022-03-10T18:50:14Z"
     }
   },
   {
@@ -176,14 +176,14 @@
     }
   },
   {
-    "pushed_at": "2022-03-10T18:44:55Z",
+    "pushed_at": "2022-03-10T18:51:19Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:35Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-03-10T18:51:19Z"
     }
   },
   {

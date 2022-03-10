@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-03T21:11:56Z",
+    "pushed_at": "2022-03-10T18:45:07Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,14 +55,14 @@
     }
   },
   {
-    "pushed_at": "2022-03-07T19:31:54Z",
+    "pushed_at": "2022-03-10T18:46:32Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:04:37Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-03-10T18:46:32Z"
     }
   },
   {
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2022-03-07T16:46:06Z",
+    "pushed_at": "2022-03-10T18:47:20Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-02-25T01:47:54Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-03-10T18:47:20Z"
     }
   },
   {
@@ -176,7 +176,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:08:35Z",
+    "pushed_at": "2022-03-10T18:44:55Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,

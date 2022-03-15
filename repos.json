@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-15T02:38:28Z",
+    "pushed_at": "2022-03-15T12:52:41Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -327,6 +327,17 @@
     "release_latest": {
       "tag_name": "v2.0.1",
       "published_at": "2022-03-15T02:44:29Z"
+    }
+  },
+  {
+    "pushed_at": "2022-03-15T13:03:56Z",
+    "name": "navigatable.attr",
+    "description": "make elements naivgatable (dialog for now)",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v2.0.1",
+      "published_at": "2022-03-15T13:03:57Z"
     }
   }
 ]

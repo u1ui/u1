@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-14T15:28:02Z",
+    "pushed_at": "2022-03-15T02:38:28Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -319,14 +319,14 @@
     }
   },
   {
-    "pushed_at": "2022-03-15T02:36:58Z",
+    "pushed_at": "2022-03-15T02:44:29Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-03-15T02:36:58Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-03-15T02:44:29Z"
     }
   }
 ]

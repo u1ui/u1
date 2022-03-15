@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-10T18:53:10Z",
+    "pushed_at": "2022-03-14T15:28:02Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-10T18:43:37Z",
+    "pushed_at": "2022-03-14T18:10:12Z",
     "name": "norm.css",
     "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2022-03-10T18:46:32Z",
+    "pushed_at": "2022-03-15T02:35:36Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 1,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-25T00:36:31Z",
+    "pushed_at": "2022-03-15T02:35:59Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -316,6 +316,17 @@
     "release_latest": {
       "tag_name": "v2.0.0",
       "published_at": "2022-02-23T21:10:13Z"
+    }
+  },
+  {
+    "pushed_at": "2022-03-15T02:36:58Z",
+    "name": "dialog.js",
+    "description": "alert, prompt, confirm but async",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v2.0.0",
+      "published_at": "2022-03-15T02:36:58Z"
     }
   }
 ]

@@ -21,5 +21,6 @@ https://raw.githack.com/u1ui/u1/main/tests/test.html
 
 ## Demos
 https://raw.githack.com/u1ui/u1/main/tests/boilerplate.html  
+https://raw.githack.com/u1ui/u1/main/tests/showcase.html  
 https://raw.githack.com/u1ui/u1/main/tests/test.html  
 

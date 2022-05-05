@@ -106,7 +106,9 @@
                 const repos = await fetch('../repos.json').then(res=>res.json());
                 const entries = repos.sort((r1,r2)=>{
                     const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
-                    const ext2 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                    const ext2 = r2.name.replace(/^.*\.([^.]+)/,'$1');
+                    if (ext1 === 'el') return -1;
+                    if (ext2 === 'el') return 1;
                     if(ext1 < ext2) return -1;
                     if(ext1 > ext2) return 1;
                     return 0;

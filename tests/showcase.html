@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>u1-ico Test</title>
+
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
+
+        <script src="../auto.js" type=module></script>
+        <script src="https://cdn.jsdelivr.net/gh/u1ui/u1/auto.min.js" type=module crossorigin></script>
+
+        <style>
+        html {
+            --u1-ico-dir:'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/icons/';
+        }
+        </style>
+
+<body style="display:flex; flex-wrap:wrap;">
+
+    <aside style="flex:1 1 auto; background:var(--color-light)">
+        <nav style="position:sticky; top:0; bottom:0; height:100vh; padding:2rem; overflow:auto">
+            <ul id=nav></ul>
+        </nav>
+    </aside>
+
+    <main style="flex:199 1 auto">
+
+        <section id=reposSec>
+            <script type=module>
+                const repos = await fetch('../repos.json').then(res=>res.json());
+                const entries = repos.sort((r1,r2)=>{
+                    const ext1 = r1.name.replace(/^.*\.([^.]+)/,'$1');
+                    const ext2 = r2.name.replace(/^.*\.([^.]+)/,'$1');
+                    if (ext1 === 'el') return -1;
+                    if (ext2 === 'el') return 1;
+                    if(ext1 < ext2) return -1;
+                    if(ext1 > ext2) return 1;
+                    return 0;
+                });
+                let str = '';
+                let navStr = '';
+                for (let repo of entries) {
+                    let url = `https://github.com/u1ui/${repo.name}`;
+                    let release = repo.release_latest;
+
+                    let repoDate    = new Date(repo.pushed_at);
+                    let releaseDate = new Date(release.published_at);
+
+                    const masterNotPushed = repoDate > releaseDate
+                    const localUrl = '../../' + repo.name;
+                    str +=
+                    `
+                    <div style="border-bottom:2px solid; padding:3rem" id="repo_${repo.name}">
+                        <h2 style="margin-bottom:0">
+                            ${repo.name}
+                            <a href="${url}" target=github><u1-ico inline>github</u1-ico></a>
+                        </h2>
+                        <div style="margin-bottom:2rem">${repo.description??''}</div>
+
+                        <label>
+                            <input type=checkbox onclick="let iframe = this.parentNode.nextElementSibling; iframe[(this.checked?'set':'remove')+'Attribute']('sandbox',''); iframe.src=iframe.src+'?'">
+                            disable javascript
+                        </label>
+                        <iframe loading=lazy src="${localUrl}/tests/test.html" style="height:39rem"></iframe>
+                    </div>
+                    `
+                    navStr += `
+                    <li>
+                        <a href="#repo_${repo.name}">${repo.name}</a>
+                    `
+                }
+                document.getElementById('repos').innerHTML = str;
+                document.getElementById('nav').innerHTML = navStr;
+            </script>
+            <div id=repos></div>
+        </section>
+    </main>

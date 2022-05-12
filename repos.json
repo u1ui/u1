@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-09T19:20:47Z",
+    "pushed_at": "2022-05-12T03:10:23Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -341,14 +341,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-12T03:02:58Z",
+    "pushed_at": "2022-05-12T03:12:01Z",
     "name": "code.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-12T03:02:59Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-05-12T03:12:02Z"
     }
   }
 ]

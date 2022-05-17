@@ -9,7 +9,6 @@
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
 
         <script src="../auto.js" type=module></script>
-        <script src="https://cdn.jsdelivr.net/gh/u1ui/u1/auto.min.js" type=module crossorigin></script>
 
         <style>
         html {
@@ -50,6 +49,21 @@
 
                     const masterNotPushed = repoDate > releaseDate
                     const localUrl = '../../' + repo.name;
+
+
+                    // const tag = 'u1-'+repo.name.replace(/\.el$/,'');
+                    // str +=
+                    // `
+                    // <figure>
+                    //     <${tag}>copy</${tag}>
+                    // </figure>
+                    // <u1-code trim editable oninput="this.previousElementSibling.innerHTML = this.value">
+                    //     <script type=x>
+                    //         <${tag}>copy</${tag}>
+                    //     <\/script>
+                    // </u1-code>
+                    // `;
+
                     str +=
                     `
                     <div style="border-bottom:2px solid; padding:3rem" id="repo_${repo.name}">
@@ -63,6 +77,10 @@
                             <input type=checkbox onclick="let iframe = this.parentNode.nextElementSibling; iframe[(this.checked?'set':'remove')+'Attribute']('sandbox',''); iframe.src=iframe.src+'?'">
                             disable javascript
                         </label>
+                        <!--label>
+                            <input type=checkbox onclick="let style = this.parentNode.nextElementSibling.contentWindow.document.documentElement.style; style.colorScheme = style.colorScheme==='dark'?'light':'dark'">
+                            toggle theme
+                        </label-->
                         <iframe loading=lazy src="${localUrl}/tests/test.html" style="height:39rem"></iframe>
                     </div>
                     `

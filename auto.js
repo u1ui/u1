@@ -1,7 +1,8 @@
 let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
 let min = '.min';
+let useLatest = true;
 // local testing:
-//rootUrl =  import.meta.url + '/../../'; min = ''; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
+//rootUrl =  import.meta.url + '/../../'; min = ''; useLatest = false; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js';
 //import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js';
@@ -16,13 +17,13 @@ setTimeout(()=>prio = 2);
 setTimeout(()=>prio = 3, 2000);
 const needed = { js:{}, css:{} };
 function impJs(url){
-    url = latestUrlCached(url);
+    if (useLatest) url = latestUrlCached(url);
     if (!url || url in needed.js) return;
     needed.js[url] = prio;
     return import(url);
 }
 function impCss(url, options={}){
-    url = latestUrlCached(url)
+    if (useLatest) url = latestUrlCached(url)
     if (!url || url in needed.css) return;
     importCss(url, options).then(res=>{
         if (res.available) needed.css[url]=0; // already loaded

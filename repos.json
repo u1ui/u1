@@ -1,13 +1,13 @@
 [
   {
-    "pushed_at": "2022-05-09T19:24:57Z",
+    "pushed_at": "2022-05-16T22:40:22Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
-    "stargazers_count": 5,
+    "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.3.9",
-      "published_at": "2022-03-07T18:47:37Z"
+      "tag_name": "v3.4.0",
+      "published_at": "2022-05-16T22:40:22Z"
     }
   },
   {
@@ -33,47 +33,47 @@
     }
   },
   {
-    "pushed_at": "2022-05-12T03:10:23Z",
+    "pushed_at": "2022-05-16T22:41:08Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.16",
-      "published_at": "2022-03-22T15:31:57Z"
+      "tag_name": "v2.0.17",
+      "published_at": "2022-05-16T22:41:08Z"
     }
   },
   {
-    "pushed_at": "2022-05-09T19:24:47Z",
+    "pushed_at": "2022-05-16T22:36:15Z",
     "name": "norm.css",
     "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-03-15T13:11:44Z"
+      "tag_name": "v2.0.3",
+      "published_at": "2022-05-16T22:36:15Z"
     }
   },
   {
-    "pushed_at": "2022-05-09T19:23:48Z",
+    "pushed_at": "2022-05-16T22:36:02Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-03-22T15:27:13Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-05-16T22:36:02Z"
     }
   },
   {
-    "pushed_at": "2022-03-22T15:25:40Z",
+    "pushed_at": "2022-05-16T22:41:25Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-03-22T15:25:41Z"
+      "tag_name": "v2.0.5",
+      "published_at": "2022-05-16T22:41:25Z"
     }
   },
   {
@@ -88,25 +88,25 @@
     }
   },
   {
-    "pushed_at": "2022-05-09T19:25:05Z",
+    "pushed_at": "2022-05-16T22:42:22Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:05:43Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:42:22Z"
     }
   },
   {
-    "pushed_at": "2022-05-05T03:10:34Z",
+    "pushed_at": "2022-05-16T22:40:05Z",
     "name": "ico.el",
     "description": "universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-03-10T18:47:20Z"
+      "tag_name": "v2.0.5",
+      "published_at": "2022-05-16T22:40:05Z"
     }
   },
   {
@@ -132,14 +132,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-09T19:24:29Z",
+    "pushed_at": "2022-05-16T22:42:09Z",
     "name": "auto-grid.class",
     "description": "most used case for grid-elements",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:01Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:42:09Z"
     }
   },
   {
@@ -154,58 +154,58 @@
     }
   },
   {
-    "pushed_at": "2022-05-05T03:11:29Z",
+    "pushed_at": "2022-05-16T22:41:57Z",
     "name": "unstyle.class",
     "description": "css class to unstyle elements eg. buttons",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:19Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:41:57Z"
     }
   },
   {
-    "pushed_at": "2022-05-09T19:23:58Z",
+    "pushed_at": "2022-05-16T22:41:46Z",
     "name": "badge.class",
     "description": "u1-badge class for rendering badges",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:26Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:41:46Z"
     }
   },
   {
-    "pushed_at": "2022-04-04T07:40:25Z",
+    "pushed_at": "2022-05-16T22:39:48Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-03-10T18:51:19Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-05-16T22:39:48Z"
     }
   },
   {
-    "pushed_at": "2022-05-09T19:25:32Z",
+    "pushed_at": "2022-05-16T22:36:28Z",
     "name": "width.class",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:44Z"
+      "tag_name": "v2.0.3",
+      "published_at": "2022-05-16T22:36:28Z"
     }
   },
   {
-    "pushed_at": "2022-05-05T03:09:35Z",
+    "pushed_at": "2022-05-16T22:39:36Z",
     "name": "carousel.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-04-27T11:19:53Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-05-16T22:39:36Z"
     }
   },
   {
@@ -220,47 +220,47 @@
     }
   },
   {
-    "pushed_at": "2022-05-05T03:12:18Z",
+    "pushed_at": "2022-05-16T22:39:22Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:10Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:39:22Z"
     }
   },
   {
-    "pushed_at": "2022-04-01T13:33:37Z",
+    "pushed_at": "2022-05-16T22:39:10Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:17Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:39:10Z"
     }
   },
   {
-    "pushed_at": "2022-04-14T13:30:19Z",
+    "pushed_at": "2022-05-16T22:38:58Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:26Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:38:58Z"
     }
   },
   {
-    "pushed_at": "2022-05-09T19:25:20Z",
+    "pushed_at": "2022-05-16T22:38:45Z",
     "name": "qrcode.el",
     "description": "qr code element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-03-22T00:51:45Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-05-16T22:38:45Z"
     }
   },
   {
@@ -286,69 +286,69 @@
     }
   },
   {
-    "pushed_at": "2022-05-09T19:24:37Z",
+    "pushed_at": "2022-05-16T22:38:29Z",
     "name": "carousel-nav.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:57Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:38:29Z"
     }
   },
   {
-    "pushed_at": "2022-04-14T13:30:33Z",
+    "pushed_at": "2022-05-16T22:38:17Z",
     "name": "typewriter.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:10:05Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:38:17Z"
     }
   },
   {
-    "pushed_at": "2022-03-23T07:04:16Z",
+    "pushed_at": "2022-05-16T22:38:02Z",
     "name": "aspect-ratio.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:10:13Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-16T22:38:02Z"
     }
   },
   {
-    "pushed_at": "2022-04-14T13:29:52Z",
+    "pushed_at": "2022-05-16T22:40:52Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-03-15T17:32:29Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-05-16T22:40:52Z"
     }
   },
   {
-    "pushed_at": "2022-05-04T23:29:26Z",
+    "pushed_at": "2022-05-16T22:37:17Z",
     "name": "navigatable.attr",
     "description": "make elements naivgatable",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-03-15T13:03:57Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-05-16T22:37:17Z"
     }
   },
   {
-    "pushed_at": "2022-05-12T03:12:01Z",
+    "pushed_at": "2022-05-16T22:27:51Z",
     "name": "code.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-05-12T03:12:02Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-05-16T22:27:51Z"
     }
   }
 ]

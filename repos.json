@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-17T10:41:56Z",
+    "pushed_at": "2022-05-17T17:12:32Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-16T22:36:15Z",
+    "pushed_at": "2022-05-18T00:23:07Z",
     "name": "norm.css",
     "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-16T22:36:02Z",
+    "pushed_at": "2022-05-18T00:21:49Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-17T10:43:19Z",
+    "pushed_at": "2022-05-17T22:51:33Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -88,7 +88,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-16T22:42:22Z",
+    "pushed_at": "2022-05-18T00:23:35Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
@@ -275,7 +275,7 @@
     }
   },
   {
-    "pushed_at": "2022-02-23T21:09:49Z",
+    "pushed_at": "2022-05-18T00:22:21Z",
     "name": "intersect.attr",
     "description": "declarativ intersection-observer",
     "open_issues": 0,
@@ -341,7 +341,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-17T10:42:19Z",
+    "pushed_at": "2022-05-18T00:21:30Z",
     "name": "code.el",
     "description": null,
     "open_issues": 0,
@@ -352,14 +352,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-17T16:30:57Z",
+    "pushed_at": "2022-05-17T23:04:15Z",
     "name": "SelectorObserver.js",
     "description": "Monitor elements by CSS selector",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-05-17T16:15:56Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-17T23:04:15Z"
     }
   }
 ]

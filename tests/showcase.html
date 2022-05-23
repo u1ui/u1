@@ -95,12 +95,14 @@
 
                             let exampleCodeUrl = localUrl+`/tests/minimal.html`; // = `https://raw.githubusercontent.com/u1ui/${repo.name}/main/tests/minimal.html`;
 
-                            let parts = await fetch(exampleCodeUrl).then(res=>res.text()).then(html=>{
+                            let parts = await fetch(exampleCodeUrl).then(res=>res.text()).then(source=>{
                                 // parse the example code
                                 const parser = new DOMParser();
-                                const doc = parser.parseFromString(html, 'text/html');
+                                const doc = parser.parseFromString(source, 'text/html');
+                                const html = source.match(/<section\>([\s\S]*)<\/section>/)?.[1]; // raw content
                                 return {
-                                    html:doc.querySelector('section')?.innerHTML,
+                                    //html:doc.querySelector('section')?.innerHTML,
+                                    html,
                                     style:doc.querySelector('style')?.innerHTML,
                                 }
                             });

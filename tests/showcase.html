@@ -28,6 +28,8 @@
 
         <section id=reposSec>
             <script type=module>
+                import {dump} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.0/mod.min.js';
+
                 const repos = await fetch('../repos.json').then(res=>res.json());
                 const extToName = {
                     'el':'Elements',
@@ -51,34 +53,102 @@
                     });
                 }
 
-                let str = '';
+                //let str = '';
                 let navStr = '';
                 for (const [ext, entries] of Object.entries(typedRepos)) {
                     if (ext == 'undefined') continue;
                     navStr += `<h2>${extToName[ext]}</h2>`;
+
                     for (let repo of entries) {
                         let url = `https://github.com/u1ui/${repo.name}`;
-                        let release = repo.release_latest;
+                        //let release = repo.release_latest;
+                        //let repoDate    = new Date(repo.pushed_at);
+                        //let releaseDate = new Date(release.published_at);
+                        //const masterNotPushed = repoDate > releaseDate
 
-                        let repoDate    = new Date(repo.pushed_at);
-                        let releaseDate = new Date(release.published_at);
-
-                        const masterNotPushed = repoDate > releaseDate
                         const localUrl = '../../' + repo.name;
 
+                        //let exampleCodeUrl = `https://raw.githubusercontent.com/u1ui/${repo.name}/main/tests/minimal.html`;
+                        let exampleCodeUrl = localUrl+`/tests/minimal.html`;
 
-                        // const tag = 'u1-'+repo.name.replace(/\.el$/,'');
-                        // str +=
-                        // `
-                        // <figure>
-                        //     <${tag}>copy</${tag}>
-                        // </figure>
-                        // <u1-code trim editable oninput="this.previousElementSibling.innerHTML = this.value">
-                        //     <script type=x>
-                        //         <${tag}>copy</${tag}>
-                        //     <\/script>
-                        // </u1-code>
-                        // `;
+
+                        let parts = await fetch(exampleCodeUrl).then(res=>res.text()).then(html=>{
+                            // parse the example code
+                            const parser = new DOMParser();
+                            const doc = parser.parseFromString(html, 'text/html');
+
+                            return {
+                                html:doc.querySelector('section')?.innerHTML,
+                                style:doc.querySelector('style')?.innerHTML,
+                            }
+                        });
+
+                        if (ext === 'el') {
+                            const tag = 'u1-'+repo.name.replace(/\.el$/,'');
+                            parts.html ??= `<${tag}>Content</${tag}>`;
+                            parts.style ??= `
+                                ${tag} {
+                                }`;
+                        }
+                        if (ext === 'attr') {
+                            const attr = 'u1-'+repo.name.replace(/\.attr$/,'');
+                            parts.html ??= `<div ${attr}>hello</div>`;
+                            parts.style ??= `
+                                [${attr}] {
+                                }`;
+                        }
+
+
+                        /* */
+                        const str =
+                        `
+                        <section style="max-width:40rem; margin:4rem auto; box-shadow:0 0 1rem #0005" id="repo_${repo.name}">
+                            <h2 style="margin:0; padding:1rem; background-color:#f5f5f5; display:flex; justify-content:space-between;">
+                                ${repo.name}
+                                <a href="${url}" target=github><u1-ico inline>github</u1-ico></a>
+                            </h2>
+                            <div style="padding:2rem">
+                                <figure class=demo style="position:relative; padding:1rem; box-shadow:none; overflow:auto; resize:both; border:1px solid #eee;">
+                                    ${parts.html}
+                                </figure>
+                            </div>
+                            <u1-tabs>
+                                <h3>HTML</h3>
+                                <u1-code trim editable oninput="this.closest('section').querySelector('.demo').innerHTML = this.value">
+                                    <script type=x>
+                                        ${parts.html}
+                                    <\/script>
+                                </u1-code>
+                                <h3>CSS</h3>
+                                <u1-code trim editable>
+                                    <style>
+                                        ${parts.style}
+                                    </style>
+                                </u1-code>
+                                <h3>Javascript</h3>
+                                <u1-code trim editable>
+                                    <script type=x>
+                                    <\/script>
+                                </u1-code>
+                                <h3>Events</h3>
+                                <div class=-events style="overflow:auto; max-height:20rem">
+                                </div>
+                            </u1-tabs>
+                        </section>
+                        `;
+                        const div = document.createElement('div');
+                        div.innerHTML = str;
+
+                        document.getElementById('repos').append(div);
+                        div.addEventListener('u1-carousel.slide', e=>{
+                            div.querySelector('.-events').insertAdjacentHTML('beforeend', `
+                                <details class=event>
+                                    <summary class=event-name>${e.type}</summary>
+                                    <div class=event-value>${dump(e.detail, {depth:1, order:1, inherited:true})}</div>
+                                </div>
+                            `);
+                        },true)
+                        /* *
 
                         str +=
                         `
@@ -100,13 +170,14 @@
                             <iframe loading=lazy src="${localUrl}/tests/test.html" style="height:39rem"></iframe>
                         </div>
                         `
+                        /* */
                         navStr += `
                         <li>
                             <a href="#repo_${repo.name}">${repo.name}</a>
                         `
                     }
                 }
-                document.getElementById('repos').innerHTML = str;
+                //document.getElementById('repos').innerHTML = str;
                 document.getElementById('nav').innerHTML = navStr;
             </script>
             <div id=repos></div>

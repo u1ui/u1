@@ -8,7 +8,9 @@
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
 
-        <script src="../auto.js" type=module></script>
+        <!--script src="../auto.js" type=module></script-->
+        <script type=module>
+        </script>
 
         <style>
         html {
@@ -28,6 +30,7 @@
 
         <section id=reposSec>
             <script type=module>
+                import {addShadowRoot} from "../auto.js";
                 import {dump} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.0/mod.min.js';
 
                 const repos = await fetch('../repos.json').then(res=>res.json());
@@ -76,7 +79,6 @@
                             // parse the example code
                             const parser = new DOMParser();
                             const doc = parser.parseFromString(html, 'text/html');
-
                             return {
                                 html:doc.querySelector('section')?.innerHTML,
                                 style:doc.querySelector('style')?.innerHTML,
@@ -102,7 +104,7 @@
                         /* */
                         const str =
                         `
-                        <section style="max-width:40rem; margin:4rem auto; box-shadow:0 0 1rem #0005" id="repo_${repo.name}">
+                        <section style="max-width:40rem; margin:4rem auto; box-shadow:0 0 1rem #0005">
                             <h2 style="margin:0; padding:1rem; background-color:#f5f5f5; display:flex; justify-content:space-between;">
                                 ${repo.name}
                                 <a href="${url}" target=github><u1-ico inline>github</u1-ico></a>
@@ -115,7 +117,7 @@
                             <u1-tabs>
                                 <h3>HTML</h3>
                                 <u1-code trim editable oninput="this.closest('section').querySelector('.demo').innerHTML = this.value">
-                                    <script type=x>
+                                    <script type=html>
                                         ${parts.html}
                                     <\/script>
                                 </u1-code>
@@ -125,21 +127,28 @@
                                         ${parts.style}
                                     </style>
                                 </u1-code>
-                                <h3>Javascript</h3>
+                                <!--h3>Javascript</h3>
                                 <u1-code trim editable>
                                     <script type=x>
                                     <\/script>
                                 </u1-code>
                                 <h3>Events</h3>
                                 <div class=-events style="overflow:auto; max-height:20rem">
-                                </div>
+                                </div-->
                             </u1-tabs>
                         </section>
                         `;
                         const div = document.createElement('div');
-                        div.innerHTML = str;
+                        div.id = 'repo_'+repo.name;
 
+//                        const shadow = div.attachShadow({mode:'open'});
+//                        addShadowRoot(shadow)
+//                        shadow.innerHTML = str;
+
+                        div.innerHTML = str;
                         document.getElementById('repos').append(div);
+
+                        /*
                         div.addEventListener('u1-carousel.slide', e=>{
                             div.querySelector('.-events').insertAdjacentHTML('beforeend', `
                                 <details class=event>

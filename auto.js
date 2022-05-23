@@ -57,7 +57,7 @@ function newNode(node){
 
         if (customElements.get('u1-'+name)) return; // skip if registred
         const base = rootUrl + name + '.el/' + name + min;
-        impCss(base + '.css');
+        impCss(base + '.css'/*, {for:node}*/);
         impJs(base + '.js');
 
     }
@@ -95,10 +95,14 @@ var mo = new MutationObserver((entries)=>{
         }
     }
 });
-mo.observe(document,{childList:true, subtree:true, characterData:false});
-newNodeRoot(document.documentElement);
+//mo.observe(document,{childList:true, subtree:true, characterData:false});
+//newNodeRoot(document.documentElement);
 
-
+export function addShadowRoot(rootNode){
+    mo.observe(rootNode,{childList:true, subtree:true, characterData:false});
+    newNodeRoot(rootNode);
+}
+addShadowRoot(document.documentElement)
 
 addEventListener('keydown',e=>{
     if (e.ctrlKey && e.key ==='F12') {

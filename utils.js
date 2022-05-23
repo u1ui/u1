@@ -2,9 +2,9 @@
 // cssImport
 
 var cssImported = [];
-export function importCss(url) {
+export function importCss(url, options={}) {
     return new Promise((resolve, reject) => {
-        var link = _importCss(url);
+        var link = _importCss(url, options);
         if (link==null) resolve({available:true}); // already loaded
         else {
             link.onload  = e=>resolve({available:false}); // todo, remove eventlisteners?
@@ -13,8 +13,8 @@ export function importCss(url) {
     });
 }
 
-let styleWrapper = document.createElement('div');
-document.head.prepend(styleWrapper);
+//let styleWrapper = document.createElement('div');
+//document.head.prepend(styleWrapper);
 
 function _importCss(url, options={}){
     // handle relative urls
@@ -31,16 +31,33 @@ function _importCss(url, options={}){
         calledUrl.search = '';
         const url = new URL(url, calledUrl).toString();
     }
+
+
+    const rootNode = options.for ?? document.documentElement;
+
     if (cssImported[url]) return; // check if imported already
     cssImported[url] = true;
-    for (let el of document.querySelectorAll('link[rel=stylesheet]')) { // check if manually added
+
+    for (let el of rootNode.querySelectorAll('link[rel=stylesheet]')) { // check if manually added
         if (el.href === url) return;
     }
-    const link = document.createElement('link');
+    const link = rootNode.ownerDocument.createElement('link');
     link.rel = 'stylesheet';
     if (options.media) link.media = options.media;
+
     link.href = url;
-    //document.head.append(link);
-    styleWrapper.append(link);
+    rootGetStyleWrapper(rootNode).append(link);
+    //styleWrapper.append(link);
     return link;
+}
+
+
+const styleWrappers = new WeakMap();
+function rootGetStyleWrapper(root) {
+    if (!styleWrappers.has(root)) {
+        let styleWrapper = document.createElement('div');
+        root.prepend(styleWrapper);
+        styleWrappers.set(root, styleWrapper);
+    }
+    return styleWrappers.get(root);
 }

@@ -1,3 +1,6 @@
+console.log('u1ui root?: ', new URL(import.meta.url + '/../../').toString())
+
+
 let rootUrl = 'https://cdn.jsdelivr.net/gh/u1ui/';
 let min = '.min';
 let useLatest = true;

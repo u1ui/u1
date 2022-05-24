@@ -104,6 +104,7 @@
                                     //html:doc.querySelector('section')?.innerHTML,
                                     html,
                                     style:doc.querySelector('style')?.innerHTML,
+                                    script:doc.querySelector('script:not([src])')?.innerHTML,
                                 }
                             });
 
@@ -139,18 +140,23 @@
                                             ${parts.html}
                                         <\/script>
                                     </u1-code>
-                                    <h3>CSS</h3>
-                                    <u1-code trim editable>
-                                        <style>
-                                            ${parts.style}
-                                        </style>
-                                    </u1-code>
-                                    <!--h3>Javascript</h3>
-                                    <u1-code trim editable>
-                                        <script type=x>
-                                        <\/script>
-                                    </u1-code>
-                                    <h3>Events</h3>
+                                    ${parts.style ?
+                                        `<h3>CSS</h3>
+                                        <u1-code trim editable>
+                                            <style>
+                                                ${parts.style}
+                                            </style>
+                                        </u1-code>` : ''
+                                    }
+                                    ${parts.script?
+                                        `<h3>Javascript</h3>
+                                        <u1-code trim>
+                                            <script type=module>
+                                                ${parts.script}
+                                            <\/script>
+                                        </u1-code>`:''
+                                    }
+                                    <!--h3>Events</h3>
                                     <div class=-events style="overflow:auto; max-height:20rem">
                                     </div-->
                                 </u1-tabs>

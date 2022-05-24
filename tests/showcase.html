@@ -150,7 +150,7 @@
                                     }
                                     ${parts.script?
                                         `<h3>Javascript</h3>
-                                        <u1-code trim>
+                                        <u1-code trim class=script>
                                             <script type=module>
                                                 ${parts.script}
                                             <\/script>
@@ -167,7 +167,15 @@
     //                        addShadowRoot(shadow)
     //                        shadow.innerHTML = str;
 
+                            /*
                             div.innerHTML = str;
+                            if (parts.script) {
+                                const el = document.createElement('script');
+                                el.type = 'module';
+                                el.innerHTML = parts.script;
+                                div.querySelector('.script').append(el);
+                            }
+                            */
 
                             /*
                             div.addEventListener('u1-carousel.slide', e=>{

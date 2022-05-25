@@ -1,6 +1,6 @@
 [
   {
-    "pushed_at": "2022-05-23T18:18:33Z",
+    "pushed_at": "2022-05-25T01:08:48Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T22:45:48Z",
+    "pushed_at": "2022-05-25T05:06:01Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -66,14 +66,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T22:54:48Z",
+    "pushed_at": "2022-05-25T15:28:20Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.6",
-      "published_at": "2022-05-18T00:28:00Z"
+      "tag_name": "v2.0.7",
+      "published_at": "2022-05-25T15:28:20Z"
     }
   },
   {
@@ -88,7 +88,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T18:18:49Z",
+    "pushed_at": "2022-05-25T01:08:20Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
@@ -121,14 +121,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T22:56:11Z",
+    "pushed_at": "2022-05-25T15:27:38Z",
     "name": "table.class",
     "description": "u1-table class | better tables",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:06:25Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-05-25T15:27:38Z"
     }
   },
   {
@@ -176,14 +176,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T22:55:51Z",
+    "pushed_at": "2022-05-25T15:27:22Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-05-22T20:33:36Z"
+      "tag_name": "v2.0.4",
+      "published_at": "2022-05-25T15:27:22Z"
     }
   },
   {
@@ -231,14 +231,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T18:31:46Z",
+    "pushed_at": "2022-05-25T05:01:43Z",
     "name": "counter.el",
     "description": "counting numbers",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:39:10Z"
+      "tag_name": "v2.0.2",
+      "published_at": "2022-05-25T04:56:32Z"
     }
   },
   {
@@ -275,7 +275,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T18:32:17Z",
+    "pushed_at": "2022-05-25T01:08:53Z",
     "name": "intersect.attr",
     "description": "declarativ intersection-observer",
     "open_issues": 0,
@@ -297,7 +297,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T19:25:48Z",
+    "pushed_at": "2022-05-25T01:07:29Z",
     "name": "typewriter.el",
     "description": null,
     "open_issues": 0,
@@ -330,7 +330,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T18:32:13Z",
+    "pushed_at": "2022-05-25T01:09:19Z",
     "name": "navigatable.attr",
     "description": "make elements naivgatable",
     "open_issues": 0,
@@ -341,7 +341,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T22:55:32Z",
+    "pushed_at": "2022-05-25T05:05:45Z",
     "name": "code.el",
     "description": null,
     "open_issues": 0,
@@ -352,7 +352,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-24T21:50:21Z",
+    "pushed_at": "2022-05-25T01:09:01Z",
     "name": "SelectorObserver.js",
     "description": "Monitor elements by CSS selector",
     "open_issues": 0,

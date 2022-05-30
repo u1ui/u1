@@ -1,6 +1,6 @@
-import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@main/mod.min.js';
-import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@main/htmlfills.min.js';
-import 'https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js@main/mod.min.js'
+import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@x/mod.min.js';
+import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@x/htmlfills.min.js';
+import 'https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js@x/mod.min.js'
 
 
 document.head.insertAdjacentHTML(

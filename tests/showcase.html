@@ -31,10 +31,11 @@
         <section id=reposSec>
             <script type=module>
 
-                import {addShadowRoot} from "../auto.js";
+                import {addShadowRoot} from "../auto.js?debug=1";
                 import {dump} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.0/mod.min.js';
 
                 const repos = await fetch('../repos.json').then(res=>res.json());
+
                 const extToName = {
                     'el':'Elements',
                     'attr':'Attributes',
@@ -62,7 +63,7 @@
                 for (const [ext, entries] of Object.entries(typedRepos)) {
                     if (ext == 'undefined') continue;
                     if (ext == 'css') continue;
-                    navStr += `<h2>${extToName[ext]}</h2>`;
+                    navStr += `<li><h2 style="margin-top:1rem">${extToName[ext]}</h2></li>`;
 
                     for (let repo of entries) {
 
@@ -106,15 +107,17 @@
                                 parts.style ??= `[${attr}] {}`;
                             }
 
-
                             /* */
                             const str =
                             `
                             <section style="max-width:50rem; margin:4rem auto; box-shadow:0 0 1rem #0003">
-                                <h2 style="margin:0; padding:1rem; background-color:#f5f5f5; display:flex; justify-content:space-between">
-                                    ${repo.name}
-                                    <a href="${url}" target=github><u1-ico inline>github</u1-ico></a>
-                                </h2>
+                                <header style="padding:1rem; background-color:#f5f5f5; display:flex; justify-content:space-between">
+                                    <div>
+                                        <h2 style="margin-bottom:0">${repo.name}</h2>
+                                        <small>${repo.description}</small>
+                                    </div>
+                                    <a href="${url}" target=github rel=noopener><u1-ico>github</u1-ico></a>
+                                </header>
                                 <div style="padding:2rem">
                                     <figure class=demo style="position:relative; padding:3rem; box-shadow:none; overflow:auto; resize:both; border:1px solid #eee;">
                                         ${parts.html}
@@ -206,7 +209,16 @@
                     }
                 }
                 document.getElementById('nav').innerHTML = navStr;
+
+                function rescrollToHash(){
+                    if (location.hash) location.hash = location.hash.slice(1);
+                }
+                setTimeout(rescrollToHash,300)
+                setTimeout(rescrollToHash,1000)
+                setTimeout(rescrollToHash,1500)
             </script>
+
+
             <div id=repos></div>
         </section>
     </main>

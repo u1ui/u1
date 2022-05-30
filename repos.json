@@ -48,21 +48,21 @@
     "name": "norm.css",
     "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 2,
+    "stargazers_count": 3,
     "release_latest": {
       "tag_name": "v2.0.4",
       "published_at": "2022-05-18T00:27:26Z"
     }
   },
   {
-    "pushed_at": "2022-05-24T23:26:10Z",
+    "pushed_at": "2022-05-27T21:26:09Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v2.0.5",
-      "published_at": "2022-05-18T00:27:46Z"
+      "tag_name": "v2.0.6",
+      "published_at": "2022-05-27T21:26:09Z"
     }
   },
   {
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2022-05-25T21:54:56Z",
+    "pushed_at": "2022-05-30T00:44:36Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.6",
-      "published_at": "2022-05-25T21:54:56Z"
+      "tag_name": "v2.0.7",
+      "published_at": "2022-05-29T22:55:04Z"
     }
   },
   {
@@ -154,7 +154,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-23T18:33:16Z",
+    "pushed_at": "2022-05-29T23:06:13Z",
     "name": "unstyle.class",
     "description": "css class to unstyle elements eg. buttons",
     "open_issues": 0,
@@ -319,7 +319,7 @@
     }
   },
   {
-    "pushed_at": "2022-05-22T22:47:11Z",
+    "pushed_at": "2022-05-29T23:06:30Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,

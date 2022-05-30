@@ -3,32 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>u1-ico Test</title>
-
-        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.js"></script>
-
-        <!--script src="../auto.js" type=module></script-->
-        <script type=module>
-        </script>
+        <title>U1 design system | showcase</title>
+        <script src="./test-init.js" type=module></script>
 
         <style>
         html {
             --u1-ico-dir:'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/icons/';
         }
-        figure {
-
-        }
         u1-tabs [role="tabpanel"] {
             padding:3rem;
         }
-        u1-tabs::part(tablist) {
-            xbackground-color:#fafafa;
-            xjustify-content: center;
-        }
         u1-code {
             font-size: max(.8rem, 13px);
-
         }
         </style>
 
@@ -44,6 +30,7 @@
 
         <section id=reposSec>
             <script type=module>
+
                 import {addShadowRoot} from "../auto.js";
                 import {dump} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.0/mod.min.js';
 

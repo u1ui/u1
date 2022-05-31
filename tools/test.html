@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Test</title>
+
+<div id="x" style="background:yellow;" >
+    <div class=y contenteditable>
+        tests
+    </div>
+    <div class=x contenteditable>
+        tests
+    </div>
+</div>
+
+<div id=out></div>
+
+<script type=module>
+    import {EventsExplorer} from "./eventsExplorer.js";
+    const eventsExpl = new EventsExplorer(out,x,['click','input','focus','focusin','activate']);
+    eventsExpl.start();
+</script>

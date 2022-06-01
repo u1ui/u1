@@ -2,8 +2,8 @@ const myUrl = new URL(import.meta.url);
 const debug = myUrl.searchParams.get('debug');
 
 
-let root = new URL(myUrl.origin + myUrl.pathname + '/../../');
-//let root = new URL('https://cdn.jsdelivr.net/gh/u1ui/');
+//let root = new URL(myUrl.origin + myUrl.pathname + '/../../');
+let root = new URL('https://cdn.jsdelivr.net/gh/u1ui/');
 let rootUrl = root.toString();
 
 let min = '.min';

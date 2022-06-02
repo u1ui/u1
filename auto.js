@@ -18,7 +18,6 @@ if (root.host === 'localhost') {
 // local testing:
 // rootUrl =  import.meta.url + '/../../'; min = ''; useLatest = false; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 
-
 if (debug) { // top level await safari >= 15.1
     await Promise.all([
         import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@x/mod.min.js'),

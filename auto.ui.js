@@ -9,13 +9,15 @@ export function open(){
     win.focus()
     const doc = win.document;
 
+
+    // Problem: depencencies in this script are also tracked...
     doc.write (
         `<!DOCTYPE html>
         <html lang=en>
             <head>
                 <meta charset=utf-8>
-                <script>import('https://cdn.jsdelivr.net/gh/u1ui/u1/auto.min.js')<\/script>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/u1ui/ico.el@x.x.x/font/Material Icons.css">
+                <script>import('${import.meta.url+'/../auto.js'}')<\/script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/u1ui/ico.el@x/font/Material Icons.css">
                 <style>
                     html {
                         font-size:14px;
@@ -113,14 +115,13 @@ const versionCheck = async function(){
         const newUrl = latestUrlCached(url);
         if (!newUrl) return;
         if (newUrl === url) return;
-
-        const {repo, oldVers} = parseUrl(url);
+        const {repo, vers:oldVers} = parseUrl(url);
         const newVers = parseUrl(newUrl).vers;
         if (oldVers === newVers) return;
         reposObj[repo] ??= {}
         reposObj[repo].newVersion = newVers;
         reposObj[repo].oldVersions ??= [];
-        reposObj[repo].oldVersions.push({oldVers, node});
+        reposObj[repo].oldVersions.push({vers:oldVers, node});
     });
     return reposObj;
 }

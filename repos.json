@@ -1,365 +1,365 @@
 [
   {
-    "pushed_at": "2022-05-25T21:16:05Z",
+    "pushed_at": "2022-06-02T11:31:21Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 5,
     "release_latest": {
-      "tag_name": "v3.4.1",
-      "published_at": "2022-05-25T21:16:05Z"
+      "tag_name": "v3.5.0",
+      "published_at": "2022-06-02T11:31:21Z"
     }
   },
   {
-    "pushed_at": "2022-05-25T22:00:16Z",
+    "pushed_at": "2022-06-02T11:26:43Z",
     "name": "js",
     "description": "javascript utils",
     "open_issues": 1,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:03:10Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:26:44Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:34:41Z",
+    "pushed_at": "2022-06-02T11:29:15Z",
     "name": "href.attr",
     "description": "Every element can be a link",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:03:58Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:15Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:39:11Z",
+    "pushed_at": "2022-06-02T11:32:34Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.20",
-      "published_at": "2022-05-30T11:20:27Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:32:34Z"
     }
   },
   {
-    "pushed_at": "2022-05-18T02:58:24Z",
+    "pushed_at": "2022-06-02T11:27:18Z",
     "name": "norm.css",
     "description": "normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-05-18T00:27:26Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:18Z"
     }
   },
   {
-    "pushed_at": "2022-05-27T21:26:09Z",
+    "pushed_at": "2022-06-02T11:27:08Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v2.0.6",
-      "published_at": "2022-05-27T21:26:09Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:09Z"
     }
   },
   {
-    "pushed_at": "2022-05-25T15:28:20Z",
+    "pushed_at": "2022-06-02T11:27:00Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.7",
-      "published_at": "2022-05-25T15:28:20Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:00Z"
     }
   },
   {
-    "pushed_at": "2022-05-24T22:53:47Z",
+    "pushed_at": "2022-06-02T11:26:52Z",
     "name": "classes.css",
     "description": "deprecated",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-18T00:28:13Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:26:52Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T22:02:49Z",
+    "pushed_at": "2022-06-02T11:29:06Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-05-18T00:26:59Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:06Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:34:01Z",
+    "pushed_at": "2022-06-02T11:30:56Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.7",
-      "published_at": "2022-05-29T22:55:04Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:56Z"
     }
   },
   {
-    "pushed_at": "2022-05-23T18:32:02Z",
+    "pushed_at": "2022-06-02T11:28:38Z",
     "name": "flex-gap.class",
     "description": "Most wanted flexbox case (also gaps in safari)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:06:11Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:38Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:41:14Z",
+    "pushed_at": "2022-06-02T11:28:29Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-25T15:27:38Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:29Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T22:04:38Z",
+    "pushed_at": "2022-06-02T11:28:21Z",
     "name": "auto-grid.class",
     "description": "Most used case for grid-elements",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:42:09Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:21Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:41:29Z",
+    "pushed_at": "2022-06-02T11:28:14Z",
     "name": "reset.class",
     "description": "A class to reset Styles (beta)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:08:11Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:14Z"
     }
   },
   {
-    "pushed_at": "2022-05-29T23:06:13Z",
+    "pushed_at": "2022-06-02T11:28:04Z",
     "name": "unstyle.class",
     "description": "Unstyle elements eg. buttons",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:41:57Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:04Z"
     }
   },
   {
-    "pushed_at": "2022-05-23T18:31:38Z",
+    "pushed_at": "2022-06-02T11:27:56Z",
     "name": "badge.class",
     "description": "Rendering badges",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:41:46Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:56Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:41:04Z",
+    "pushed_at": "2022-06-02T11:30:47Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-05-25T15:27:22Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:47Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T18:02:23Z",
+    "pushed_at": "2022-06-02T11:27:46Z",
     "name": "width.class",
     "description": "The main width of your layout",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-05-16T22:36:28Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:46Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:36:09Z",
+    "pushed_at": "2022-06-02T11:30:39Z",
     "name": "carousel.el",
     "description": "Simple carousel component",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.3",
-      "published_at": "2022-05-18T00:26:44Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:39Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:38:02Z",
+    "pushed_at": "2022-06-02T14:17:57Z",
     "name": "input.class",
     "description": "custom inputs (beta)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:01Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:37Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:39:38Z",
+    "pushed_at": "2022-06-02T11:30:30Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:39:22Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:30Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T03:20:01Z",
+    "pushed_at": "2022-06-02T11:30:20Z",
     "name": "counter.el",
     "description": "Animated Number Counter",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-05-25T04:56:32Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:20Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:40:44Z",
+    "pushed_at": "2022-06-02T11:30:12Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:38:58Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:13Z"
     }
   },
   {
-    "pushed_at": "2022-05-23T22:07:37Z",
+    "pushed_at": "2022-06-02T11:30:03Z",
     "name": "qrcode.el",
     "description": "QR-Code element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-05-16T22:38:45Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:30:03Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T22:05:05Z",
+    "pushed_at": "2022-06-02T11:27:27Z",
     "name": "card1.class",
     "description": "card-class (beta)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:09:41Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:27:27Z"
     }
   },
   {
-    "pushed_at": "2022-05-25T01:08:53Z",
+    "pushed_at": "2022-06-02T11:28:58Z",
     "name": "intersect.attr",
     "description": "declarativ intersection-observer",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-18T00:27:13Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:58Z"
     }
   },
   {
-    "pushed_at": "2022-05-30T22:05:15Z",
+    "pushed_at": "2022-06-02T11:29:51Z",
     "name": "carousel-nav.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:38:29Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:51Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:39:25Z",
+    "pushed_at": "2022-06-02T11:29:43Z",
     "name": "typewriter.el",
     "description": "Simple typewriter element",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:38:17Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:44Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:35:02Z",
+    "pushed_at": "2022-06-02T11:29:32Z",
     "name": "aspect-ratio.el",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-16T22:38:02Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:33Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:37:41Z",
+    "pushed_at": "2022-06-02T11:26:34Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.4",
-      "published_at": "2022-05-16T22:40:52Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:26:34Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:12:48Z",
+    "pushed_at": "2022-06-02T11:28:47Z",
     "name": "navigatable.attr",
     "description": "Make elements navigatable",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.2",
-      "published_at": "2022-05-16T22:37:17Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:47Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:36:43Z",
+    "pushed_at": "2022-06-02T11:29:24Z",
     "name": "code.el",
     "description": "Highlighted, editable code-blocks.",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v2.0.7",
-      "published_at": "2022-05-25T15:41:29Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:29:24Z"
     }
   },
   {
-    "pushed_at": "2022-05-31T06:41:23Z",
+    "pushed_at": "2022-06-02T11:26:22Z",
     "name": "SelectorObserver.js",
     "description": "Monitor elements by CSS selector",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.1",
-      "published_at": "2022-05-17T23:04:15Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:26:22Z"
     }
   }
 ]

@@ -2,7 +2,8 @@ const myUrl = new URL(import.meta.url);
 const debug = myUrl.searchParams.get('debug');
 
 
-//let root = new URL(myUrl.origin + myUrl.pathname + '/../../');
+//let root = new URL(myUrl.origin + myUrl.pathname + '/../../'); console.log('%cuncomment localhost!','color:red;font-size:1.2em');
+
 let root = new URL('https://cdn.jsdelivr.net/gh/u1ui/');
 let rootUrl = root.toString();
 
@@ -15,14 +16,11 @@ if (root.host === 'localhost') {
 
 // get faster cdn updates? https://purge.jsdelivr.net/gh/nuxodin/cleanup.js@latest/
 
-// local testing:
-// rootUrl =  import.meta.url + '/../../'; min = ''; useLatest = false; console.log('%cuncomment localhost!','color:red;font-size:1.2em');
-
 if (debug) { // top level await safari >= 15.1
     await Promise.all([
-        import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@x/mod.min.js'),
-        import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill@x/htmlfills.min.js'),
-        import('https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js@x/mod.min.js'),
+        import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.min.js'),
+        import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.min.js'),
+        import('https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js/mod.min.js'),
     ]);
 }
 
@@ -60,9 +58,9 @@ window.u1.needed = needed;
 ////////////////////////////////////////////////////////////////
 
 impCss(rootUrl+'norm.css/norm'+min+'.css');
-impCss(rootUrl+'norm.css/beta'+min+'.css');
+//impCss(rootUrl+'norm.css/beta'+min+'.css');
 impCss(rootUrl+'base.css/base'+min+'.css');
-impCss(rootUrl+'base.css/beta'+min+'.css');
+//impCss(rootUrl+'base.css/beta'+min+'.css');
 setTimeout(()=>{
     impCss(rootUrl+'base.css/print.css', {media:'print'});
     impCss(rootUrl+'base.css/nomotion.css', {media:'prefers-reduced-motion'});

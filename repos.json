@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-06-05T23:14:55Z",
+    "pushed_at": "2022-06-08T20:25:09Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:32:34Z"
+      "tag_name": "v3.0.1",
+      "published_at": "2022-06-08T20:25:09Z"
     }
   },
   {
@@ -55,14 +55,14 @@
     }
   },
   {
-    "pushed_at": "2022-06-05T23:20:02Z",
+    "pushed_at": "2022-06-08T07:41:46Z",
     "name": "base.css",
     "description": "Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:27:09Z"
+      "tag_name": "v3.0.2",
+      "published_at": "2022-06-08T07:41:46Z"
     }
   },
   {
@@ -99,11 +99,11 @@
     }
   },
   {
-    "pushed_at": "2022-06-02T11:30:56Z",
+    "pushed_at": "2022-06-08T15:30:16Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v3.0.0",
       "published_at": "2022-06-02T11:30:56Z"
@@ -121,7 +121,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-02T11:28:29Z",
+    "pushed_at": "2022-06-08T13:30:55Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
@@ -330,14 +330,14 @@
     }
   },
   {
-    "pushed_at": "2022-06-02T11:28:47Z",
+    "pushed_at": "2022-06-08T05:56:30Z",
     "name": "navigatable.attr",
     "description": "Make elements navigatable",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:28:47Z"
+      "tag_name": "v3.0.1",
+      "published_at": "2022-06-08T05:56:30Z"
     }
   },
   {
@@ -352,14 +352,25 @@
     }
   },
   {
-    "pushed_at": "2022-06-02T11:26:22Z",
+    "pushed_at": "2022-06-08T22:38:39Z",
     "name": "SelectorObserver.js",
     "description": "Monitor elements by CSS selector",
     "open_issues": 0,
+    "stargazers_count": 1,
+    "release_latest": {
+      "tag_name": "v3.0.1",
+      "published_at": "2022-06-08T22:38:39Z"
+    }
+  },
+  {
+    "pushed_at": "2022-06-08T23:23:30Z",
+    "name": "balancetext.attr",
+    "description": "balances text",
+    "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:26:22Z"
+      "tag_name": "1.0.0",
+      "published_at": "2022-06-08T23:23:30Z"
     }
   }
 ]

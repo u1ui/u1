@@ -19,6 +19,9 @@ button::after {
     font-family:monospace;
     opacity:.8;
 }
+:is(style,script)[contenteditable] {
+    display:block;
+}
 </style>
 `);
 

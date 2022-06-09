@@ -2,9 +2,9 @@ const myUrl = new URL(import.meta.url);
 const debug = myUrl.searchParams.get('debug');
 
 
-//let root = new URL(myUrl.origin + myUrl.pathname + '/../../'); console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 
 let root = new URL('https://cdn.jsdelivr.net/gh/u1ui/');
+//root = new URL(myUrl.origin + myUrl.pathname + '/../../'); console.log('%cuncomment localhost!','color:red;font-size:1.2em');
 let rootUrl = root.toString();
 
 let min = '.min';

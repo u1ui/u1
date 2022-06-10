@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:36Z",
+    "pushed_at": "2022-06-10T04:15:41Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:24Z",
+    "pushed_at": "2022-06-10T04:22:56Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-08T15:30:16Z",
+    "pushed_at": "2022-06-10T04:23:11Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -154,7 +154,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:07:37Z",
+    "pushed_at": "2022-06-10T04:24:22Z",
     "name": "unstyle.class",
     "description": "Unstyle elements eg. buttons",
     "open_issues": 0,
@@ -165,7 +165,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:06Z",
+    "pushed_at": "2022-06-10T04:22:26Z",
     "name": "badge.class",
     "description": "Rendering badges",
     "open_issues": 0,
@@ -198,7 +198,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:21Z",
+    "pushed_at": "2022-06-10T04:22:34Z",
     "name": "carousel.el",
     "description": "Simple carousel component",
     "open_issues": 0,
@@ -209,7 +209,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-02T14:17:57Z",
+    "pushed_at": "2022-06-10T04:24:25Z",
     "name": "input.class",
     "description": "custom inputs (beta)",
     "open_issues": 0,
@@ -253,7 +253,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-05T23:20:38Z",
+    "pushed_at": "2022-06-10T03:47:22Z",
     "name": "qrcode.el",
     "description": "QR-Code element",
     "open_issues": 0,
@@ -319,14 +319,14 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:32Z",
+    "pushed_at": "2022-06-10T04:23:49Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:26:34Z"
+      "tag_name": "v3.0.1",
+      "published_at": "2022-06-10T04:23:50Z"
     }
   },
   {
@@ -341,7 +341,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:12:28Z",
+    "pushed_at": "2022-06-10T04:23:04Z",
     "name": "code.el",
     "description": "Highlighted, editable code-blocks.",
     "open_issues": 0,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-09T21:11:56Z",
+    "pushed_at": "2022-06-10T04:24:48Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,

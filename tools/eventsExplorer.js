@@ -51,27 +51,24 @@ export class EventsExplorer {
             if (!activeTr || grow > 20) return;
             activeTr.style.borderBottomWidth = (grow++)+'px';
             this.scrollToEnd();
-
-        },1000);
+        },700);
         let renderEvent = (event)=>{
             let tr = document.createElement('tr');
             activeTr = tr;
             grow = 0;
             tr.style.borderBottom = '0px solid black';
-            tr.innerHTML = `<td>${event.type}<td>&lt;${event.target.tagName.toLowerCase()}&gt;<td>${event.eventPhase}<td class=-dump><button>inspect</button>`;
+            tr.innerHTML = `<td>${event.type}<td>&lt;${event.target.tagName.toLowerCase()}&gt;<td>${event.eventPhase}<td class=-dump><button style="font-size:12px; margin:0">inspect</button>`;
 
             tr.querySelector('.-dump').addEventListener('click', () => {
-
                 alert({body:dump(event, {depth:2, customRender})});
-
-                dump(event, {depth:1})
+                dump(event, {depth:2})
             });
 
             this.tbody.append(tr);
             this.scrollToEnd();
         }
         for (const ev of this.events) {
-            this.el.addEventListener(ev, renderEvent, false);
+            //this.el.addEventListener(ev, renderEvent, false);
             this.el.addEventListener(ev, renderEvent, true);
         }
     }

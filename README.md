@@ -1,8 +1,9 @@
-# undefined
+# u1
 The Home of the U1 project
 
+## Features
 
-U1 is a design system that is intended to fulfill the following goals as well as possible
+U1 is a design system that is intended to fulfill the following goals as well as possible:
 
 - Based on standards
 - Minimal
@@ -10,15 +11,9 @@ U1 is a design system that is intended to fulfill the following goals as well as
 
 ## Demos
 
-https://raw.githack.com/u1ui/u1/main/tests/boilerplate.html  
-https://raw.githack.com/u1ui/u1/main/tests/showcase.html  
-https://raw.githack.com/u1ui/u1/main/tests/test.html
-
-## Demo
-
-https://raw.githack.com/u1ui/u1/main/tests/boilerplate.html  
-https://raw.githack.com/u1ui/u1/main/tests/showcase.html  
-https://raw.githack.com/u1ui/u1/main/tests/test.html  
+[boilerplate.html](https://raw.githack.com/u1ui/u1/main/tests/boilerplate.html)  
+[showcase.html](https://raw.githack.com/u1ui/u1/main/tests/showcase.html)  
+[test.html](https://raw.githack.com/u1ui/u1/main/tests/test.html)  
 
 ## About
 

@@ -4,7 +4,7 @@ import 'https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js/mod.min.js'
 
 
 document.head.insertAdjacentHTML(
-    'afterbegin',`
+    'afterend',`
 <style>
 button {
     text-align: left;

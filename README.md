@@ -1,7 +1,9 @@
 # u1
 The Home of the U1 project
 
-![u1-design-system logo](./tools/u1-logo.svg)
+<p align="center">
+  <img src="./tools/u1-logo.svg">
+</p>
 
 ## Features
 

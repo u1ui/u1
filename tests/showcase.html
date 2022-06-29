@@ -103,6 +103,7 @@
                         document.getElementById('repos').append(div);
 
                         (async function(){
+
                             let url = `https://github.com/u1ui/${repo.name}`;
                             //let release = repo.release_latest;
                             //let repoDate    = new Date(repo.pushed_at);
@@ -195,9 +196,12 @@
                             }
                             */
                             if (ext === 'el') {
-                                const {EventsExplorer} = await import('../tools/eventsExplorer.js');
+
                                 let manifestUrl = localUrl+`/manifest.json`;
-                                fetch(manifestUrl).then(response=>response.json()).then(manifest=>{
+                                Promise.all([
+                                    import('../tools/eventsExplorer.js'),
+                                    fetch(manifestUrl).then(response=>response.json())
+                                ]).then(([{EventsExplorer}, manifest])=>{
                                     div.querySelector('.-tabs').insertAdjacentHTML('beforeend',
                                         `<h3 slot=title>Events</h3>
                                         <div class=-events style="overflow:auto; max-height:30rem"></div>`);
@@ -209,6 +213,7 @@
                                             eventNames);
                                     eventsExpl.start();
                                 });
+
                             }
 
                             /*

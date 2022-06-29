@@ -1,6 +1,10 @@
 # u1
 The Home of the U1 project
 
+<p align="center">
+  <img src="./tools/u1-logo.svg">
+</p>
+
 ## Features
 
 U1 is a design system that is intended to fulfill the following goals:

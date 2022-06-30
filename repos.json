@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-30T10:29:12Z",
+    "pushed_at": "2022-06-30T17:23:30Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -385,14 +385,14 @@
     }
   },
   {
-    "pushed_at": "2022-06-30T17:21:24Z",
+    "pushed_at": "2022-06-30T17:22:42Z",
     "name": "tree1.el",
     "description": "treeview component (beta)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2022-06-30T17:21:25Z"
+      "tag_name": "v1.2.0",
+      "published_at": "2022-06-30T17:22:32Z"
     }
   },
   {

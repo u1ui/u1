@@ -91,7 +91,19 @@ const exportCode = async function(){
     let needed = localStorage.getItem('u1-needed');
     needed = JSON.parse(needed) || {};
 
+
+
     let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link href="'+latestUrlCached(url)+'" rel="stylesheet" crossorigin>').join('\n');
+
+    // combined string (just in the console for now)
+    let strCssPromizes = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>{
+        return fetch(latestUrlCached(url)).then(res=>res.text());
+    });
+    const cssContents = await Promise.all(strCssPromizes);
+    const cssText = cssContents.join('').replace(/\/\*[\s\S]*?\*\//g, '');
+    console.log(cssText);
+
+
     let strJs  = Object.entries(needed.js).map(([url,prio])=>'<script src="'+latestUrlCached(url)+'" type=module crossorigin></script>').join('\n');
     let strCssNonCritical = Object.entries(needed.css).filter(([,prio])=>prio>1).map(([url,prio])=>'<link rel="stylesheet" href="'+latestUrlCached(url)+'" crossorigin>').join('\n');
     return strCss +'\n' + strJs + '\n' + '\n<!-- non critical at the end -->\n' + strCssNonCritical;

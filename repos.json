@@ -33,20 +33,20 @@
     }
   },
   {
-    "pushed_at": "2022-07-04T08:57:35Z",
+    "pushed_at": "2022-07-04T23:04:33Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.7",
-      "published_at": "2022-06-30T18:12:44Z"
+      "tag_name": "v3.0.9",
+      "published_at": "2022-07-04T23:04:33Z"
     }
   },
   {
     "pushed_at": "2022-07-01T15:37:28Z",
     "name": "norm.css",
-    "description": "normalization for crossbrowser compatibility",
+    "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 8,
     "release_latest": {
@@ -57,7 +57,7 @@
   {
     "pushed_at": "2022-07-01T12:23:17Z",
     "name": "base.css",
-    "description": "Usefull css defaults",
+    "description": "⏚ Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 6,
     "release_latest": {
@@ -385,7 +385,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-04T09:37:50Z",
+    "pushed_at": "2022-07-04T21:11:29Z",
     "name": "tree1.el",
     "description": "Treeview component",
     "open_issues": 0,

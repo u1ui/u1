@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T12:23:17Z",
+    "pushed_at": "2022-07-06T17:13:39Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T15:39:13Z",
+    "pushed_at": "2022-07-06T11:03:36Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -323,7 +323,7 @@
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v3.0.2",
       "published_at": "2022-06-20T18:00:37Z"
@@ -426,6 +426,17 @@
     "release_latest": {
       "tag_name": "v1.0.0",
       "published_at": "2022-06-20T18:36:46Z"
+    }
+  },
+  {
+    "pushed_at": "2022-07-06T20:55:07Z",
+    "name": "table.el",
+    "description": "Better tables",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2022-07-06T20:55:07Z"
     }
   }
 ]

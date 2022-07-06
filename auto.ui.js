@@ -95,7 +95,7 @@ const exportCode = async function(){
 
     let strCss = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>'<link href="'+latestUrlCached(url)+'" rel="stylesheet" crossorigin>').join('\n');
 
-    // combined string (just in the console for now)
+    // todo: combined string (just in the console for now)
     let strCssPromizes = Object.entries(needed.css).filter(([,prio])=>prio===1).map(([url,prio])=>{
         return fetch(latestUrlCached(url)).then(res=>res.text());
     });

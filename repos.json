@@ -33,22 +33,22 @@
     }
   },
   {
-    "pushed_at": "2022-07-08T01:07:18Z",
+    "pushed_at": "2022-07-08T01:40:24Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.11",
-      "published_at": "2022-07-08T01:07:19Z"
+      "tag_name": "v3.0.12",
+      "published_at": "2022-07-08T01:40:24Z"
     }
   },
   {
-    "pushed_at": "2022-07-01T15:37:28Z",
+    "pushed_at": "2022-07-08T01:37:19Z",
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 8,
+    "stargazers_count": 9,
     "release_latest": {
       "tag_name": "v3.0.0",
       "published_at": "2022-06-02T11:27:18Z"
@@ -59,7 +59,7 @@
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
-    "stargazers_count": 6,
+    "stargazers_count": 7,
     "release_latest": {
       "tag_name": "v3.0.4",
       "published_at": "2022-07-07T16:01:09Z"
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-06T11:03:36Z",
+    "pushed_at": "2022-07-08T01:37:11Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -429,9 +429,9 @@
     }
   },
   {
-    "pushed_at": "2022-07-08T01:33:05Z",
+    "pushed_at": "2022-07-08T01:38:11Z",
     "name": "table.el",
-    "description": "Better tables",
+    "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {

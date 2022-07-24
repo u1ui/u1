@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-08T01:40:24Z",
+    "pushed_at": "2022-07-20T16:34:33Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -198,14 +198,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T12:23:43Z",
+    "pushed_at": "2022-07-24T18:45:51Z",
     "name": "carousel.el",
     "description": "Simple carousel component",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:30:39Z"
+      "tag_name": "v3.0.1",
+      "published_at": "2022-07-24T18:45:52Z"
     }
   },
   {
@@ -319,7 +319,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T15:39:50Z",
+    "pushed_at": "2022-07-20T16:48:47Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-08T01:36:40Z",
+    "pushed_at": "2022-07-20T16:15:33Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,
@@ -429,7 +429,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-08T01:38:11Z",
+    "pushed_at": "2022-07-20T16:48:27Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,

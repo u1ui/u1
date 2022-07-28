@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-24T18:47:11Z",
+    "pushed_at": "2022-07-28T22:51:09Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.13",
-      "published_at": "2022-07-24T18:47:11Z"
+      "tag_name": "v3.0.14",
+      "published_at": "2022-07-28T22:51:09Z"
     }
   },
   {
@@ -374,14 +374,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-20T16:15:33Z",
+    "pushed_at": "2022-07-28T22:54:50Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-07-08T01:36:40Z"
+      "tag_name": "v2.0.1",
+      "published_at": "2022-07-28T22:54:50Z"
     }
   },
   {

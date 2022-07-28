@@ -17,6 +17,7 @@ if (root.host === 'localhost') {
 // get faster cdn updates? https://purge.jsdelivr.net/gh/nuxodin/cleanup.js@latest/
 
 if (debug) { // top level await safari >= 15.1
+    min = '';
     await Promise.all([
         import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.min.js'),
         import('https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.min.js'),

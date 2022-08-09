@@ -1,13 +1,13 @@
 [
   {
-    "pushed_at": "2022-07-04T08:59:18Z",
+    "pushed_at": "2022-08-05T04:02:21Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 5,
     "release_latest": {
-      "tag_name": "v3.5.0",
-      "published_at": "2022-06-02T11:31:21Z"
+      "tag_name": "v3.5.1",
+      "published_at": "2022-08-05T04:02:21Z"
     }
   },
   {
@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-28T22:51:09Z",
+    "pushed_at": "2022-07-28T22:56:34Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.14",
-      "published_at": "2022-07-28T22:51:09Z"
+      "tag_name": "v3.0.15",
+      "published_at": "2022-07-28T22:56:34Z"
     }
   },
   {
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-30T23:00:37Z",
+    "pushed_at": "2022-08-03T11:54:49Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-28T22:54:50Z",
+    "pushed_at": "2022-08-03T11:31:18Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,

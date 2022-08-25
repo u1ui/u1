@@ -76,7 +76,7 @@
                 };
                 const typedRepos = {};
                 for (const repo of repos) {
-                    if (repo.description.match(/(beta|deprecated)/)) continue;
+                    if (repo.description?.match(/(beta|deprecated)/)) continue;
                     const ext = repo.name.match(/\.([^]+)$/)?.[1];
                     typedRepos[ext]??=[];
                     typedRepos[ext].push(repo);

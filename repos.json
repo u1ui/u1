@@ -1,6 +1,6 @@
 [
   {
-    "pushed_at": "2022-08-05T04:02:21Z",
+    "pushed_at": "2022-10-27T15:09:01Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
@@ -22,7 +22,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-29T19:10:09Z",
+    "pushed_at": "2022-08-25T20:29:07Z",
     "name": "href.attr",
     "description": "Every element can be a link",
     "open_issues": 0,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-08-09T00:34:27Z",
+    "pushed_at": "2022-08-25T20:44:15Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -48,7 +48,7 @@
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 9,
+    "stargazers_count": 13,
     "release_latest": {
       "tag_name": "v3.0.0",
       "published_at": "2022-06-02T11:27:18Z"
@@ -418,9 +418,9 @@
     }
   },
   {
-    "pushed_at": "2022-06-29T19:13:48Z",
+    "pushed_at": "2022-08-25T19:54:46Z",
     "name": "confirm.attr",
-    "description": "Conform before action",
+    "description": "Confirm before action",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -429,7 +429,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-20T16:48:27Z",
+    "pushed_at": "2022-08-25T19:46:20Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,

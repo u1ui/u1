@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2022-10-27T15:49:31Z",
+    "pushed_at": "2022-10-27T15:53:42Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.15",
-      "published_at": "2022-07-28T22:56:34Z"
+      "tag_name": "v3.0.16",
+      "published_at": "2022-10-27T15:53:42Z"
     }
   },
   {
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2022-07-07T16:01:09Z",
+    "pushed_at": "2022-10-27T15:51:46Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
@@ -418,7 +418,7 @@
     }
   },
   {
-    "pushed_at": "2022-08-25T19:54:46Z",
+    "pushed_at": "2022-10-27T15:51:57Z",
     "name": "confirm.attr",
     "description": "Confirm before action",
     "open_issues": 0,
@@ -429,7 +429,7 @@
     }
   },
   {
-    "pushed_at": "2022-08-25T19:46:20Z",
+    "pushed_at": "2022-10-27T15:52:53Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,

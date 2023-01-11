@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2022-11-21T15:18:46Z",
+    "pushed_at": "2023-01-11T16:40:04Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,25 +44,25 @@
     }
   },
   {
-    "pushed_at": "2023-01-11T13:22:56Z",
+    "pushed_at": "2023-01-11T16:41:50Z",
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 16,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:27:18Z"
+      "tag_name": "v3.1.0",
+      "published_at": "2023-01-11T16:41:50Z"
     }
   },
   {
-    "pushed_at": "2022-12-05T10:08:52Z",
+    "pushed_at": "2023-01-11T16:42:49Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 8,
     "release_latest": {
-      "tag_name": "v3.0.4",
-      "published_at": "2022-07-07T16:01:09Z"
+      "tag_name": "v3.1.0",
+      "published_at": "2023-01-11T16:42:49Z"
     }
   },
   {
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2023-01-11T15:04:57Z",
+    "pushed_at": "2023-01-11T16:45:29Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:30:56Z"
+      "tag_name": "v3.1.0",
+      "published_at": "2023-01-11T16:45:29Z"
     }
   },
   {

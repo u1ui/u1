@@ -12,7 +12,7 @@ U1 is a design system that is intended to fulfill the following goals:
 - Minimal
 - Based on standards
 - Tooling is optional
-- No js fallbacks if possibly
+- "No js" fallbacks if possibly
 
 ## Demos
 

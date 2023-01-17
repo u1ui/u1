@@ -1,13 +1,13 @@
 [
   {
-    "pushed_at": "2022-10-27T15:09:01Z",
+    "pushed_at": "2023-01-17T18:50:38Z",
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
     "stargazers_count": 5,
     "release_latest": {
-      "tag_name": "v3.5.1",
-      "published_at": "2022-08-05T04:02:21Z"
+      "tag_name": "v3.5.2",
+      "published_at": "2023-01-17T18:50:38Z"
     }
   },
   {
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-11T16:40:04Z",
+    "pushed_at": "2023-01-11T16:50:10Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,18 +44,18 @@
     }
   },
   {
-    "pushed_at": "2023-01-11T16:41:50Z",
+    "pushed_at": "2023-01-17T18:49:13Z",
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 16,
+    "stargazers_count": 17,
     "release_latest": {
-      "tag_name": "v3.1.0",
-      "published_at": "2023-01-11T16:41:50Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T18:49:13Z"
     }
   },
   {
-    "pushed_at": "2023-01-11T16:42:49Z",
+    "pushed_at": "2023-01-11T21:28:55Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
@@ -99,14 +99,14 @@
     }
   },
   {
-    "pushed_at": "2023-01-11T16:45:29Z",
+    "pushed_at": "2023-01-17T18:51:32Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.1.0",
-      "published_at": "2023-01-11T16:45:29Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T18:51:32Z"
     }
   },
   {
@@ -220,7 +220,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-30T21:03:49Z",
+    "pushed_at": "2023-01-17T17:17:04Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,

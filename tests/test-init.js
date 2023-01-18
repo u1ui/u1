@@ -2,7 +2,6 @@ import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/mod.min.js';
 import 'https://cdn.jsdelivr.net/gh/nuxodin/lazyfill/htmlfills.min.js';
 import 'https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js/mod.min.js'
 
-
 document.head.insertAdjacentHTML(
     'afterend',`
 <style>

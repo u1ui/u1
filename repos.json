@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:57:01Z",
+    "pushed_at": "2023-01-17T19:04:14Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -66,14 +66,14 @@
     }
   },
   {
-    "pushed_at": "2023-01-05T14:34:40Z",
+    "pushed_at": "2023-01-18T15:56:01Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:27:00Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-18T15:56:01Z"
     }
   },
   {
@@ -116,19 +116,19 @@
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v2.0.0",
-      "published_at": "2022-02-23T21:06:11Z"
+      "tag_name": "v3.0.0",
+      "published_at": "2022-06-02T11:28:38Z"
     }
   },
   {
-    "pushed_at": "2022-07-01T13:33:13Z",
+    "pushed_at": "2023-01-17T19:36:09Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:28:29Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T19:17:51Z"
     }
   },
   {
@@ -165,14 +165,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T12:26:04Z",
+    "pushed_at": "2023-01-17T19:00:47Z",
     "name": "badge.class",
     "description": "Rendering badges",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:27:56Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T19:00:47Z"
     }
   },
   {
@@ -187,14 +187,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T13:24:50Z",
+    "pushed_at": "2023-01-17T18:59:23Z",
     "name": "width.class",
     "description": "The main width of your layout",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:27:46Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T18:59:23Z"
     }
   },
   {
@@ -220,14 +220,14 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:52:19Z",
+    "pushed_at": "2023-01-17T19:02:20Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:30:30Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T19:02:20Z"
     }
   },
   {
@@ -242,14 +242,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T13:32:23Z",
+    "pushed_at": "2023-01-17T19:03:25Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:30:13Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-17T19:03:26Z"
     }
   },
   {
@@ -363,7 +363,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:55:14Z",
+    "pushed_at": "2023-01-17T20:01:10Z",
     "name": "balancetext.attr",
     "description": "balances text",
     "open_issues": 0,
@@ -418,7 +418,7 @@
     }
   },
   {
-    "pushed_at": "2022-10-27T15:51:57Z",
+    "pushed_at": "2023-01-17T19:11:48Z",
     "name": "confirm.attr",
     "description": "Confirm before action",
     "open_issues": 0,

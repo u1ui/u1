@@ -253,14 +253,14 @@
     }
   },
   {
-    "pushed_at": "2022-07-01T15:33:15Z",
+    "pushed_at": "2023-01-19T07:37:50Z",
     "name": "qrcode.el",
     "description": "QR-Code element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.0.0",
-      "published_at": "2022-06-02T11:30:03Z"
+      "tag_name": "v3.2.0",
+      "published_at": "2023-01-19T07:37:50Z"
     }
   },
   {

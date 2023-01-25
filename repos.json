@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T19:04:14Z",
+    "pushed_at": "2023-01-19T07:39:38Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.0.16",
-      "published_at": "2022-10-27T15:53:42Z"
+      "tag_name": "v3.1.0",
+      "published_at": "2023-01-19T07:39:38Z"
     }
   },
   {
@@ -48,7 +48,7 @@
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 17,
+    "stargazers_count": 18,
     "release_latest": {
       "tag_name": "v3.2.0",
       "published_at": "2023-01-17T18:49:13Z"
@@ -59,7 +59,7 @@
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
-    "stargazers_count": 8,
+    "stargazers_count": 9,
     "release_latest": {
       "tag_name": "v3.2.0",
       "published_at": "2023-01-17T18:56:06Z"
@@ -352,7 +352,7 @@
     }
   },
   {
-    "pushed_at": "2022-06-29T17:05:12Z",
+    "pushed_at": "2023-01-19T17:11:55Z",
     "name": "SelectorObserver.js",
     "description": "Monitor elements by CSS selector",
     "open_issues": 0,

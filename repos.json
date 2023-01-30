@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-19T07:39:38Z",
+    "pushed_at": "2023-01-25T09:40:51Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -70,7 +70,7 @@
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
-    "stargazers_count": 2,
+    "stargazers_count": 3,
     "release_latest": {
       "tag_name": "v3.2.0",
       "published_at": "2023-01-18T15:56:01Z"

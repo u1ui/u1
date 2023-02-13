@@ -33,11 +33,11 @@
     }
   },
   {
-    "pushed_at": "2023-01-25T09:40:51Z",
+    "pushed_at": "2023-01-30T22:46:34Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
-    "stargazers_count": 3,
+    "stargazers_count": 4,
     "release_latest": {
       "tag_name": "v3.1.0",
       "published_at": "2023-01-19T07:39:38Z"
@@ -48,7 +48,7 @@
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 18,
+    "stargazers_count": 19,
     "release_latest": {
       "tag_name": "v3.2.0",
       "published_at": "2023-01-17T18:49:13Z"
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:51:32Z",
+    "pushed_at": "2023-02-13T20:29:04Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -165,7 +165,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T19:00:47Z",
+    "pushed_at": "2023-02-13T20:28:50Z",
     "name": "badge.class",
     "description": "Rendering badges",
     "open_issues": 0,
@@ -187,7 +187,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:59:23Z",
+    "pushed_at": "2023-02-13T20:29:42Z",
     "name": "width.class",
     "description": "The main width of your layout",
     "open_issues": 0,
@@ -220,7 +220,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T19:02:20Z",
+    "pushed_at": "2023-02-13T20:29:25Z",
     "name": "time.el",
     "description": "The better time-element, e.g. live changing relative dates",
     "open_issues": 0,
@@ -319,11 +319,11 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:58:05Z",
+    "pushed_at": "2023-01-30T22:38:17Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "release_latest": {
       "tag_name": "v3.2.0",
       "published_at": "2023-01-17T18:58:05Z"

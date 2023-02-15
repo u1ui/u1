@@ -92,7 +92,8 @@
             <div class=u1-card1 u1-href="#customize">
                 <u1-ico>📱</u1-ico>
                 <script>
-                    document.write('<u1-qrcode style="width:8rem; margin:auto">'+location.href+'</u1-qrcode>')
+                    const esc = html => html.replace(/[<>"']/g, c => `&${{'<':'lt', '>':'gt', '"':'quot', "'":'#039'}[c]};`);
+                    document.write('<u1-qrcode style="width:8rem; margin:auto">'+esc(location.href)+'</u1-qrcode>')
                 </script>
             </div>
         </section>

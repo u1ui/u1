@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T16:11:58Z",
+    "pushed_at": "2023-03-01T16:14:26Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -253,14 +253,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:45:17Z",
+    "pushed_at": "2023-03-01T16:50:10Z",
     "name": "qrcode.el",
     "description": "QR-Code element",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:45:17Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-01T16:50:10Z"
     }
   },
   {

@@ -1,4 +1,4 @@
-import {render, html, svg} from 'https://unpkg.com/uhtml@2.8.0/esm/index.js?module';
+import {render, html, svg} from 'https://unpkg.com/uhtml@3.1.0/esm/index.js?module';
 import {repos, latestUrlCached, latestUrl, parseUrl} from './u1.js';
 
 let win = null;

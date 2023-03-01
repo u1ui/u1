@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T14:09:56Z",
+    "pushed_at": "2023-03-01T14:15:14Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.1.0",
-      "published_at": "2023-01-19T07:39:38Z"
+      "tag_name": "v3.6.0",
+      "published_at": "2023-03-01T14:15:14Z"
     }
   },
   {

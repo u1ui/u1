@@ -4,7 +4,7 @@
     "name": "parallax-bg.el",
     "description": "Parallax backgrounds",
     "open_issues": 0,
-    "stargazers_count": 5,
+    "stargazers_count": 6,
     "release_latest": {
       "tag_name": "v3.5.2",
       "published_at": "2023-01-17T18:50:38Z"
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:51:42Z",
+    "pushed_at": "2023-02-15T00:24:10Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:52:11Z",
+    "pushed_at": "2023-02-24T13:18:09Z",
     "name": "norm.css",
     "description": "🆗 normalization for crossbrowser compatibility",
     "open_issues": 0,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-17T18:56:06Z",
+    "pushed_at": "2023-03-01T00:31:38Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2023-01-18T15:56:01Z",
+    "pushed_at": "2023-02-15T01:38:07Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 2,
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:50:43Z",
+    "pushed_at": "2023-02-16T09:52:34Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -136,14 +136,14 @@
     "name": "auto-grid.class",
     "description": "Most used case for grid-elements",
     "open_issues": 0,
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "release_latest": {
       "tag_name": "v3.0.0",
       "published_at": "2022-06-02T11:28:21Z"
     }
   },
   {
-    "pushed_at": "2023-02-13T20:57:16Z",
+    "pushed_at": "2023-02-15T00:59:56Z",
     "name": "reset.class",
     "description": "A class to reset Styles (beta)",
     "open_issues": 0,
@@ -165,7 +165,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:42:04Z",
+    "pushed_at": "2023-02-28T00:20:59Z",
     "name": "badge.class",
     "description": "Rendering badges",
     "open_issues": 0,
@@ -176,7 +176,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:37:08Z",
+    "pushed_at": "2023-02-13T23:23:20Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
@@ -264,7 +264,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:48:49Z",
+    "pushed_at": "2023-02-15T01:02:41Z",
     "name": "card1.class",
     "description": "card-class (beta)",
     "open_issues": 0,
@@ -308,18 +308,18 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:42:41Z",
+    "pushed_at": "2023-02-15T01:01:14Z",
     "name": "aspect-ratio.el",
     "description": "(soon deprecated) especially because of safari",
     "open_issues": 0,
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "release_latest": {
       "tag_name": "v3.0.0",
       "published_at": "2022-06-02T11:29:33Z"
     }
   },
   {
-    "pushed_at": "2023-02-13T20:57:34Z",
+    "pushed_at": "2023-02-15T00:59:18Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
@@ -363,7 +363,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:57:39Z",
+    "pushed_at": "2023-02-15T01:10:49Z",
     "name": "balancetext.attr",
     "description": "balances text",
     "open_issues": 0,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "pushed_at": "2023-02-13T20:38:48Z",
+    "pushed_at": "2023-02-15T01:09:40Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,

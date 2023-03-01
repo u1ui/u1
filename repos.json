@@ -11,14 +11,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:53:55Z",
+    "pushed_at": "2023-03-01T14:13:43Z",
     "name": "js",
     "description": "javascript utils",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:53:55Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-01T14:13:43Z"
     }
   },
   {
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:56:24Z",
+    "pushed_at": "2023-03-01T14:09:56Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -88,14 +88,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:48:02Z",
+    "pushed_at": "2023-03-01T14:13:18Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:48:02Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-01T14:13:18Z"
     }
   },
   {
@@ -242,14 +242,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T14:03:30Z",
+    "pushed_at": "2023-03-01T14:13:07Z",
     "name": "textfit.el",
     "description": "Exactly fit text",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:45:07Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-01T14:13:07Z"
     }
   },
   {
@@ -275,14 +275,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:48:12Z",
+    "pushed_at": "2023-03-01T14:13:33Z",
     "name": "intersect.attr",
     "description": "declarativ intersection-observer",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:48:12Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-01T14:13:33Z"
     }
   },
   {
@@ -363,7 +363,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:48:30Z",
+    "pushed_at": "2023-03-01T14:08:51Z",
     "name": "balancetext.attr",
     "description": "balances text",
     "open_issues": 0,

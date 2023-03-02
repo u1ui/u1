@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T16:51:11Z",
+    "pushed_at": "2023-03-02T02:52:18Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.6.1",
-      "published_at": "2023-03-01T16:11:58Z"
+      "tag_name": "v3.6.2",
+      "published_at": "2023-03-02T02:52:18Z"
     }
   },
   {
@@ -319,14 +319,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:49:39Z",
+    "pushed_at": "2023-03-02T02:50:46Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.1",
-      "published_at": "2023-03-02T02:48:05Z"
+      "tag_name": "v3.6.2",
+      "published_at": "2023-03-02T02:50:46Z"
     }
   },
   {
@@ -418,14 +418,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:49:16Z",
+    "pushed_at": "2023-03-02T02:54:40Z",
     "name": "confirm.attr",
     "description": "Confirm before action",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.2",
-      "published_at": "2023-03-02T02:46:43Z"
+      "tag_name": "v3.6.4",
+      "published_at": "2023-03-02T02:54:40Z"
     }
   },
   {

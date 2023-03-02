@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T16:14:26Z",
+    "pushed_at": "2023-03-01T16:51:11Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -55,36 +55,36 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:53:27Z",
+    "pushed_at": "2023-03-02T02:47:25Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 9,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:53:27Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:47:25Z"
     }
   },
   {
-    "pushed_at": "2023-03-01T13:53:36Z",
+    "pushed_at": "2023-03-02T02:47:42Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
     "stargazers_count": 3,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:53:36Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:47:42Z"
     }
   },
   {
-    "pushed_at": "2023-03-01T13:53:45Z",
+    "pushed_at": "2023-03-02T02:47:55Z",
     "name": "classes.css",
     "description": "deprecated",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:53:45Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:47:55Z"
     }
   },
   {
@@ -121,14 +121,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:50:06Z",
+    "pushed_at": "2023-03-02T02:46:53Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:50:06Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:46:53Z"
     }
   },
   {
@@ -187,25 +187,25 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:50:54Z",
+    "pushed_at": "2023-03-02T02:47:15Z",
     "name": "width.class",
     "description": "The main width of your layout",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:50:54Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:47:15Z"
     }
   },
   {
-    "pushed_at": "2023-03-01T13:44:36Z",
+    "pushed_at": "2023-03-02T02:46:13Z",
     "name": "carousel.el",
     "description": "Simple carousel component",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:44:36Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:46:13Z"
     }
   },
   {
@@ -308,25 +308,25 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:45:46Z",
+    "pushed_at": "2023-03-02T02:46:27Z",
     "name": "aspect-ratio.el",
     "description": "(soon deprecated) especially because of safari",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:45:46Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:46:28Z"
     }
   },
   {
-    "pushed_at": "2023-03-01T13:54:03Z",
+    "pushed_at": "2023-03-02T02:49:39Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:54:04Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-02T02:48:05Z"
     }
   },
   {
@@ -418,14 +418,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T16:07:31Z",
+    "pushed_at": "2023-03-02T02:49:16Z",
     "name": "confirm.attr",
     "description": "Confirm before action",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.1",
-      "published_at": "2023-03-01T16:07:32Z"
+      "tag_name": "v3.6.2",
+      "published_at": "2023-03-02T02:46:43Z"
     }
   },
   {

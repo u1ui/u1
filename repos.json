@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-03T22:37:55Z",
+    "pushed_at": "2023-03-04T01:09:31Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -453,7 +453,7 @@
   {
     "pushed_at": "2023-03-04T01:07:56Z",
     "name": "skin.attr",
-    "description": "Change colors of a widget",
+    "description": "Change colors of a widget (beta)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {

@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-04T01:09:31Z",
+    "pushed_at": "2023-03-06T08:44:06Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -341,7 +341,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T16:09:32Z",
+    "pushed_at": "2023-03-09T23:51:37Z",
     "name": "code.el",
     "description": "Highlighted, editable code-blocks.",
     "open_issues": 0,
@@ -429,14 +429,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:47:43Z",
+    "pushed_at": "2023-03-09T23:22:32Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:47:43Z"
+      "tag_name": "v3.6.2",
+      "published_at": "2023-03-09T23:22:32Z"
     }
   },
   {

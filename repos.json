@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-14T14:30:30Z",
+    "pushed_at": "2023-03-14T21:44:57Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.6.3",
-      "published_at": "2023-03-02T02:56:13Z"
+      "tag_name": "v3.6.4",
+      "published_at": "2023-03-14T21:44:57Z"
     }
   },
   {
@@ -352,7 +352,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-14T21:39:56Z",
+    "pushed_at": "2023-03-14T21:43:12Z",
     "name": "focusgroup.attr",
     "description": "Keyboard controllable elements",
     "open_issues": 0,

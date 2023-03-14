@@ -5,13 +5,13 @@ import 'https://cdn.jsdelivr.net/gh/nuxodin/cleanup.js/mod.min.js'
 document.head.insertAdjacentHTML(
     'afterend',`
 <style>
-button {
+button[onclick] {
     text-align: left;
     --line-height:1.3em;
     padding: .5em .75em;
     margin: .5em 0;
 }
-button::after {
+button[onclick]::after {
     content: attr(onclick);
     display: block;
     font-size: .7rem;

@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-14T21:44:57Z",
+    "pushed_at": "2023-03-15T00:04:55Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.6.4",
-      "published_at": "2023-03-14T21:44:57Z"
+      "tag_name": "v3.6.5",
+      "published_at": "2023-03-15T00:04:55Z"
     }
   },
   {
@@ -187,7 +187,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-13T21:44:31Z",
+    "pushed_at": "2023-03-14T21:46:51Z",
     "name": "width.class",
     "description": "The main width of your layout",
     "open_issues": 0,
@@ -319,14 +319,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-14T14:30:20Z",
+    "pushed_at": "2023-03-15T00:03:35Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.2",
-      "published_at": "2023-03-02T02:50:46Z"
+      "tag_name": "v3.6.3",
+      "published_at": "2023-03-15T00:03:35Z"
     }
   },
   {
@@ -352,14 +352,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-14T21:43:12Z",
+    "pushed_at": "2023-03-15T00:10:11Z",
     "name": "focusgroup.attr",
     "description": "Keyboard controllable elements",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "1.0.0",
-      "published_at": "2023-03-14T21:39:32Z"
+      "tag_name": "v2.0.0",
+      "published_at": "2023-03-15T00:02:18Z"
     }
   },
   {
@@ -429,14 +429,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:54:40Z",
+    "pushed_at": "2023-03-15T00:11:02Z",
     "name": "confirm.attr",
     "description": "Confirm before action",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.4",
-      "published_at": "2023-03-02T02:54:40Z"
+      "tag_name": "v3.6.5",
+      "published_at": "2023-03-15T00:11:02Z"
     }
   },
   {

@@ -11,8 +11,8 @@ function customRender(obj){
     }
 }
 
-//import {alert} from 'https://cdn.jsdelivr.net/gh/u1ui/dialog.js@3.6.2/dialog.min.js';
-import {alert} from '../../dialog.js/dialog.js';
+//import {alert} from 'https://cdn.jsdelivr.net/gh/u1ui/dialog.js@3.6.3/dialog.min.js';
+import {alert} from '../../dialog.js@3.6.4/dialog.js';
 
 export class EventsExplorer {
     constructor(into, el, events) {

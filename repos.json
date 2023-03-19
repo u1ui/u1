@@ -22,33 +22,33 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:47:52Z",
+    "pushed_at": "2023-03-18T02:40:35Z",
     "name": "href.attr",
     "description": "Every element can be a link",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:47:53Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-18T02:40:35Z"
     }
   },
   {
-    "pushed_at": "2023-03-15T00:04:55Z",
+    "pushed_at": "2023-03-18T03:18:19Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.6.5",
-      "published_at": "2023-03-15T00:04:55Z"
+      "tag_name": "v3.6.6",
+      "published_at": "2023-03-15T00:12:21Z"
     }
   },
   {
-    "pushed_at": "2023-03-01T13:51:43Z",
+    "pushed_at": "2023-03-19T01:14:02Z",
     "name": "norm.css",
-    "description": "🆗 normalization for crossbrowser compatibility",
+    "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 19,
+    "stargazers_count": 20,
     "release_latest": {
       "tag_name": "v3.6.0",
       "published_at": "2023-03-01T13:51:43Z"
@@ -319,14 +319,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-15T00:03:35Z",
+    "pushed_at": "2023-03-15T00:14:42Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
-      "tag_name": "v3.6.3",
-      "published_at": "2023-03-15T00:03:35Z"
+      "tag_name": "v3.6.4",
+      "published_at": "2023-03-15T00:14:42Z"
     }
   },
   {

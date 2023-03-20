@@ -22,7 +22,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-18T02:40:35Z",
+    "pushed_at": "2023-03-19T01:57:22Z",
     "name": "href.attr",
     "description": "Every element can be a link",
     "open_issues": 0,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-18T03:18:19Z",
+    "pushed_at": "2023-03-19T02:01:14Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -385,14 +385,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:47:21Z",
+    "pushed_at": "2023-03-19T01:59:15Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:47:21Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2023-03-19T01:59:15Z"
     }
   },
   {

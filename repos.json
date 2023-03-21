@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-21T22:24:38Z",
+    "pushed_at": "2023-03-21T22:48:28Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 4,
     "release_latest": {
-      "tag_name": "v3.6.6",
-      "published_at": "2023-03-15T00:12:21Z"
+      "tag_name": "v3.6.7",
+      "published_at": "2023-03-21T22:48:28Z"
     }
   },
   {
@@ -473,14 +473,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-21T22:45:11Z",
+    "pushed_at": "2023-03-21T23:09:13Z",
     "name": "splitbutton.el",
     "description": "Buttons with options",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v1.1.0",
-      "published_at": "2023-03-21T22:45:11Z"
+      "tag_name": "v1.2.0",
+      "published_at": "2023-03-21T23:09:13Z"
     }
   }
 ]

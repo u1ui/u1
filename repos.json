@@ -33,11 +33,11 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T13:58:28Z",
+    "pushed_at": "2023-03-24T14:08:23Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
-    "stargazers_count": 4,
+    "stargazers_count": 5,
     "release_latest": {
       "tag_name": "v3.6.8",
       "published_at": "2023-03-21T23:13:11Z"
@@ -48,7 +48,7 @@
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 21,
+    "stargazers_count": 22,
     "release_latest": {
       "tag_name": "v3.7.0",
       "published_at": "2023-03-24T02:48:37Z"
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T13:57:04Z",
+    "pushed_at": "2023-03-28T00:55:14Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -231,7 +231,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-22T09:18:55Z",
+    "pushed_at": "2023-03-28T00:53:54Z",
     "name": "counter.el",
     "description": "Animated Number Counter",
     "open_issues": 0,
@@ -310,7 +310,7 @@
   {
     "pushed_at": "2023-03-02T02:46:27Z",
     "name": "aspect-ratio.el",
-    "description": "(soon deprecated) especially because of safari",
+    "description": "especially because of safari (soon deprecated)",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
@@ -352,7 +352,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-22T09:01:11Z",
+    "pushed_at": "2023-03-28T00:54:08Z",
     "name": "focusgroup.attr",
     "description": "Focus movement by arrow keys",
     "open_issues": 0,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T13:43:42Z",
+    "pushed_at": "2023-03-28T00:53:39Z",
     "name": "balancetext.attr",
     "description": "balances text",
     "open_issues": 0,
@@ -473,7 +473,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-23T15:44:31Z",
+    "pushed_at": "2023-03-28T00:55:30Z",
     "name": "splitbutton.el",
     "description": "Buttons with options",
     "open_issues": 0,

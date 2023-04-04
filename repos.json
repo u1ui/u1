@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T14:08:23Z",
+    "pushed_at": "2023-03-30T23:43:30Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -308,7 +308,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:46:27Z",
+    "pushed_at": "2023-04-03T08:04:26Z",
     "name": "aspect-ratio.el",
     "description": "especially because of safari (soon deprecated)",
     "open_issues": 0,
@@ -440,14 +440,14 @@
     }
   },
   {
-    "pushed_at": "2023-03-09T23:22:32Z",
+    "pushed_at": "2023-04-04T21:41:05Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
-      "tag_name": "v3.6.2",
-      "published_at": "2023-03-09T23:22:32Z"
+      "tag_name": "v3.6.3",
+      "published_at": "2023-04-04T21:41:05Z"
     }
   },
   {

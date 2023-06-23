@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-04-04T21:45:27Z",
+    "pushed_at": "2023-04-12T05:25:24Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -48,18 +48,18 @@
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 22,
+    "stargazers_count": 23,
     "release_latest": {
       "tag_name": "v3.7.0",
       "published_at": "2023-03-24T02:48:37Z"
     }
   },
   {
-    "pushed_at": "2023-03-14T15:55:52Z",
+    "pushed_at": "2023-04-21T15:11:24Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
-    "stargazers_count": 9,
+    "stargazers_count": 10,
     "release_latest": {
       "tag_name": "v3.6.2",
       "published_at": "2023-03-14T14:19:31Z"
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2023-04-04T22:13:02Z",
+    "pushed_at": "2023-04-15T02:28:08Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -114,7 +114,7 @@
     "name": "flex-gap.class",
     "description": "Most wanted flexbox case (also gaps in safari)",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v3.6.0",
       "published_at": "2023-03-01T13:48:47Z"

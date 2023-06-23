@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-04-12T05:25:24Z",
+    "pushed_at": "2023-06-23T08:54:11Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,11 +44,11 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T02:48:37Z",
+    "pushed_at": "2023-06-12T08:31:48Z",
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 23,
+    "stargazers_count": 25,
     "release_latest": {
       "tag_name": "v3.7.0",
       "published_at": "2023-03-24T02:48:37Z"
@@ -330,9 +330,9 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:48:21Z",
+    "pushed_at": "2023-06-20T14:16:11Z",
     "name": "navigatable.attr",
-    "description": "Make elements navigatable",
+    "description": "(deprecated) use navigable.attr",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -481,6 +481,28 @@
     "release_latest": {
       "tag_name": "v1.2.0",
       "published_at": "2023-03-21T23:09:13Z"
+    }
+  },
+  {
+    "pushed_at": "2023-06-20T14:26:06Z",
+    "name": "masonry.attr",
+    "description": null,
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v0.2.0",
+      "published_at": "2023-06-20T14:26:06Z"
+    }
+  },
+  {
+    "pushed_at": "2023-06-20T14:21:51Z",
+    "name": "navigable.attr",
+    "description": "Make elements navigatable",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2023-06-20T14:21:51Z"
     }
   }
 ]

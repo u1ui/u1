@@ -1,7 +1,13 @@
-//deno run -A --unstable .\update.repos.json.js
+// zzz deno run -A --unstable .\update.repos.json.js
+// with username / password:
+// deno run -A --unstable ./u1/tools\update.repos.json.js nuxodin yourtoken
 
-let username = 'nuxodin';
-let token = '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';
+let username = Deno.args[0];
+let token = Deno.args[1];
+
+if (!username) console.error('GITHUB_USERNAME not set');
+if (!token) console.error('GITHUB_TOKEN not set');
+
 let url = 'https://api.github.com/orgs/u1ui/repos?per_page=100';
 let headers = new Headers();
 headers.append('Authorization', 'Basic ' + btoa(username + ":" + token));
@@ -41,14 +47,16 @@ write.then(() => console.log("File written!"));
 
 // automate contents
 
+const base = './';
+
 import * as fs from 'https://deno.land/std@0.100.0/fs/mod.ts';
 
-for await (const entry of Deno.readDir('./')) {
+for await (const entry of Deno.readDir(base)) {
     if (!entry.isDirectory) continue;
 
     writeReadMe(entry);
 
-    // const readme = './'+entry.name+'/README.md';
+    // const readme = base+entry.name+'/README.md';
     // await fs.ensureFile(readme);
     // let text = await Deno.readTextFile(readme);
     // if (!text.match(/## Demo/)) text += '\n## Demo';
@@ -70,7 +78,7 @@ for await (const entry of Deno.readDir('./')) {
 
 async function writeReadMe(entry) {
 
-    const readme = './'+entry.name+'/README.md';
+    const readme = base+entry.name+'/README.md';
     await fs.ensureFile(readme);
     let text = await Deno.readTextFile(readme);
     text = text.trim();

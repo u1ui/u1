@@ -201,13 +201,13 @@ function installPart(entry, path) {
     if (name.endsWith('.el')) {
         html = dedent(`
         <link href="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.css" rel=stylesheet>
-        <script src="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.js" type=module>`);
+        <script src="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.js" type=module></script>`);
     }
     if (name.endsWith('.class')) {
         html = `<link href="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.css" rel=stylesheet>`;
     }
     if (name.endsWith('.attr')) {
-        html = `<script src="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.js" type=module>`;
+        html = `<script src="https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.js" type=module></script>`;
     }
     if (name.endsWith('.js')) {
         const js = `import * as module from "https://cdn.jsdelivr.net/gh/u1ui/${name}@${version}/${blankName}.min.js"`;

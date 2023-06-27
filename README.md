@@ -2,7 +2,7 @@
 The Home of the U1 project
 
 <p align="center">
-  <img src="./tools/u1-logo.svg">
+  <img src="./tools/logo/u1.svg">
 </p>
 
 ## Features

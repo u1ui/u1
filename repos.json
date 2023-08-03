@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2023-06-23T09:17:35Z",
+    "pushed_at": "2023-06-27T18:19:10Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 5,
     "release_latest": {
-      "tag_name": "v3.6.9",
-      "published_at": "2023-04-04T21:45:27Z"
+      "tag_name": "v3.6.10",
+      "published_at": "2023-06-23T09:25:56Z"
     }
   },
   {
@@ -48,7 +48,7 @@
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 25,
+    "stargazers_count": 29,
     "release_latest": {
       "tag_name": "v3.7.0",
       "published_at": "2023-03-24T02:48:37Z"
@@ -59,7 +59,7 @@
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
-    "stargazers_count": 10,
+    "stargazers_count": 11,
     "release_latest": {
       "tag_name": "v3.6.2",
       "published_at": "2023-03-14T14:19:31Z"
@@ -88,7 +88,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T14:13:18Z",
+    "pushed_at": "2023-06-23T09:22:15Z",
     "name": "parallax.attr",
     "description": "Make every element scrolling at different speed",
     "open_issues": 0,
@@ -352,7 +352,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-28T00:54:08Z",
+    "pushed_at": "2023-06-23T09:21:52Z",
     "name": "focusgroup.attr",
     "description": "Focus movement by arrow keys",
     "open_issues": 0,
@@ -484,7 +484,7 @@
     }
   },
   {
-    "pushed_at": "2023-06-20T14:26:06Z",
+    "pushed_at": "2023-06-23T09:22:43Z",
     "name": "masonry.attr",
     "description": null,
     "open_issues": 0,

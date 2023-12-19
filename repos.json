@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-06-27T18:19:10Z",
+    "pushed_at": "2023-08-03T10:17:30Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,25 +44,25 @@
     }
   },
   {
-    "pushed_at": "2023-06-12T08:31:48Z",
+    "pushed_at": "2023-08-03T10:51:30Z",
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 29,
+    "stargazers_count": 30,
     "release_latest": {
       "tag_name": "v3.7.0",
       "published_at": "2023-03-24T02:48:37Z"
     }
   },
   {
-    "pushed_at": "2023-04-21T15:11:24Z",
+    "pushed_at": "2023-11-14T16:11:55Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
-    "stargazers_count": 11,
+    "stargazers_count": 14,
     "release_latest": {
-      "tag_name": "v3.6.2",
-      "published_at": "2023-03-14T14:19:31Z"
+      "tag_name": "v3.6.3",
+      "published_at": "2023-11-14T16:11:55Z"
     }
   },
   {
@@ -374,9 +374,9 @@
     }
   },
   {
-    "pushed_at": "2023-03-28T00:53:39Z",
+    "pushed_at": "2023-11-24T12:23:06Z",
     "name": "balancetext.attr",
-    "description": "balances text",
+    "description": "balances text (deprecated)",
     "open_issues": 0,
     "stargazers_count": 0,
     "release_latest": {
@@ -440,7 +440,7 @@
     }
   },
   {
-    "pushed_at": "2023-04-04T22:43:41Z",
+    "pushed_at": "2023-12-18T12:37:25Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,
@@ -495,7 +495,7 @@
     }
   },
   {
-    "pushed_at": "2023-06-23T09:18:06Z",
+    "pushed_at": "2023-08-08T15:28:33Z",
     "name": "navigable.attr",
     "description": "Make elements navigatable",
     "open_issues": 0,

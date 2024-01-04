@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-08-03T10:17:30Z",
+    "pushed_at": "2023-12-19T22:16:57Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -44,25 +44,25 @@
     }
   },
   {
-    "pushed_at": "2023-08-03T10:51:30Z",
+    "pushed_at": "2024-01-03T16:17:59Z",
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
     "stargazers_count": 30,
     "release_latest": {
-      "tag_name": "v3.7.0",
-      "published_at": "2023-03-24T02:48:37Z"
+      "tag_name": "v3.7.1",
+      "published_at": "2024-01-03T16:17:59Z"
     }
   },
   {
-    "pushed_at": "2023-11-14T16:11:55Z",
+    "pushed_at": "2024-01-03T16:18:49Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
     "stargazers_count": 14,
     "release_latest": {
-      "tag_name": "v3.6.3",
-      "published_at": "2023-11-14T16:11:55Z"
+      "tag_name": "v3.6.4",
+      "published_at": "2024-01-03T16:18:49Z"
     }
   },
   {
@@ -99,20 +99,20 @@
     }
   },
   {
-    "pushed_at": "2023-04-15T02:28:08Z",
+    "pushed_at": "2024-01-03T16:21:00Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v3.6.0",
-      "published_at": "2023-03-01T13:44:17Z"
+      "tag_name": "v3.6.1",
+      "published_at": "2024-01-03T16:21:00Z"
     }
   },
   {
     "pushed_at": "2023-03-01T13:48:47Z",
     "name": "flex-gap.class",
-    "description": "Most wanted flexbox case (also gaps in safari)",
+    "description": "(deprecated) use flex.class instead",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
@@ -121,7 +121,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:46:53Z",
+    "pushed_at": "2023-12-19T22:22:43Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
@@ -132,9 +132,9 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:50:16Z",
+    "pushed_at": "2024-01-04T00:00:17Z",
     "name": "auto-grid.class",
-    "description": "Most used case for grid-elements",
+    "description": "(deprecated) use grid.class instead",
     "open_issues": 0,
     "stargazers_count": 2,
     "release_latest": {
@@ -440,7 +440,7 @@
     }
   },
   {
-    "pushed_at": "2023-12-18T12:37:25Z",
+    "pushed_at": "2023-12-19T22:17:13Z",
     "name": "table.el",
     "description": "Enhanced tables (sortable, responsive...)",
     "open_issues": 0,
@@ -495,7 +495,7 @@
     }
   },
   {
-    "pushed_at": "2023-08-08T15:28:33Z",
+    "pushed_at": "2023-12-19T22:23:13Z",
     "name": "navigable.attr",
     "description": "Make elements navigatable",
     "open_issues": 0,
@@ -503,6 +503,28 @@
     "release_latest": {
       "tag_name": "v1.0.0",
       "published_at": "2023-06-20T14:21:51Z"
+    }
+  },
+  {
+    "pushed_at": "2024-01-04T02:32:25Z",
+    "name": "grid.class",
+    "description": "Most wanted grid case",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2024-01-04T02:32:25Z"
+    }
+  },
+  {
+    "pushed_at": "2024-01-04T02:32:19Z",
+    "name": "flex.class",
+    "description": "Most wanted flexbox case",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2024-01-04T02:32:19Z"
     }
   }
 ]

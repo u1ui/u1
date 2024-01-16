@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2023-12-19T22:16:57Z",
+    "pushed_at": "2024-01-04T15:26:19Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -48,14 +48,14 @@
     "name": "norm.css",
     "description": "CSS normalization for crossbrowser compatibility",
     "open_issues": 0,
-    "stargazers_count": 30,
+    "stargazers_count": 31,
     "release_latest": {
       "tag_name": "v3.7.1",
       "published_at": "2024-01-03T16:17:59Z"
     }
   },
   {
-    "pushed_at": "2024-01-03T16:18:49Z",
+    "pushed_at": "2024-01-04T15:29:17Z",
     "name": "base.css",
     "description": "⏚ Usefull css defaults",
     "open_issues": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-24T13:57:52Z",
+    "pushed_at": "2024-01-04T15:48:12Z",
     "name": "classless.css",
     "description": null,
     "open_issues": 0,
@@ -110,7 +110,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:48:47Z",
+    "pushed_at": "2024-01-04T15:46:50Z",
     "name": "flex-gap.class",
     "description": "(deprecated) use flex.class instead",
     "open_issues": 0,
@@ -121,7 +121,7 @@
     }
   },
   {
-    "pushed_at": "2023-12-19T22:22:43Z",
+    "pushed_at": "2024-01-04T15:45:19Z",
     "name": "table.class",
     "description": "Better tables",
     "open_issues": 0,
@@ -132,7 +132,7 @@
     }
   },
   {
-    "pushed_at": "2024-01-04T00:00:17Z",
+    "pushed_at": "2024-01-04T15:47:15Z",
     "name": "auto-grid.class",
     "description": "(deprecated) use grid.class instead",
     "open_issues": 0,
@@ -264,7 +264,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:51:21Z",
+    "pushed_at": "2024-01-15T01:11:14Z",
     "name": "card1.class",
     "description": "card-class (beta)",
     "open_issues": 0,
@@ -319,7 +319,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-23T16:01:45Z",
+    "pushed_at": "2024-01-15T01:10:55Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
@@ -462,7 +462,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-13T18:09:45Z",
+    "pushed_at": "2024-01-04T15:28:10Z",
     "name": "skin.attr",
     "description": "Change colors of a widget (beta)",
     "open_issues": 0,
@@ -506,7 +506,7 @@
     }
   },
   {
-    "pushed_at": "2024-01-04T02:32:25Z",
+    "pushed_at": "2024-01-04T15:46:08Z",
     "name": "grid.class",
     "description": "Most wanted grid case",
     "open_issues": 0,
@@ -517,7 +517,7 @@
     }
   },
   {
-    "pushed_at": "2024-01-04T02:32:19Z",
+    "pushed_at": "2024-01-04T15:48:56Z",
     "name": "flex.class",
     "description": "Most wanted flexbox case",
     "open_issues": 0,

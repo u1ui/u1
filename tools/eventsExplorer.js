@@ -1,5 +1,5 @@
 
-import {dump, encode} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.1/mod.min.js';
+import {dump, encode} from 'https://cdn.jsdelivr.net/gh/nuxodin/dump.js@1.2.2/mod.min.js';
 
 function customRender(obj){
     let isElement = false;

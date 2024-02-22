@@ -33,7 +33,7 @@
     }
   },
   {
-    "pushed_at": "2024-01-16T00:44:10Z",
+    "pushed_at": "2024-01-17T21:03:33Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
@@ -99,7 +99,7 @@
     }
   },
   {
-    "pushed_at": "2024-01-16T00:43:14Z",
+    "pushed_at": "2024-02-08T19:23:33Z",
     "name": "ico.el",
     "description": "Universal icon-element",
     "open_issues": 0,
@@ -176,7 +176,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-01T13:44:27Z",
+    "pushed_at": "2024-01-17T21:03:10Z",
     "name": "tabs.el",
     "description": "rendering tabs",
     "open_issues": 0,
@@ -341,7 +341,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-10T15:09:39Z",
+    "pushed_at": "2024-02-12T12:45:02Z",
     "name": "code.el",
     "description": "Highlighted, editable code-blocks.",
     "open_issues": 0,
@@ -407,7 +407,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-21T22:44:42Z",
+    "pushed_at": "2024-02-20T23:13:40Z",
     "name": "Placer.js",
     "description": "Absolute place elements relative to others",
     "open_issues": 0,
@@ -525,6 +525,17 @@
     "release_latest": {
       "tag_name": "v1.0.0",
       "published_at": "2024-01-04T02:32:19Z"
+    }
+  },
+  {
+    "pushed_at": "2024-02-20T23:25:02Z",
+    "name": "shortcut.js",
+    "description": "Easy keyboard shortcuts",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2024-02-20T23:25:02Z"
     }
   }
 ]

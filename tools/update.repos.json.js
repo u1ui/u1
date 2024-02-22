@@ -100,7 +100,7 @@ async function writeReadMe(entry) {
     // tmp:
     delete parts.Demo;
 
-    parts.Ussage = await ussagePart(entry);
+    parts.Usage = await UsagePart(entry);
     parts.Install = installPart(entry);
     parts.Demos = await demoPart(entry);
     parts.About = aboutPart();
@@ -108,7 +108,7 @@ async function writeReadMe(entry) {
 
     const orderedParts = {};
     if (parts.Features) orderedParts.Features = parts.Features;
-    if (parts.Ussage) orderedParts.Ussage = parts.Ussage;
+    if (parts.Usage) orderedParts.Usage = parts.Usage;
     if (parts.API) orderedParts.API = parts.API;
     if (parts.Install) orderedParts.Install = parts.Install;
     if (parts.Demos) orderedParts.Demos = parts.Demos;
@@ -144,7 +144,7 @@ async function writeReadMe(entry) {
 
 
 
-async function ussagePart(entry){
+async function UsagePart(entry){
     const name = entry.name;
     const blankName = name.replace(/\.[^.]+$/, '');
 

@@ -5,9 +5,19 @@
         <meta name="viewport" content="width=device-width">
         <title>Demo Page | U1-Design-System</title>
         <script src="./test-init.js" type=module></script>
-
         <script src="../auto.js" type=module></script>
 
+        <script type="module">
+            import {contextMenu} from '../../contextmenu.js/contextmenu.js';
+            contextMenu.add([{
+                label:'About u1-ui',
+                shortcut:'ctrl+F1',
+                action(e) { alert('todo') },
+                icon: 'info'
+            },{
+
+            }])
+        </script>
 
 <body>
     <style>
@@ -259,7 +269,12 @@
                             <label>
                                 <span></span>
                                 <span>
-                                    <button>Button</button>
+                                    <button u1-confirm>
+                                        <u1-tooltip>
+                                            <small>A request for confirmation follows</small>
+                                        </u1-tooltip>
+                                        Button
+                                    </button>
                                 </span>
                             </label>
                         </div>

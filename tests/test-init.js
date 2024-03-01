@@ -21,6 +21,14 @@ button[onclick]::after {
 :is(style,script)[contenteditable] {
     display:block;
 }
+u1-code {
+    margin:2em 0;
+    max-height: 40em;
+    font-size:13.5px;
+    border:1px solid #ccc;
+    padding:1em;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);    
+}
 </style>
 `);
 

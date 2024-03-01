@@ -15,8 +15,10 @@
                 action(e) { alert('todo') },
                 icon: 'info'
             },{
-
-            }])
+                label:'View Source',
+                action(e) { open('https://github.com/u1ui/u1/blob/main/tests/test.html') },
+                icon: 'code'
+            }]);
         </script>
 
 <body>
@@ -292,7 +294,7 @@
         <section id=compat>
             <h2>Compatibility</h2>
             <figure>
-                <table>
+                <table class=u1-table>
                     <thead>
                         <tr>
                             <th> Browser

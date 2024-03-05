@@ -33,14 +33,14 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:24:28Z",
+    "pushed_at": "2024-03-01T08:40:06Z",
     "name": "u1",
     "description": "The Home of the U1 project",
     "open_issues": 0,
     "stargazers_count": 5,
     "release_latest": {
-      "tag_name": "v3.6.10",
-      "published_at": "2023-06-23T09:25:56Z"
+      "tag_name": "v4.0.0",
+      "published_at": "2024-02-29T08:38:14Z"
     }
   },
   {
@@ -198,7 +198,7 @@
     }
   },
   {
-    "pushed_at": "2023-03-02T02:46:13Z",
+    "pushed_at": "2024-02-29T12:30:06Z",
     "name": "carousel.el",
     "description": "Simple carousel component",
     "open_issues": 0,
@@ -319,7 +319,7 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:31:49Z",
+    "pushed_at": "2024-02-29T12:29:50Z",
     "name": "dialog.js",
     "description": "alert, prompt, confirm but async",
     "open_issues": 0,
@@ -341,14 +341,14 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:29:27Z",
+    "pushed_at": "2024-03-01T09:08:46Z",
     "name": "code.el",
     "description": "Highlighted, editable code-blocks.",
     "open_issues": 0,
     "stargazers_count": 1,
     "release_latest": {
-      "tag_name": "v4.0.0",
-      "published_at": "2024-02-29T08:29:27Z"
+      "tag_name": "v4.0.1",
+      "published_at": "2024-03-01T09:08:46Z"
     }
   },
   {
@@ -385,7 +385,7 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:29:32Z",
+    "pushed_at": "2024-03-01T09:45:34Z",
     "name": "tooltip.el",
     "description": "Tooltips",
     "open_issues": 0,
@@ -396,11 +396,11 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:29:37Z",
+    "pushed_at": "2024-03-01T08:15:22Z",
     "name": "tree1.el",
     "description": "Treeview component",
     "open_issues": 0,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "release_latest": {
       "tag_name": "v4.0.0",
       "published_at": "2024-02-29T08:29:37Z"
@@ -495,7 +495,7 @@
     }
   },
   {
-    "pushed_at": "2024-02-29T08:30:48Z",
+    "pushed_at": "2024-03-01T08:38:22Z",
     "name": "navigable.attr",
     "description": "Make elements navigatable",
     "open_issues": 0,
@@ -547,6 +547,17 @@
     "release_latest": {
       "tag_name": "v4.0.0",
       "published_at": "2024-02-29T08:32:12Z"
+    }
+  },
+  {
+    "pushed_at": "2024-03-05T21:26:54Z",
+    "name": "alert.el",
+    "description": "Prominent hints, alerts, and facts",
+    "open_issues": 0,
+    "stargazers_count": 0,
+    "release_latest": {
+      "tag_name": "v1.0.0",
+      "published_at": "2024-03-05T21:26:54Z"
     }
   }
 ]

@@ -1,7 +1,10 @@
 # u1
 The Home of the U1 project
 
-Note: This project is now actively maintained and continued under https://github.com/u2ui/u2
+## 🚀 Project Continued at a New Home
+The project is now actively maintained under:  
+**https://github.com/u2ui/u2**
+
 
 <p align="center">
   <img src="./tools/logo/u1.svg">

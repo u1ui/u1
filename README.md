@@ -8,9 +8,6 @@ The project is now actively maintained under:
 
 
 
-<p align="center">
-  <img src="./tools/logo/u1.svg">
-</p>
 
 ## Features
 
